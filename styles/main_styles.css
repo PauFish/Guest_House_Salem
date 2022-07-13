@@ -328,7 +328,7 @@ section
 	font-weight: 400;
 	color: #150f24;
 	z-index: 1;
-	margin-bottom: -30px;
+	
 }
 .section_title > div
 {
@@ -339,11 +339,12 @@ section
 	color: #f4f5fa;
 	line-height: 0.75;
 	z-index: 0;
-	margin-top: -100px;
+	
 }
 
 .intro_text {
-	margin-top:  50px;
+	margin-top:  10px;
+	margin-bottom: 10px;
 }
 .container_wrapper > .container
 {
@@ -379,7 +380,7 @@ section
 .header_content
 {
 	width: 100%;
-	height: 289px;
+	height: 75px;
 }
 .logo
 {
@@ -656,6 +657,8 @@ section
 	color: #ff9000;
 }
 
+
+
 /*********************************
 4. Menu
 *********************************/
@@ -729,6 +732,7 @@ section
 	width: 100%;
 	height: 100%;
 	padding-top: 192px;
+	
 }
 .home_title h1
 {
@@ -949,8 +953,8 @@ section
 .intro
 {
 	background: #ffffff;
-	padding-top: 110px;
-	padding-bottom: 110px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 .intro_row
 {
@@ -958,7 +962,7 @@ section
 }
 .gallery_row
 {
-	margin-top: 89px;
+	margin-top: 50px;
 }
 .gallery_slider .slide
 {
@@ -1148,7 +1152,7 @@ section
 .discover
 {
 	background: #ffffff;
-	padding-top: 123px;
+	padding-top: 20px;
 }
 .discover_content
 {
@@ -1415,18 +1419,7 @@ section
 	
 }
 
-.googleMap{ 
-	width: 70%;
-	left: 50%; 
-}
-
-.map
-{
-	width: 7500%;
-	
-}
-.google_map
-{
+.maps{ 
 	width: 100%;
 	height:300px;
 	display:flex;
@@ -1435,40 +1428,17 @@ section
     justify-content:center;
     align-items:unset;
     align-content:flex-start;
-
-
-}
-.map_container
-{
-
-	width: 100%;
-	height: 100%;
-	overflow: hidden;
+	margin-top:50px;
+	margin-bottom: 250px;
+	
 	
 }
-#map
-{
-	width: 100%;
-	height: calc(100% + 30px);
-}
-.contact_map_content
-{
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	-webkit-transform: translate(-50%, -50%);
-	-moz-transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-	-o-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
-	width: 459px;
-	height: 537px;
-	background: #190a49;
-}
-.contact_map_content > div
-{
-	height: 100%;
-}
+
+
+
+
+
+
 .contact_info_list
 {
 	margin-top: 65px;

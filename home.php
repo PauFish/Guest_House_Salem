@@ -11,8 +11,7 @@
       <div class="row intro_row">
         <div class="col-xl-8 col-lg-10 offset-xl-2 offset-lg-1">
           <div class="intro_text text-center">
-            <p>You will stay at our beautiful guesthouse! We have 5 rooms With queen sized beds for a relaxing sleep after a day filled with adventures! </p> 
-            <p>All rooms are air-conditioned, en-suite private bathroom, with toilet, shower and hot water.</p>
+            <p>You will stay at our beautiful guesthouse! We have 5 rooms With queen sized beds for a relaxing sleep after a day filled with adventures! All rooms are air-conditioned, en-suite private bathroom </p> 
           </div>
         </div>
       </div>
@@ -218,7 +217,7 @@
   <div class="home_tours">
             <div class="section_title d-flex flex-column align-items-center justify-content-center">
               <div>Tours</div>
-              <h1>Our Tours</h1>
+              <h1>Book with us</h1>
     </div>
 
     <!-- Discover Slider -->

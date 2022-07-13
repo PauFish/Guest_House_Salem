@@ -254,7 +254,7 @@ if (isset($_SESSION['activity'])){
                   <div class="text-center">
                     <div>ADDRESS:</div>
                     <div>راس الحد,Main Road Al Hadd, Oman</div>
-                    <div><a href="https://www.google.com/maps/place/Salem+Fish+Guesthouse/@22.5260912,59.789026,233m/data=!3m1!1e3!4m5!3m4!1s0x3e9a017d5b7b9bef:0xcb517b7eff5082b0!8m2!3d22.5259798!4d59.7886888?hl=en-DE">Google Maps Link</a></div>
+                    <div><a href="https://www.google.com/maps/place/Salem+Fish+Guesthouse/@22.5260912,59.789026,233m/data=!3m1!1e3!4m5!3m4!1s0x3e9a017d5b7b9bef:0xcb517b7eff5082b0!8m2!3d22.5259798!4d59.7886888?hl=en-DE" target="_blank">Google Maps Link</a></div>
                   </div>
                 </div>
               </div>
@@ -262,7 +262,7 @@ if (isset($_SESSION['activity'])){
                 <div class="footer_info d-flex flex-column align-items-lg-start align-items-center justify-content-start">
                   <div class="text-center">
                     <div>YOU GOT LOST?</div>
-                    <div>Do not worry GO to the <a href="https://www.google.com/maps/place/%D9%85%D8%AD%D8%B7%D8%A9+%D9%88%D9%82%D9%88%D8%AF+%D8%A7%D9%84%D9%85%D9%87%D8%A7%E2%80%AD/@22.5133393,59.7936873,235m/data=!3m1!1e3!4m12!1m6!3m5!1s0x3e9a017d5b7b9bef:0xcb517b7eff5082b0!2sSalem+Fish+Guesthouse!8m2!3d22.5259798!4d59.7886888!3m4!1s0x3e9a00f891aab209:0x723604112287e715!8m2!3d22.5140287!4d59.7939874?hl=en-DE">Gas station</a> <br> they will help you contacting me.<br> +968 9595 1944 </div>
+                    <div>Do not worry GO to the <a href="https://www.google.com/maps/place/%D9%85%D8%AD%D8%B7%D8%A9+%D9%88%D9%82%D9%88%D8%AF+%D8%A7%D9%84%D9%85%D9%87%D8%A7%E2%80%AD/@22.5133393,59.7936873,235m/data=!3m1!1e3!4m12!1m6!3m5!1s0x3e9a017d5b7b9bef:0xcb517b7eff5082b0!2sSalem+Fish+Guesthouse!8m2!3d22.5259798!4d59.7886888!3m4!1s0x3e9a00f891aab209:0x723604112287e715!8m2!3d22.5140287!4d59.7939874?hl=en-DE" target="_blank">Gas station</a> <br> they will help you contacting me.<br> +968 9595 1944 </div>
                   </div>
                 </div>
               </div>
