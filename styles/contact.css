@@ -326,6 +326,7 @@ section
 	color: #f4f5fa;
 	line-height: 0.75;
 	z-index: 0;
+	margin-top: -20px;
 }
 .container_wrapper > .container
 {

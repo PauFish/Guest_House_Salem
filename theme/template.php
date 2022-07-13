@@ -71,8 +71,8 @@ if (isset($_SESSION['activity'])){
       <!-- Social -->
       <div class="social header_social">
         <ul class="d-flex flex-row align-items-center justify-content-start">
-          <li><a href="https://www.instagram.com/salemfish/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-          <li><a href="https://www.facebook.com/salem.fish"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+          <li><a href="https://www.instagram.com/salemfish/" target="_blank" rel="noopener noreferrer"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+          <li><a href="https://www.facebook.com/salem.fish" target="_blank" rel="noopener noreferrer"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
         </ul>
       </div>
 
@@ -89,7 +89,7 @@ if (isset($_SESSION['activity'])){
         </div> -->
 
         <!-- Header Link -->
-        <div class="header_link"><a href="#">Book Your Room Now</a></div>
+        <div class="header_link"><a href="/marimar/index.php?p=rooms">Book Your Room Now</a></div>
 
         <!-- Hamburger Button -->
         <div class="hamburger"><i class="fa fa-bars" aria-hidden="true"></i></div>
@@ -143,16 +143,14 @@ if (isset($_SESSION['activity'])){
           <li><a href="<?php echo WEB_ROOT;?>index.php?p=contact">Contact</a></li>
         </ul>
       </nav>
-      <div class="button menu_button"><a href="#">book now</a></div>
+      <div class="button menu_button"><a href="/marimar/index.php?p=rooms">book now</a></div>
 
       <!-- Menu Social -->
       <div class="social menu_social">
         <ul class="d-flex flex-row align-items-center justify-content-start">
-          <li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
-          <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-          <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-          <li><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
-          <li><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
+          <li><a href="https://www.instagram.com/salemfish/" target="_blank" rel="noopener noreferrer"><i class="fa fa-instagram" aria-hidden="true" ></i></a></li>
+          <li><a href="https://www.facebook.com/salem.fish" target="_blank" rel="noopener noreferrer"><i class="fa fa-facebook" aria-hidden="true" ></i></a></li>
+          
         </ul>
       </div>
 
@@ -167,7 +165,7 @@ if (isset($_SESSION['activity'])){
     <div class="home_container d-flex flex-column align-items-center justify-content-center">
       <div class="home_title"><h1>Book Your Stay</h1></div>
       <div class="home_text text-center">Looking for your perfect vacation? You will feel at home in our guest house and you will enjoy the best tours so that you can enjoy your vacation to the fullest.</div>
-      <div class="button home_button"><a href="#">book now</a></div>
+      <div class="button home_button"><a href="/marimar/index.php?p=rooms">book now</a></div>
     </div>
   </div>
 
