@@ -326,7 +326,6 @@ section
 	color: #f4f5fa;
 	line-height: 0.75;
 	z-index: 0;
-	margin-top: -20px;
 }
 .container_wrapper > .container
 {
@@ -939,6 +938,8 @@ section
 	outline: none;
 	background: #f4f5fa;
 }
+
+
 .contact_form textarea
 {
 	width: 100%;
@@ -1099,3 +1100,4 @@ section
 	font-weight: 400;
 	color: rgba(255,255,255,0.15);
 }
+

@@ -18,20 +18,20 @@
             <div class="contact_form_container">
               <form action="#" class="contact_form d-flex flex-column align-items-center justify-content-center">
                 <div class="row d-flex flex-column align-items-center justify-content-center">
-                  <div class="col-lg-6 d-flex flex-column align-items-center justify-content-center">
-                    <input type="text" class="contact_input d-flex flex-column align-items-center justify-content-center" placeholder="Your name" required="required">
+                    <div class="col-lg-6 d-flex flex-column align-items-center justify-content-center"> 
+                    <input type="text" class="contact_input_name d-flex flex-column align-items-center justify-content-center" placeholder="Your name" required="required">
                   </div>
-                  <br>
+                  
                   <div class="col-lg-6 d-flex flex-column align-items-center justify-content-center">
-                    <input type="email" class="contact_input d-flex flex-column align-items-center justify-content-center" placeholder="Your email" required="required">
+                    <input type="email" class="contact_input_name d-flex flex-column align-items-center justify-content-center" placeholder="Your email" required="required">
                   </div>
-                  <br>
+                  
                 </div>
                 <input type="text" class="contact_input d-flex flex-column align-items-center justify-content-center" placeholder="Subject">
-                <br>
+                
                 <textarea class="contact_input d-flex flex-column align-items-center justify-content-center" placeholder="Message" required="required"></textarea>
-                <br>
-                <button class="contact_button d-flex flex-column align-items-center justify-content-center">__Send__</button>
+                
+                <button class="contact_button d-flex flex-column align-items-center justify-content-center">Send</button>
               </form>
             </div>
           </div>
@@ -68,3 +68,4 @@
       </div>
     </div>
   </div>
+

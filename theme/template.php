@@ -28,6 +28,7 @@ $_SESSION['to']  = $_POST['to'];
 <link rel="stylesheet" type="text/css" href="<?php echo WEB_ROOT;?>styles/responsive.css">
 <link rel="stylesheet" type="text/css" href="<?php echo WEB_ROOT;?>styles/custom-navbar.css">
 <link rel="stylesheet" type="text/css" href="<?php echo WEB_ROOT;?>styles/bootstrap.css">
+<!--<link rel="stylesheet" type="text/css" href="<?php echo WEB_ROOT;?>styles/contact.css">
  <link href="<?php echo WEB_ROOT; ?>styles/ekko-lightbox.css" rel="stylesheet">
 
  <link href="<?php echo WEB_ROOT; ?>styles/bootstrap-datetimepicker.min.css" rel="stylesheet" media="screen">
