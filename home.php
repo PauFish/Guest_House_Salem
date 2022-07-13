@@ -25,32 +25,6 @@
               
               <!-- Slide -->
               <div class="gallery_slide">
-                <img src="images/gallery_1.jpg" alt="">
-                <div class="gallery_overlay">
-                  <div class="text-center d-flex flex-column align-items-center justify-content-center">
-                    <a href="#">
-                      <!-- <span>+</span>
-                      <span>See More</span> -->
-                    </a>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Slide -->
-              <div class="gallery_slide">
-                <img src="images/gallery_2.jpg" alt="">
-                <div class="gallery_overlay">
-                  <div class="text-center d-flex flex-column align-items-center justify-content-center">
-                    <a href="#">
-                      <!-- <span>+</span>
-                      <span>See More</span> -->
-                    </a>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Slide -->
-              <div class="gallery_slide">
                 <img src="images/gallery_3.jpg" alt="">
                 <div class="gallery_overlay">
                   <div class="text-center d-flex flex-column align-items-center justify-content-center">
@@ -64,7 +38,33 @@
 
               <!-- Slide -->
               <div class="gallery_slide">
+                <img src="images/gallery_1.jpg" alt="">
+                <div class="gallery_overlay">
+                  <div class="text-center d-flex flex-column align-items-center justify-content-center">
+                    <a href="#">
+                      <!-- <span>+</span>
+                      <span>See More</span> -->
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Slide -->
+              <div class="gallery_slide">
                 <img src="images/gallery_4.jpg" alt="">
+                <div class="gallery_overlay">
+                  <div class="text-center d-flex flex-column align-items-center justify-content-center">
+                    <a href="#">
+                      <!-- <span>+</span>
+                      <span>See More</span> -->
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Slide -->
+              <div class="gallery_slide">
+                <img src="images/gallery_2.jpg" alt="">
                 <div class="gallery_overlay">
                   <div class="text-center d-flex flex-column align-items-center justify-content-center">
                     <a href="#">
@@ -215,40 +215,14 @@
 
   <!-- Discover -->
 
-  <div class="discover">
-
-    <!-- Discover Content -->
-    <div class="discover_content">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-5">
-            <div class="section_title">
-              <div>SalemFish</div>
-              <h1>Hi I am Salem,</h1>
-            </div>
-          </div>
-        </div>
-        <div class="row discover_row">
-          <div class="col-lg-5">
-            <div class="discover_highlight">
-              <p>A local fisherman born and raised in Ras al Hadd, my family and I have been welcoming visitors to the areas for over 15 years.</p> 
-              <p>It will be my pleasure to welcome you here and show you true Omani hospitality and lifestyle, and the wonders of Ras al Hadd; truly charming and unique in beauty and nature.</p>
-            </div>
-            <!-- <div class="button discover_button"><a href="#">discover</a></div> -->
-          </div>
-          <div class="col-lg-7">
-            <div class="discover_text">
-              <p>The guesthouse is a humble venture put together by locals and supported friends of Ras al Hadd, we have 5 rooms available and are just minutes away from the beach! </p>
-              <p>We will also advise you on which beaches to visit, for sunset walks, day trips or a morning swim. Book a boat trip for fishing, dolphin-watching and snorkeling; directly from us, places guaranteed! </p>
-              <p> Catch of the day BBQ also available for an unforgettable dinner Bedouin-style, with local fresh fish. I also do guided desert tours 4x4, camp, accommodation and food included just message me for more information and availability. </p>
-              <p>There are very few locally owned businesses in Ras al Hadd so we thank you in advance for supporting the local community! I hope you will make many memories here and we look forward to welcoming you soon! </p>
-            </div>
-          </div>
-        </div>
-      </div>
+  <div class="home_tours">
+            <div class="section_title d-flex flex-column align-items-center justify-content-center">
+              <div>Tours</div>
+              <h1>Our Tours</h1>
     </div>
 
     <!-- Discover Slider -->
+    
     <div class="discover_slider_container">
       <div class="owl-carousel owl-theme discover_slider">
         
@@ -256,10 +230,10 @@
         <div class="slide">
           <div class="background_image" style="background-image:url(images/discover_1.jpg)"></div>
           <div class="discover_overlay d-flex flex-column align-items-center justify-content-center">
-            <h1><a href="#">Tours</a></h1>
+            <h1><a href="#">Small and Big groups</a></h1>
           </div>
         </div>
-
+        
         <!-- Slide -->
         <div class="slide">
           <div class="background_image" style="background-image:url(images/discover_2.jpg)"></div>
@@ -272,7 +246,15 @@
         <div class="slide">
           <div class="background_image" style="background-image:url(images/discover_3.jpg)"></div>
           <div class="discover_overlay d-flex flex-column align-items-center justify-content-center">
-            <h1><a href="#">Dolphin</a></h1>
+            <h1><a href="#">Dolphins</a></h1>
+          </div>
+        </div>
+
+        <!-- Slide -->
+        <div class="slide">
+          <div class="background_image" style="background-image:url(images/discover_4.jpg)"></div>
+          <div class="discover_overlay d-flex flex-column align-items-center justify-content-center">
+            <h1><a href="#">Desert Trips</a></h1>
           </div>
         </div>
 

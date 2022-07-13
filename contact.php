@@ -9,11 +9,9 @@
               <div>Salem Fish</div>
               <br>
               <h1>Contact Us</h1>
-              <br>
             </div>
             <div class="contact_text text-center">
               <p>Please if you have any questions do not hesitate to contact me or send me an email info@salemfish.com</p>
-            <br>
             </div> 
             <div class="contact_form_container">
               <form action="#" class="contact_form d-flex flex-column align-items-center justify-content-center">
@@ -40,32 +38,10 @@
     </div>
 
     <!-- Map -->
-    <div class="contact_map_container">
-      <div class="map">
-        <div id="google_map" class="google_map">
-          <div class="map_container">
-            <div id="map"></div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Contact Map Content -->
-      <div class="contact_map_content">
-        <div class="d-flex flex-column align-items-center justify-content-center">
-          <img class="contact_info_logo_1" src="images/logo_4.png" alt="">
-          <img class="contact_info_logo_2" src="images/logo_2.png" alt="">
-          <div class="contact_info_list">
-            <ul class="text-center">
-            <br>
-              <li>راس الحد,Main Road Al Hadd, Oman</li>
-              <li><a href="https://www.google.com/maps/place/Salem+Fish+Guesthouse/@22.5260912,59.789026,233m/data=!3m1!1e3!4m5!3m4!1s0x3e9a017d5b7b9bef:0xcb517b7eff5082b0!8m2!3d22.5259798!4d59.7886888?hl=en-DE">Google Maps Link</a><li>
-              <li>info@salemfish.com</li>
-              <li>+968 9595 1944 </li>
-            </ul>
-            <br>
-          </div>
-        </div>
-      </div>
+    <div>
+      <div id="googleMap"><h1>Our Guest House</h1><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1014.6343420148968!2d59.789026!3d22.5260912!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e9a017d5b7b9bef%3A0xcb517b7eff5082b0!2sSalem%20Fish%20Guesthouse!5e1!3m2!1sen!2ses!4v1657722423851!5m2!1sen!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
     </div>
-  </div>
+
+     
 

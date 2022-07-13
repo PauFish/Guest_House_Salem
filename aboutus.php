@@ -6,8 +6,8 @@
         <!-- Intro Content -->
         <div class="col-lg-6">
           <div class="intro_content">
-            <div class="section_title">
-              <div>Welcome</div>
+            <div class="section_title text-center">
+              <div>Salem Fish</div>
               <h1>Amazing Guest house near the Sea</h1>
             </div>
             <div class="intro_text">
