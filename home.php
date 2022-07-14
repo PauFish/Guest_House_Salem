@@ -324,7 +324,6 @@
                   <div class="testimonial_author_name"><a href="#">Sharleen, </a><span> Sydney, Australia. March 2022</span></div>
                 </div>
               </div>
-
             </div>
           </div>
         </div>

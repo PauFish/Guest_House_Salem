@@ -164,8 +164,8 @@ if (isset($_SESSION['activity'])){
   <div class="home">
     <div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="<?php echo WEB_ROOT;?>images/home.jpg" data-speed="0.8"></div>
     <div class="home_container d-flex flex-column align-items-center ">
-      <div class="home_title"><h1>Book Your Stay</h1></div>
-      <div class="home_text text-center">Looking for your perfect vacation? You will feel at home in our guest house and you will enjoy the best tours so that you can enjoy your vacation to the fullest.</div>
+      <div class="home_title"><h1>SalemFish Guest House</h1></div>
+      <div class="home_text text-center">Looking for your perfect vacation? <br> You will feel at home and enjoy the best tours so that you will enjoy your vacation to the fullest!</div>
       <div class="button home_button"><a href="/marimar/index.php?p=rooms">book now</a></div>
     </div>
   </div>

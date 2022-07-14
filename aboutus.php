@@ -1,38 +1,109 @@
 <!-- <h1>About Us</h1> -->
   <div class="intro">
-    <div class="container">
-      <div class="row row-eq-height">
+    <div class="container ">
+      <div class="row row-eq-height justify-content-center">
 
         <!-- Intro Content -->
-        <div class="col-lg-6">
+        <div class="col-lg-6 ">
           <div class="intro_content">
             <div class="section_title text-center">
               <div>Salem Fish</div>
-              <h1>Amazing Guest house near the Sea</h1>
+              <h1>Hi I am Salem,</h1>
             </div>
             <div class="intro_text">
-              <p>Hi I am Salem,a local fisherman born and raised in Ras al Hadd, my family and I have been welcoming visitors to the areas for over 15 years. It will be my pleasure to welcome you here and show you true Omani hospitality and lifestyle, and the wonders of Ras al Hadd; truly charming and unique in beauty and nature.</p>
+              <p>I'm local fisherman born and raised in Ras al Hadd, my family and I have been welcoming visitors to the areas for over 15 years.
+                 It will be my pleasure to welcome you here and show you true Omani hospitality and lifestyle, and the wonders of Ras al Hadd; 
+                 truly charming and unique in beauty and nature.</p>
               <p></p>
-              <p>The guesthouse is a humble venture put together by locals and supported friends of Ras al Hadd, we have 5 rooms available and are just minutes away from the beach! We will also advise you on which beaches to visit, for sunset walks, day trips or a morning swim. Book a boat trip for fishing, dolphin-watching and snorkeling; directly from us, places guaranteed! Catch of the day BBQ also available for an unforgettable dinner Bedouin-style, with local fresh fish. </p><p> I also do guided desert tours 4x4, camp, accommodation and food included just message me for more information and availability.  I hope you will make many memories here and we look forward to welcoming you soon!</p>
+              <p>The guesthouse is a humble venture put together by locals and supported friends of Ras al Hadd, we have 5 rooms available and 
+                are just minutes away from the beach! We will also advise you on which beaches to visit, for sunset walks, day trips or a morning
+                 swim. 
+                </p>
+                <p> Book a boat trip for fishing, dolphin-watching and snorkeling; Directly from us, places guaranteed! Catch of the 
+                  day BBQ also available for an unforgettable dinner Bedouin-style, with local fresh fish. 
+                </p><p> I also do guided desert tours 
+                    4x4, camp, accommodation and food included just message me for more information and availability. 
+                     I hope you will make many
+                     memories here and we look forward to welcoming you soon!</p>
             </div>
-        <!-- Intro Image -->
-        <!--<div class="col-lg-6">
-          <div class="intro_image">
-            <div class="background_image" style="background-image:url(images/intro.jpg)"></div>
-            <img src="images/intro.jpg" alt="">
-          </div>
-        </div>
-      -->
       </div>
     </div>
   </div>
 
+<!-- Guest Slider -->
+    
+<div class="discover_slider_container">
+      <div class="owl-carousel owl-theme discover_slider">
         
-  <div class="intro">
-    <div class="container">
-      <div class="row row-eq-height">
+        <!-- Slide -->
+        <div class="slide">
+          <div class="background_image" style="background-image:url(images/1guests.jpeg)"></div>
+          <div class="discover_overlay d-flex flex-column align-items-center justify-content-center">
+          </div>
+        </div>
 
-        <!-- Intro Content -->
+        <!-- Slide -->
+        <div class="slide">
+          <div class="background_image" style="background-image:url(images/4guests.jpeg)"></div>
+          <div class="discover_overlay d-flex flex-column align-items-center justify-content-center">
+          </div>
+        </div>
+        <!-- Slide -->
+        <div class="slide">
+          <div class="background_image" style="background-image:url(images/12guests.jpeg)"></div>
+          <div class="discover_overlay d-flex flex-column align-items-center justify-content-center">
+          </div>
+        </div>
+        
+        <!-- Slide -->
+        <div class="slide">
+          <div class="background_image" style="background-image:url(images/6guests.jpeg)"></div>
+          <div class="discover_overlay d-flex flex-column align-items-center justify-content-center">
+          </div>
+        </div>
+<!-- Slide -->
+<div class="slide">
+          <div class="background_image" style="background-image:url(images/10guests.jpeg)"></div>
+          <div class="discover_overlay d-flex flex-column align-items-center justify-content-center">
+          </div>
+        </div>
+        <!-- Slide -->
+        <div class="slide">
+          <div class="background_image" style="background-image:url(images/11guests.jpeg)"></div>
+          <div class="discover_overlay d-flex flex-column align-items-center justify-content-center">
+          </div>
+        </div>
+
+        <!-- Slide -->
+        <div class="slide">
+          <div class="background_image" style="background-image:url(images/5guests.jpeg)"></div>
+          <div class="discover_overlay d-flex flex-column align-items-center justify-content-center">
+          </div>
+        </div>
+
+       
+        <!-- Slide -->
+        <div class="slide">
+          <div class="background_image" style="background-image:url(images/10guests.jpeg)"></div>
+          <div class="discover_overlay d-flex flex-column align-items-center justify-content-center">
+          </div>
+        </div>
+
+        <!-- Slide -->
+        <div class="slide">
+          <div class="background_image" style="background-image:url(images/8guests.jpeg)"></div>
+          <div class="discover_overlay d-flex flex-column align-items-center justify-content-center">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+     <!-- Intro Content -->    
+  <div class="intro">
+    <div class="container ">
+      <div class="row row-eq-height justify-content-center">
+
         <div class="col-lg-6">
           <div class="intro_content">
             <div class="section_title text-center">
@@ -111,7 +182,7 @@
             <div class="offer_content text-center">
               <div class="offer_title"><h3>Fishing</h3></div>
               <div class="offer_text">
-              <p>It does not matter if you are an expert Angler or want to fish for the first time. You will fish Omani style and enjoy a BBQ of your catch of the day at night.</p>
+              <p>It does not matter if you are an expert Angler or want to fish for the first time. You will fish Omani style.</p>
                </div>
             <!--   <div class="offer_button"><a href="#">discover</a></div> -->
             </div>
@@ -125,9 +196,9 @@
             <div class="offer_content text-center">
               <div class="offer_title"><h3>Omani BBQ for dinner</h3></div>
               <div class="offer_text">
-              <p>We prepare it Omani style! Salem will go to the market to look for Lobsters, Tuna, Lamb... All very fresh and delicious.</p><p> If you have any intolerance or you are Vegan/Vegetarian, let us know in advance.</p>
+              <p>We prepare it Omani style! Salem will go to the market to look for Lobsters, Tuna, Lamb... or you will eat fishing tour's Catch of the 
+                  day BBQ All very fresh and delicious. If you have any intolerance or you are Vegan/Vegetarian, let us know in advance.</p>
               </div>
-            <!--   <div class="offer_button"><a href="#">discover</a></div> -->
             </div>
           </div>
         </div>
@@ -141,7 +212,6 @@
               <div class="offer_text">
                 <p>You will sleep in the desert enjoying millions of stars. we take care of everything, rooms, campfire, dinner, so you have a real experience in an Omani desert. Please book in advance</p>
               </div>
-             <div class="offer_button justify-content-center"><a href="#">discover</a></div> 
             </div>
           </div>
         </div>
@@ -149,8 +219,10 @@
     </div>
   </div>
   </div> 
-  </div> 
-  </div>
+  </div>  
+  </div>  
+   
+  
   
   
   
