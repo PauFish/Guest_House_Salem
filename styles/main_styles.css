@@ -423,6 +423,7 @@ section
 .header_social ul
 {
 	height: 68px;
+
 }
 .social ul li a
 {
@@ -610,7 +611,7 @@ section
 {
 	position: fixed;
 	right: -90px;
-	top: 0;
+	top: 20;
 	background: #ffffff;
 	z-index: 102;
 	-webkit-transition: all 400ms ease;
