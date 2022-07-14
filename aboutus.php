@@ -141,14 +141,22 @@
               <div class="offer_text">
                 <p>You will sleep in the desert enjoying millions of stars. we take care of everything, rooms, campfire, dinner, so you have a real experience in an Omani desert. Please book in advance</p>
               </div>
-            <!--   <div class="offer_button"><a href="#">discover</a></div> -->
+             <div class="offer_button justify-content-center"><a href="#">discover</a></div> 
             </div>
           </div>
         </div>
-
-      </div>
+        </div>
     </div>
-  </div>      
+  </div>
+  </div> 
+  </div> 
+  </div>
+  
+  
+  
+      
+  
+      
 
     
 
