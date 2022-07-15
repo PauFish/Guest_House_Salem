@@ -65,6 +65,7 @@ if (isset($_SESSION['activity'])){
            <li><a href="<?php echo WEB_ROOT;?>index.php">Home</a></li>
           <li><a href="<?php echo WEB_ROOT;?>index.php?p=about">About us</a></li>
           <li><a href="<?php echo WEB_ROOT;?>index.php?p=rooms">Rooms</a></li> 
+          <li><a href="<?php echo WEB_ROOT;?>index.php?p=tours">Tours</a></li> 
           <li><a href="<?php echo WEB_ROOT;?>index.php?p=contact">Contact</a></li>
         </ul>
       </nav>
@@ -173,31 +174,7 @@ if (isset($_SESSION['activity'])){
                 <div class="booking_form_inputs d-flex flex-row align-items-start justify-content-between flex-wrap">
                   <div class="booking_dropdown"><input type="text" class="datepicker booking_input booking_input_a booking_in" placeholder="Check in" name="arrival" required="required" value="<?php echo isset($_POST['arrival']) ? $_POST['arrival'] :date('m/d/Y');?>"></div>
                   <div class="booking_dropdown"><input type="text" class="datepicker booking_input booking_input_a booking_out" placeholder="Check out" name="departure" required="required" value="<?php echo isset($_POST['departure']) ? $_POST['departure'] : date('m/d/Y');?>" ></div>
-                  <div class="custom-select">
-                    <select name="person" id="person">
-                      <option value="0">Person</option>
-                      <?php $sql ="SELECT distinct(`NUMPERSON`) as 'NumberPerson' FROM `tblroom`";
-                               $mydb->setQuery($sql);
-                             $cur = $mydb->loadResultList(); 
-                                foreach ($cur as $result) { 
-                                  echo '<option value='.$result->NumberPerson.'>'.$result->NumberPerson.'</option>';
-                                }
-
-                            ?>
-                    </select>
-                  </div>
-                  <div class="custom-select">
-                          <?php
-                         $accomodation = New Accomodation();
-                         $cur = $accomodation->listOfaccomodation(); 
-                          ?>
-                    <select  name="accomodation" id="person">
-                      <option value="0">Accomodation</option>
-                      <?php  foreach ($cur as $result) { ?>
-                          <option value="<?php echo $result->ACCOMODATION; ?>"><?php echo $result->ACCOMODATION; ?></option>
-                          <?php  } ?>
-                    </select>
-                  </div>
+            
                 </div>
                 <button class="booking_form_button ml-lg-auto">book now</button>
               </div>

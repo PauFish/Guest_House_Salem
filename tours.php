@@ -14,9 +14,10 @@ if(isset($_POST['booknow'])){
       $days = $day;
     }
      
+      
       addtocart($_POST['ROOMID'],$days, $totalprice,$_SESSION['arrival'],$_SESSION['departure'],0);
 
-      redirect(WEB_ROOT. 'booking/'); 
+      // redirect(WEB_ROOT. 'booking/'); 
 
 }
  
@@ -47,42 +48,25 @@ $_SESSION['departure'] =date_format(date_create($_POST['departure']),"Y-m-d");
 
 
  
- $query = "SELECT * FROM `tblroom` r ,`tblaccomodation` a WHERE r.`ACCOMID`=a.`ACCOMID`";
+ $query = "SELECT * FROM `tblroom` r ,`tblaccomodation` a WHERE r.`ACCOMID`=a.`ACCOMID`  AND `RoomTypeID`=2 ";
     
 
-}
+}elseif(isset($_GET['q'])){
 
-   $accomodation = ' | ' . $_GET['q'];
-  ?>
-
-
-
-<div id="accom-title"  > 
-    <div  class="pagetitle">   
-            <h1  ><?php print $title ; ?>
-                <small><?php print  $accomodation; ?></small>
-                 
-            </h1> 
-        </div> 
-  </div>
-
-<div id="bread">
-   <ol class="breadcrumb">
-      <li><a href="<?php echo WEB_ROOT ;?>index.php">Home</a>
-      </li>
-      <li class="active"><?php print $title  ; ?></li>
-      <li  style="color: #02aace; float:right"> <?php print  $msg; ?></li>
-  </ol> 
-</div>
+    $query = "SELECT * FROM `tblroom` r ,`tblaccomodation` a WHERE r.`ACCOMID`=a.`ACCOMID` AND `RoomTypeID`=2 AND `ROOM`='" . $_GET['q'] . "'"; 
    
-  <div id="main" class="site-main clr"> 
-    <div id="primary" class="content-area clr"> 
-        <div id="content-wrap">
-          <!--  <h1 class="page-title"><?php print $title . $accomodation; ?></h1>  --> 
-           
-           <div class="col-lg-9">
-            <div class="tabs-wrapper clr"> 
-               <div class="row"> 
+  
+  }else{
+     $query = "SELECT * FROM `tblroom` r ,`tblaccomodation` a WHERE r.`ACCOMID`=a.`ACCOMID` AND `RoomTypeID`=2";
+  }
+
+   $accomodation = ' | ' . @$_GET['q'];
+  ?>
+  <div class="row">
+        <div class="col">
+          <div class="card-columns">
+
+ 
                
                 <?php 
  
@@ -96,7 +80,7 @@ $_SESSION['departure'] =date_format(date_create($_POST['departure']),"Y-m-d");
 
 // filtering the rooms
  // ======================================================================================================
-                    $mydb->setQuery("SELECT * FROM `tblreservation`     WHERE ((
+                    $mydb->setQuery("SELECT * FROM `tblreservation`     WHERE STATUS<>'Pending' AND ((
                         '$arrival' >= DATE_FORMAT(`ARRIVAL`,'%Y-%m-%d')
                         AND  '$arrival' <= DATE_FORMAT(`DEPARTURE`,'%Y-%m-%d')
                         )
@@ -111,7 +95,9 @@ $_SESSION['departure'] =date_format(date_create($_POST['departure']),"Y-m-d");
                         )
                         AND ROOMID =".$result->ROOMID);
 
-                  $curs = $mydb->loadResultList(); 
+                    
+
+                     $curs = $mydb->loadResultList(); 
                      
                      $resNum = $result->OROOMNUM - count($curs) ;
                          
@@ -152,7 +138,7 @@ $_SESSION['departure'] =date_format(date_create($_POST['departure']),"Y-m-d");
                  <div class="form-group">
                         <div class="row">
                           <div class="col-xs-12 col-sm-12">
-                            <input type="submit" class="btn dragonhouse-btn  btn-primary btn-sm" id="booknow" name="booknow" onclick="return validateBook();" value="Book Now!"/>
+                            <input type="submit" class="button rooms_button"  id="booknow" name="booknow" onclick="return validateBook();" value="Book Now!"/>
                                                    
                            </div>
                         </div>
@@ -164,7 +150,7 @@ $_SESSION['departure'] =date_format(date_create($_POST['departure']),"Y-m-d");
                                 ' . $result->ACCOMODATION .' <br/> 
                                 '.$result->ACCOMDESC . '<br/>  
                                 Number of Person:' . $result->NUMPERSON .' <br/> 
-                                Price: $'.$result->PRICE.'</h5>    
+                                Price:'.$result->PRICE.'</h5>    
                             </figcaption>
 
 
@@ -177,7 +163,7 @@ $_SESSION['departure'] =date_format(date_create($_POST['departure']),"Y-m-d");
                  <div class="form-group">
                         <div class="row">
                           <div class="col-xs-12 col-sm-12">
-                            <input type="submit" class="btn dragonhouse-btn  btn-primary btn-sm" id="booknow" name="booknow" onclick="return validateBook();" value="Book Now!"/>
+                            <input type="submit" class="button rooms_button" id="booknow" name="booknow" onclick="return validateBook();" value="Book Now!"/>
                                                    
                            </div>
                         </div>
@@ -189,7 +175,7 @@ $_SESSION['departure'] =date_format(date_create($_POST['departure']),"Y-m-d");
                                 ' . $result->ACCOMODATION .' <br/> 
                                 '.$result->ACCOMDESC . '<br/>  
                                 Number of Person:' . $result->NUMPERSON .' <br/> 
-                                Price: $'.$result->PRICE.'</h5>    
+                                Price:'.$result->PRICE.'</h5>    
                             </figcaption>
 
 
@@ -199,40 +185,41 @@ $_SESSION['departure'] =date_format(date_create($_POST['departure']),"Y-m-d");
               }      
 // ============================================================================================================================
 
-
  
                 ?>
                  <form method="POST" action="index.php?p=accomodation">
                  <input type="hidden" name="ROOMPRICE" value="<?php echo $result->PRICE ;?>">
                   <input type="hidden" name="ROOMID" value="<?php echo $result->ROOMID ;?>">
 
-                  <div id="roomimg" class="col-md-4 img-portfolio">
-                    <div  class="wrapper clearfix">
-                    <a href="#" >
-                        <figure class="gallery-item ">
-                   
-                            <img class="img-responsive img-hover"  src="<?php echo WEB_ROOT .'admin/mod_room/'.$result->ROOMIMAGE; ?>">
-                    
-                             <!-- <?php echo $img_title; ?> -->
-                            <figcaption class="img-title-active">
-                                <h5>  &euro; <?php echo $result->PRICE ;?></h5>    
-                            </figcaption>
+                      <div class="card">
+                        <img class="card-img-top"  src="<?php echo WEB_ROOT .'admin/mod_room/'.$result->ROOMIMAGE; ?>" alt="Room image description">
+                        <div class="card-body">
+                          <div class="rooms_title"><h2><?php echo $result->ROOM ;?> <?php echo $result->ACCOMODATION ;?></h2></div>
+                          <div class="rooms_text">
+                            <p><?php echo $result->ROOMDESC ;?></p>
+                          </div>
+                          <div class="rooms_list">
+                            <ul>
+                              <li class="d-flex flex-row align-items-center justify-content-start">
+                                <img src="images/check.png" alt="">
+                                <span>Number of Person: <?php echo $result->NUMPERSON ;?></span>
+                              </li> 
+                              <li class="d-flex flex-row align-items-center justify-content-start">
+                                <img src="images/check.png" alt="">
+                                <span>Remaining Rooms:<?php echo  $resNum ;?></span>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="rooms_price"><?php echo   $result->PRICE ;?>/<span>Night</span></div>
+                           <?php echo $btn ; ?> 
+                        </div>
+                      </div>
 
-             
-                        </figure> 
-                       </a>  
-                    </div> 
-                      <div class="descRoom">
-                        <ul><h4><p><?php echo $result->ROOM ;?></p></h4>
-                        <li><?php echo $result->ROOMDESC ;?></li>
-                        <li>Number Person : <?php echo $result->NUMPERSON ;?></li>
-                         <li>Remaining Rooms :<?php echo  $resNum ;?></li>   
-                        <li style="list-style:none;"><?php echo $btn ;?></li>  
-                        </ul>
-                    </div>
-                </div> 
+                  
 
-              </form>
+                  </form>
+
+        
                 <?php  
  
                  }
@@ -242,17 +229,5 @@ $_SESSION['departure'] =date_format(date_create($_POST['departure']),"Y-m-d");
               </div> 
           </div>
     
-         </div>
-
-             <div class="col-lg-3"> 
-        <div class="row">
-          <?php  require_once('sidebar.php') ; ?>
-        </div>
-      </div>
     
-    </div>
-    </div>
-   
-  </div>
-
- 
+ </div>

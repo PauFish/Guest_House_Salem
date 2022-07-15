@@ -24,6 +24,11 @@ switch ($view) {
     $content ='room_rates.php';    
     break;
 
+    case 'tours' :
+      $title="Tours";  
+      $content ='tours.php';    
+      break;
+
   case 'contact' :
       $title="Contacts";  
     $content ='contact.php';    

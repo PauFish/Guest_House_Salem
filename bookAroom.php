@@ -40,7 +40,7 @@ $_SESSION['departure'] =date_format(date_create($_POST['departure']),"Y-m-d");
  
 
 
-   $accomodation = ' | ' . $_POST['accomodation'];
+   $accomodation = ' | ';
   ?>
  
  <div class="row">
@@ -54,25 +54,16 @@ $_SESSION['departure'] =date_format(date_create($_POST['departure']),"Y-m-d");
  
                   $arrival =  $_SESSION['arrival'];
                   $departure =  $_SESSION['departure'] ;
-                   $query = "SELECT * FROM `tblroom` r ,`tblaccomodation` a WHERE r.`ACCOMID`=a.`ACCOMID` AND `ACCOMODATION`='" . $_POST['accomodation'] . "' AND `NUMPERSON` = " . $_POST['person'];
+                   $query = "SELECT * FROM `tblroom` r ,`tblaccomodation` a WHERE r.`ACCOMID`=a.`ACCOMID` AND `RoomTypeID`=1";
                    $mydb->setQuery($query);
                    $cur = $mydb->loadResultList(); 
                       foreach ($cur as $result) { 
 
-
 // filtering the rooms
  // ======================================================================================================
                     $mydb->setQuery("SELECT * FROM `tblreservation`     WHERE ((
-                        '$arrival' >= DATE_FORMAT(`ARRIVAL`,'%Y-%m-%d')
-                        AND  '$arrival' <= DATE_FORMAT(`DEPARTURE`,'%Y-%m-%d')
-                        )
-                        OR (
-                        '$departure' >= DATE_FORMAT(`ARRIVAL`,'%Y-%m-%d')
-                        AND  '$departure' <= DATE_FORMAT(`DEPARTURE`,'%Y-%m-%d')
-                        )
-                        OR (
-                        DATE_FORMAT(`ARRIVAL`,'%Y-%m-%d') >=  '$arrival'
-                        AND DATE_FORMAT(`ARRIVAL`,'%Y-%m-%d') <=  '$departure'
+                        '$arrival' <= DATE_FORMAT(`DEPARTURE`,'%Y-%m-%d')
+                        AND  '$departure' >= DATE_FORMAT(`ARRIVAL`,'%Y-%m-%d')
                         )
                         )
                         AND ROOMID =".$result->ROOMID);
@@ -84,16 +75,15 @@ $_SESSION['departure'] =date_format(date_create($_POST['departure']),"Y-m-d");
 
 
                     $stats = $mydb->executeQuery();
-                    $rows = mysqli_fetch_assoc($stats);
-                    $status=$rows['STATUS'];
+                    $rows =  $mydb->loadResultList();
+                  
 
                      
                     //$availRoom = $result->ROOMNUM;
 
 
-              if($resNum==0){
-
-             if($status=='Confirmed'){
+              if($resNum<=0){
+             if($rows){
                 $btn =  '<div style="margin-top:10px; color: rgba(0,0,0,1); font-size:16px;"><strong>Fully Reserve!</strong></div>';
                  $img_title = ' 
 
@@ -103,7 +93,7 @@ $_SESSION['departure'] =date_format(date_create($_POST['departure']),"Y-m-d");
 
 
                     ';
-              }elseif($status=='Checkedin'){
+              }elseif($rows){
                 $btn =  '<div style="margin-top:10px; color: rgba(0,0,0,1); font-size:16px;"><strong>Fully Book!</strong></div>';
                  $img_title = ' 
 
@@ -183,11 +173,11 @@ $_SESSION['departure'] =date_format(date_create($_POST['departure']),"Y-m-d");
                             <ul>
                               <li class="d-flex flex-row align-items-center justify-content-start">
                                 <img src="images/check.png" alt="">
-                                <span>Number of Person - <?php echo $result->NUMPERSON ;?></span>
+                                <span>Number of Person: <?php echo $result->NUMPERSON ;?></span>
                               </li> 
                               <li class="d-flex flex-row align-items-center justify-content-start">
                                 <img src="images/check.png" alt="">
-                                <span>Remaining Rooms :<?php echo  $resNum ;?></span>
+                                <span>Remaining Rooms:<?php echo  $resNum ;?></span>
                               </li>
                             </ul>
                           </div>

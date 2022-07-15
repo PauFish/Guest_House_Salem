@@ -249,6 +249,10 @@ section
 {
 	height: 130% !important;
 }
+.parallax-mirror{
+	height: 600px !important;
+}
+
 .parallax-window
 {
     min-height: 400px;
@@ -416,7 +420,7 @@ section
 .header_social
 {
 	position: absolute;
-	left: 0;
+	right: 250px;
 	bottom: 0;
 	padding-left: 106px;
 }
@@ -725,7 +729,7 @@ section
 
 .home
 {
-	height: 100vh;
+	height: 600px;
 	background: transparent;
 }
 .home_container
@@ -1020,7 +1024,9 @@ section
 /*********************************
 8. Rooms
 *********************************/
-
+.rooms {
+    padding-top: 3rem;
+}
 .rooms_image
 {
 	height: 100%;

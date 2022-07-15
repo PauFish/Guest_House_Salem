@@ -1,4 +1,4 @@
-  <?php
+<?php
 $msg = "";
 
 if(isset($_POST['booknow'])){
@@ -48,16 +48,11 @@ $_SESSION['departure'] =date_format(date_create($_POST['departure']),"Y-m-d");
 
 
  
- $query = "SELECT * FROM `tblroom` r ,`tblaccomodation` a WHERE r.`ACCOMID`=a.`ACCOMID`   AND `NUMPERSON` = " . $_POST['person'];
+ $query = "SELECT * FROM `tblroom` r ,`tblaccomodation` a WHERE r.`ACCOMID`=a.`ACCOMID`  AND `RoomTypeID`=1";
     
 
-}elseif(isset($_GET['q'])){
-
-    $query = "SELECT * FROM `tblroom` r ,`tblaccomodation` a WHERE r.`ACCOMID`=a.`ACCOMID` AND `ROOM`='" . $_GET['q'] . "'"; 
-   
-  
-  }else{
-     $query = "SELECT * FROM `tblroom` r ,`tblaccomodation` a WHERE r.`ACCOMID`=a.`ACCOMID`";
+}else{
+     $query = "SELECT * FROM `tblroom` r ,`tblaccomodation` a WHERE r.`ACCOMID`=a.`ACCOMID` AND `RoomTypeID`=1";
   }
 
    $accomodation = ' | ' . @$_GET['q'];

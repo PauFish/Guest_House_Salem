@@ -34,38 +34,7 @@
                     </span> 
                  </div>
            </div>
-                <div class="col-md-3 col-sm-3 s">.
-                <div class="form-group input-group">
-                    <?php
-                         $accomodation = New Accomodation();
-                         $cur = $accomodation->listOfaccomodation(); 
-                          ?>
-                          <label>Accomodation</label> 
-                          <select class="form-control input-sm" name="accomodation" id="person">
-                          <?php  foreach ($cur as $result) { ?>
-                          <option value="<?php echo $result->ACCOMODATION; ?>"><?php echo $result->ACCOMODATION; ?></option>
-                          <?php  } ?>
-                          
-                          </select> 
-                    </div>
-           </div>
-            <div class="col-md-1 col-sm-1 s">.
-             <div class="form-group input-group">
-                          <label>Person</label> 
-                           <select class=" form-control input-sm " name="person" id="person">
-                            <?php $sql ="SELECT distinct(`NUMPERSON`) as 'NumberPerson' FROM `tblroom`";
-                               $mydb->setQuery($sql);
-                             $cur = $mydb->loadResultList(); 
-                                foreach ($cur as $result) { 
-                                  echo '<option value='.$result->NumberPerson.'>'.$result->NumberPerson.'</option>';
-                                }
-
-                            ?>
-                      
-
-                  </select> 
-                      </div>
-           </div>
+              
        
            <div class="col-md-1 col-sm-1 s">.
                 <div  class="form-group input-group"> 
