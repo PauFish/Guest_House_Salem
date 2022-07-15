@@ -1,233 +1,114 @@
-  <?php
-$msg = "";
 
-if(isset($_POST['booknow'])){
+<div class="intro">
+    <div class="container ">
+      <div class="row row-eq-height justify-content-center">
 
-    $days =0;
-    $day = dateDiff($_SESSION['arrival'],$_SESSION['departure']);  
+        <!-- Intro Content -->
+        <div class="col-lg-6 ">
+          <div class="intro_content">
+            <div class="section_title text-center">
+              <div>Tours</div>
+              <h1>Tours</h1>
+            </div>
+            <div class="intro_text">
+                <p>Tours will be paid by hand at our GuestHouse in OmaniRial, You don't need to book here, but you can always email us for additional info. Places guaranteed!<p>
+                <p> Book a boat trip directly from us, for fishing, dolphin-watching and snorkeling; Catch of the 
+                  day BBQ also available for an unforgettable dinner Bedouin-style, with local fresh fish. 
+                </p><p> We also do guided desert tours 
+                    4x4, camp, accommodation and food included just contact me for more information and availability. 
+                     I hope you will make many
+                     memories here and we look forward to welcoming you soon!</p>
+            </div>
+      </div>
+    </div>
+  </div>
 
-   if($day <= 0){
-      $totalprice = $_POST['ROOMPRICE'] *1;
-      $days = 1;
-    }else{
-      $totalprice = $_POST['ROOMPRICE'] * $day;
-      $days = $day;
-    }
-     
-      
-      addtocart($_POST['ROOMID'],$days, $totalprice,$_SESSION['arrival'],$_SESSION['departure'],0);
+<div class="row offering_row">
 
-      // redirect(WEB_ROOT. 'booking/'); 
+        <!-- Offer Item -->
+        <div class="col-xl-4 col-md-6">
+          <div class="offer">
+            <div class="offer_image"><img src="images/offer_2.jpg" alt=""></div>
+            <div class="offer_content text-center">
+              <div class="offer_title"><h3>Turtle</h3></div>
+              <div class="offer_text">
+                <p>Ras al Hadd it is the best enclave to see green turtles. You will see them just walking along the beach almost all year round!</p>
+              </div>
+            <!--   <div class="offer_button"><a href="#">discover</a></div> -->
+            </div>
+          </div>
+        </div>
 
-}
- 
+        <!-- Offer Item -->
+        <div class="col-xl-4 col-md-6">
+          <div class="offer">
+            <div class="offer_image"><img src="images/offer_3.jpg" alt=""></div>
+            <div class="offer_content text-center">
+              <div class="offer_title"><h3>Dolphin Tour</h3></div>
+              <div class="offer_text">
+                <p>Dozens of dolphins will follow the boat jumping. Our clients say that it is the best experience of their trip in Oman and one of the best of their life.</p>
+              </div>
+            <!--   <div class="offer_button"><a href="#">discover</a></div> -->
+            </div>
+          </div>
+        </div>
+        
+        <!-- Offer Item -->
+        <div class="col-xl-4 col-md-6">
+          <div class="offer">
+            <div class="offer_image"><img src="images/offer_4.jpg" alt=""></div>
+            <div class="offer_content text-center">
+              <div class="offer_title"><h3>Fishing Tour</h3></div>
+              <div class="offer_text">
+              <p>It does not matter if you are an expert Angler or want to fish for the first time. You will fish Omani style.</p>
+               </div>
+            <!--   <div class="offer_button"><a href="#">discover</a></div> -->
+            </div>
+          </div>
+        </div>
 
- if(!isset($_SESSION['arrival'])){
-   $_SESSION['arrival'] = date_create('Y-m-d');
- }
-if(!isset($_SESSION['departure'])) {
-  $_SESSION['departure'] =  date_create('Y-m-d') ;
-}
+        <!-- Offer Item -->
+        <div class="col-xl-4 col-md-6">
+          <div class="offer">
+            <div class="offer_image"><img src="images/offer_5.jpg" alt=""></div>
+            <div class="offer_content text-center">
+              <div class="offer_title"><h3>Omani BBQ for dinner</h3></div>
+              <div class="offer_text">
+              <p>We prepare it Omani style! Salem will go to the market to look for Lobsters, Tuna, Lamb... or you will eat fishing tour's Catch of the 
+                  day BBQ All very fresh and delicious. If you have any intolerance or you are Vegan/Vegetarian, let us know in advance.</p>
+              </div>
+            </div>
+          </div>
+        </div>
 
-
-if(isset($_POST['booknowA'])){ 
-
-
- $days = dateDiff($_POST['arrival'],$_POST['departure']); 
-
-if($days <= 0){
-  $msg = 'Available room today';
-}else{
-   $msg =  'Available room From:'.$_POST['arrival']. ' To: ' .$_POST['departure'];
-
-} 
-
-
-$_SESSION['arrival'] = date_format(date_create( $_POST['arrival']),"Y-m-d");
-$_SESSION['departure'] =date_format(date_create($_POST['departure']),"Y-m-d");
-
-
- 
- $query = "SELECT * FROM `tblroom` r ,`tblaccomodation` a WHERE r.`ACCOMID`=a.`ACCOMID`  AND `RoomTypeID`=2 ";
-    
-
-}elseif(isset($_GET['q'])){
-
-    $query = "SELECT * FROM `tblroom` r ,`tblaccomodation` a WHERE r.`ACCOMID`=a.`ACCOMID` AND `RoomTypeID`=2 AND `ROOM`='" . $_GET['q'] . "'"; 
+        <!-- Offer Item -->
+        <div class="col-xl-4 col-md-6">
+          <div class="offer">
+            <div class="offer_image"><img src="images/offer_6.jpg" alt=""></div>
+            <div class="offer_content text-center">
+              <div class="offer_title"><h3>Desert Tour</h3></div>
+              <div class="offer_text">
+                <p>You will sleep in the desert enjoying millions of stars. we take care of everything, rooms, campfire, dinner, so you have a real experience in an Omani desert. Please book in advance</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+    </div>
+  </div>
+  </div> 
+  </div>  
+  </div>  
    
   
-  }else{
-     $query = "SELECT * FROM `tblroom` r ,`tblaccomodation` a WHERE r.`ACCOMID`=a.`ACCOMID` AND `RoomTypeID`=2";
-  }
+  
+  
+  
+  
+      
+  
+      
 
-   $accomodation = ' | ' . @$_GET['q'];
-  ?>
-  <div class="row">
-        <div class="col">
-          <div class="card-columns">
-
- 
-               
-                <?php 
- 
-                  $arrival =  $_SESSION['arrival'];
-                  $departure =  $_SESSION['departure'] ;
-
-                   $mydb->setQuery($query);
-                   $cur = $mydb->loadResultList(); 
-                      foreach ($cur as $result) { 
-
-
-// filtering the rooms
- // ======================================================================================================
-                    $mydb->setQuery("SELECT * FROM `tblreservation`     WHERE STATUS<>'Pending' AND ((
-                        '$arrival' >= DATE_FORMAT(`ARRIVAL`,'%Y-%m-%d')
-                        AND  '$arrival' <= DATE_FORMAT(`DEPARTURE`,'%Y-%m-%d')
-                        )
-                        OR (
-                        '$departure' >= DATE_FORMAT(`ARRIVAL`,'%Y-%m-%d')
-                        AND  '$departure' <= DATE_FORMAT(`DEPARTURE`,'%Y-%m-%d')
-                        )
-                        OR (
-                        DATE_FORMAT(`ARRIVAL`,'%Y-%m-%d') >=  '$arrival'
-                        AND DATE_FORMAT(`ARRIVAL`,'%Y-%m-%d') <=  '$departure'
-                        )
-                        )
-                        AND ROOMID =".$result->ROOMID);
-
-                    
-
-                     $curs = $mydb->loadResultList(); 
-                     
-                     $resNum = $result->OROOMNUM - count($curs) ;
-                         
-
-
-                    $stats = $mydb->executeQuery();
-                    $rows = mysqli_fetch_assoc($stats);
-                    $status=$rows['STATUS'];
-
-                     
-                    //$availRoom = $result->ROOMNUM;
-
-
-              if($resNum==0){
-
-             if($status=='Confirmed'){
-                $btn =  '<div style="margin-top:10px; color: rgba(0,0,0,1); font-size:16px;"><strong>Fully Reserve!</strong></div>';
-                 $img_title = ' 
-
-                           <figcaption class="img-title-active">
-                                <h5>Reserve!</h5>    
-                            </figcaption>
-
-
-                    ';
-              }elseif($status=='Checkedin'){
-                $btn =  '<div style="margin-top:10px; color: rgba(0,0,0,1); font-size:16px;"><strong>Fully Book!</strong></div>';
-                 $img_title = ' 
-
-                           <figcaption class="img-title-active">
-                                <h5>Book!</h5>    
-                            </figcaption>
-
-
-                    ';
-              }else{
-                 $btn =  '
-                 <div class="form-group">
-                        <div class="row">
-                          <div class="col-xs-12 col-sm-12">
-                            <input type="submit" class="button rooms_button"  id="booknow" name="booknow" onclick="return validateBook();" value="Book Now!"/>
-                                                   
-                           </div>
-                        </div>
-                      </div>';
-                    $img_title = ' 
-
-                           <figcaption class="img-title">
-                                <h5>'.$result->ROOM . ' <br/> '.$result->ROOMDESC.'  <br/>
-                                ' . $result->ACCOMODATION .' <br/> 
-                                '.$result->ACCOMDESC . '<br/>  
-                                Number of Person:' . $result->NUMPERSON .' <br/> 
-                                Price:'.$result->PRICE.'</h5>    
-                            </figcaption>
-
-
-                    ';
-                   
-              }
-                   
-              }else{
-                $btn =  '
-                 <div class="form-group">
-                        <div class="row">
-                          <div class="col-xs-12 col-sm-12">
-                            <input type="submit" class="button rooms_button" id="booknow" name="booknow" onclick="return validateBook();" value="Book Now!"/>
-                                                   
-                           </div>
-                        </div>
-                      </div>';
-                    $img_title = ' 
-
-                           <figcaption class="img-title">
-                                <h5>'.$result->ROOM . ' <br/> '.$result->ROOMDESC.'  <br/>
-                                ' . $result->ACCOMODATION .' <br/> 
-                                '.$result->ACCOMDESC . '<br/>  
-                                Number of Person:' . $result->NUMPERSON .' <br/> 
-                                Price:'.$result->PRICE.'</h5>    
-                            </figcaption>
-
-
-                    ';
-                   
-
-              }      
-// ============================================================================================================================
-
- 
-                ?>
-                 <form method="POST" action="index.php?p=accomodation">
-                 <input type="hidden" name="ROOMPRICE" value="<?php echo $result->PRICE ;?>">
-                  <input type="hidden" name="ROOMID" value="<?php echo $result->ROOMID ;?>">
-
-                      <div class="card">
-                        <img class="card-img-top"  src="<?php echo WEB_ROOT .'admin/mod_room/'.$result->ROOMIMAGE; ?>" alt="Room image description">
-                        <div class="card-body">
-                          <div class="rooms_title"><h2><?php echo $result->ROOM ;?> <?php echo $result->ACCOMODATION ;?></h2></div>
-                          <div class="rooms_text">
-                            <p><?php echo $result->ROOMDESC ;?></p>
-                          </div>
-                          <div class="rooms_list">
-                            <ul>
-                              <li class="d-flex flex-row align-items-center justify-content-start">
-                                <img src="images/check.png" alt="">
-                                <span>Number of Person: <?php echo $result->NUMPERSON ;?></span>
-                              </li> 
-                              <li class="d-flex flex-row align-items-center justify-content-start">
-                                <img src="images/check.png" alt="">
-                                <span>Remaining Rooms:<?php echo  $resNum ;?></span>
-                              </li>
-                            </ul>
-                          </div>
-                          <div class="rooms_price"><?php echo   $result->PRICE ;?>/<span>Night</span></div>
-                           <?php echo $btn ; ?> 
-                        </div>
-                      </div>
-
-                  
-
-                  </form>
-
-        
-                <?php  
- 
-                 }
-
-                ?>
-
-              </div> 
-          </div>
     
-    
- </div>
+
+  

@@ -231,7 +231,7 @@
         <div class="slide">
           <div class="background_image" style="background-image:url(images/discover_1.jpg)"></div>
           <div class="discover_overlay d-flex flex-column align-items-center justify-content-center">
-            <h1><a href="#">Small and Big groups</a></h1>
+            <h1><a href="/marimar/index.php?p=tours">Small and Big groups</a></h1>
           </div>
         </div>
         
@@ -239,7 +239,7 @@
         <div class="slide">
           <div class="background_image" style="background-image:url(images/discover_2.jpg)"></div>
           <div class="discover_overlay d-flex flex-column align-items-center justify-content-center">
-            <h1><a href="#">Fishing</a></h1>
+            <h1><a href="/marimar/index.php?p=tours">Fishing</a></h1>
           </div>
         </div>
 
@@ -247,7 +247,7 @@
         <div class="slide">
           <div class="background_image" style="background-image:url(images/discover_3.jpg)"></div>
           <div class="discover_overlay d-flex flex-column align-items-center justify-content-center">
-            <h1><a href="#">Dolphins</a></h1>
+            <h1><a href="/marimar/index.php?p=tours">Dolphins</a></h1>
           </div>
         </div>
 
@@ -255,7 +255,7 @@
         <div class="slide">
           <div class="background_image" style="background-image:url(images/discover_4.jpg)"></div>
           <div class="discover_overlay d-flex flex-column align-items-center justify-content-center">
-            <h1><a href="#">Desert Trips</a></h1>
+            <h1><a href="/marimar/index.php?p=tours">Desert Trips</a></h1>
           </div>
         </div>
 
