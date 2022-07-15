@@ -1,3 +1,4 @@
+
 <?php
     //Nos llegan los datos
     $sendEmailTo= "pauykasia@gmail.com";
@@ -10,5 +11,10 @@
     //Los enviamos
     mail($sendEmailTo, "Contact ", $allMessage);
     //Redireccionamos al usuario
-    header("location:thanks.php");
-?>
+    header("location:index.php?p=contact.php"); 
+
+ 
+?> */
+
+
+  

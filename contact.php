@@ -13,7 +13,7 @@
               <p>Please if you have any questions do not hesitate to contact me or send me an email info@salemfish.com</p>
             </div> 
             <div class="contact_form_container">
-              <form action="send.php" method="post" class="contact_form d-flex flex-column align-items-center justify-content-center">
+              <form action="send.php" method="post" onSubmit="alert('Your message has been sent. I will contact you soon. Thanks!');" class="contact_form d-flex flex-column align-items-center justify-content-center">
                 <div class="row d-flex flex-column align-items-center justify-content-center">
                     <div class="col-lg-6 d-flex flex-column align-items-center justify-content-center"> 
                     <input type="text" name="contactName" class="contact_input_name d-flex flex-column align-items-center justify-content-center" placeholder="Your name" required="required">

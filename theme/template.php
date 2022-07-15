@@ -280,8 +280,9 @@ if (isset($_SESSION['activity'])){
 <script src="<?php echo WEB_ROOT;?>plugins/progressbar/progressbar.min.js"></script>
 <script src="<?php echo WEB_ROOT;?>plugins/parallax-js-master/parallax.min.js"></script>
 <script src="<?php echo WEB_ROOT;?>plugins/jquery-datepicker/jquery-ui.js"></script>
- <script src="<?php echo WEB_ROOT; ?>js/ekko-lightbox.js"></script> 
+<script src="<?php echo WEB_ROOT; ?>js/ekko-lightbox.js"></script> 
 <script src="<?php echo WEB_ROOT;?>js/custom.js"></script>
+
 
 
 
