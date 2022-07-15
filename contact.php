@@ -13,18 +13,18 @@
               <p>Please if you have any questions do not hesitate to contact me or send me an email info@salemfish.com</p>
             </div> 
             <div class="contact_form_container">
-              <form action="#" class="contact_form d-flex flex-column align-items-center justify-content-center">
+              <form action="send.php" method="post" class="contact_form d-flex flex-column align-items-center justify-content-center">
                 <div class="row d-flex flex-column align-items-center justify-content-center">
                     <div class="col-lg-6 d-flex flex-column align-items-center justify-content-center"> 
-                    <input type="text" class="contact_input_name d-flex flex-column align-items-center justify-content-center" placeholder="Your name" required="required">
+                    <input type="text" name="contactName" class="contact_input_name d-flex flex-column align-items-center justify-content-center" placeholder="Your name" required="required">
                   </div>
                   <div class="col-lg-6 d-flex flex-column align-items-center justify-content-center">
-                    <input type="email" class="contact_input_name d-flex flex-column align-items-center justify-content-center" placeholder="Your email" required="required">
+                    <input type="email" name="contactEmail" class="contact_input_name d-flex flex-column align-items-center justify-content-center" placeholder="Your email" required="required">
                   </div>
                 </div>
-                <input type="text" class="contact_input d-flex flex-column align-items-center justify-content-center" placeholder="Subject">
-                <textarea class="contact_input d-flex flex-column align-items-center justify-content-center" placeholder="Message" required="required"></textarea>
-                <button class="contact_button d-flex flex-column align-items-center justify-content-center">Send</button>
+                <input type="text" name="contactSubject" class="contact_input d-flex flex-column align-items-center justify-content-center" placeholder="Subject">
+                <textarea name="contactMessage" class="contact_input d-flex flex-column align-items-center justify-content-center" placeholder="Message" required="required"></textarea>
+                <button type="submit" class="contact_button d-flex flex-column align-items-center justify-content-center">Send</button>
               </form>
             </div>
           </div>

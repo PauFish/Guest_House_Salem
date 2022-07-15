@@ -79,7 +79,7 @@ if (isset($_SESSION['activity'])){
 
       <!-- Header Right -->
       <div class="header_right d-flex flex-row align-items-center justify-content-start">
-
+        
         <!-- Header Link -->
         <div class="header_link"><a href="/marimar/index.php?p=rooms">Book Your Room Now</a></div>
 
@@ -100,7 +100,6 @@ if (isset($_SESSION['activity'])){
       </div>
     </div>
       
-
   </header>
 
   <!-- Logo Overlay -->
