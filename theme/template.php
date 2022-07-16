@@ -103,13 +103,7 @@ if (isset($_SESSION['activity'])){
       
   </header>
 
-  <!-- Logo Overlay -->
 
-  <div class="logo_overlay">
-    <div class="logo_overlay_content d-flex flex-column align-items-center justify-content-center">
-      <div class="logo"><a href="#"><img src="<?php echo WEB_ROOT;?>images/logo_3.png" alt=""></a></div>
-    </div>
-  </div>
 
   <!-- Menu Overlay -->
 
@@ -156,7 +150,7 @@ if (isset($_SESSION['activity'])){
   <div class="home">
     <div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="<?php echo WEB_ROOT;?>images/home.jpg" data-speed="0.8"></div>
     <div class="home_container d-flex flex-column align-items-center ">
-      <div class="home_title"><h1>SalemFish Guest House</h1></div>
+      <div class="home_title text-center"><h1>SalemFish Guest House</h1></div>
       <div class="home_text text-center">Looking for your perfect vacation? <br> You will feel at home and enjoy the best tours so that you will enjoy your vacation to the fullest!</div>
       
     </div>
@@ -170,7 +164,7 @@ if (isset($_SESSION['activity'])){
         <div class="col">
           <div class="booking_container d-flex flex-row align-items-end justify-content-start"> 
             <form action="<?php echo WEB_ROOT;?>index.php?p=booking" method="POST" class="booking_form" autocomplete="off">
-              <div class="booking_form_container d-flex flex-lg-row flex-column align-items-center justify-content-center flex-wrap">
+              <div class="booking_form_container d-flex flex-lg-row flex-column align-items-start justify-content-center flex-wrap">
                 <div class="booking_form_inputs d-flex flex-row align-items-center ">
                   <div class="booking_dropdown"><input type="text" class="datepicker booking_input booking_input_a booking_in" placeholder="Check in" name="arrival" required="required" value="<?php echo isset($_POST['arrival']) ? $_POST['arrival'] :date('m/d/Y');?>"></div>
                   <div class="booking_dropdown"><input type="text" class="datepicker booking_input booking_input_a booking_out" placeholder="Check out" name="departure" required="required" value="<?php echo isset($_POST['departure']) ? $_POST['departure'] : date('m/d/Y');?>" ></div>

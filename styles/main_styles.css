@@ -817,13 +817,7 @@ section
 
 .Checkin_Out_style{ 
 	
-	display:flex;
-  	flex-direction:row;
-  	flex-wrap:nowrap;
-  	justify-content:center;
-  	align-items:unset;
-  	align-content:flex-start;
-
+	
 }
 
 .booking_input::-webkit-input-placeholder
