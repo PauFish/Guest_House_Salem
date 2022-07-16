@@ -796,6 +796,8 @@ section
 }
 .booking_form_inputs > div
 {
+	margin-right: 10px;
+	margin-left: 10px;
 	width: calc((100% - 27px) / 4);
 }
 .booking_form_inputs > div > input
@@ -810,7 +812,20 @@ section
 	font-size: 16px;
 	font-weight: 500;
 	color: #4a4f59;
+	
 }
+
+.Checkin_Out_style{ 
+	
+	display:flex;
+  	flex-direction:row;
+  	flex-wrap:nowrap;
+  	justify-content:center;
+  	align-items:unset;
+  	align-content:flex-start;
+
+}
+
 .booking_input::-webkit-input-placeholder
 {
 	font-size: 14px !important;
@@ -843,6 +858,7 @@ section
 }
 .booking_dropdown::after
 {
+	
 	display: block;
 	position: absolute;
 	top: 50%;
@@ -858,7 +874,8 @@ section
 }
 .booking_form_button
 {
-	width: 280px;
+	
+	width: 500px;
 	height: 65px;
 	background: #ff9000;
 	margin-left: 9px;
@@ -1094,6 +1111,7 @@ section
 	padding-top: 81px;
 	padding-right: 100px;
 	padding-bottom: 110px;
+	
 }
 .rooms_left_content .section_title h1
 {
@@ -1437,14 +1455,7 @@ section
     align-content:flex-start;
 	margin-top:50px;
 	margin-bottom: 250px;
-	
-	
 }
-
-
-
-
-
 
 .contact_info_list
 {
@@ -1464,10 +1475,6 @@ section
 {
 	display: none;
 }
-
-
-
-
 
 
 /*********************************
