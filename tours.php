@@ -1,10 +1,10 @@
 
-<div class="intro">
+<div class="intro" id="toursLink">
     <div class="container ">
       <div class="row row-eq-height justify-content-center">
 
         <!-- Intro Content -->
-        <div class="col-lg-6 ">
+        <div class="col-lg-6">
           <div class="intro_content">
             <div class="section_title text-center">
               <div>Tours</div>
@@ -34,7 +34,7 @@
               <div class="offer_text">
                 <p>Ras al Hadd it is <b>the best</b> enclave to see green turtles. You will see them just walking along the beach almost all year round!</p>
               </div>
-            <!--   <div class="offer_button"><a href="#">discover</a></div> -->
+           
             </div>
           </div>
         </div>
@@ -48,7 +48,7 @@
               <div class="offer_text">
                 <p>Dozens of dolphins will follow the boat jumping. Our clients say that it is <b>the best experience</b> of their trip in Oman and one of the best of their <b>life</b>.</p>
               </div>
-            <!--   <div class="offer_button"><a href="#">discover</a></div> -->
+           
             </div>
           </div>
         </div>
@@ -62,7 +62,7 @@
               <div class="offer_text">
               <p>It does not matter if you are an expert Angler or want to fish for the first time. You will fish<b> Omani style</b>.</p>
                </div>
-            <!--   <div class="offer_button"><a href="#">discover</a></div> -->
+           
             </div>
           </div>
         </div>
@@ -99,6 +99,49 @@
   </div> 
   </div>  
   </div>  
+
+<!-- Tours Price list -->
+
+  <div class="row text-center" >
+  <div class="container_price_list ">
+      <h1 class="text-center "> Tours Price List</h1>
+    
+      
+        <h3>BBQ Fish Dinner</h3>
+       
+          
+            <h6>5 OMR per Adult</h6>
+            <h6>3 OMR per Child<</h6>
+         
+        
+    
+      
+        <h3>Dolphin Tour</h3>
+          
+          <h6>35 OMR for 3 persons and young families</h6>
+            <h6>+10 OMR each for 4 or more persons</h6>
+          
+        <h3>Fishing Tour</h3>
+          
+          <h6>35 OMR for 3 persons and young families</h6>
+            <h6>+10 OMR each for 4 or more persons</h6>
+          
+      
+        <h3>Snorkelling Tour</h3>
+         
+            <h6>35 OMR for 3 persons and young families</h6>
+            <h6>+10 OMR each for 4 or more persons</h6>
+          
+        <h3>Turtle Tour</h3>
+        
+            <h6>My friend Rasaljin will do this tour<h6>
+            <h6>He is the only guide in charge in Ras Al Hadd doing all the turtle tours in the town.
+               He will give you price and schedule. just ask me about him and i I will put you in contact with him for free.</h6>
+       
+
+    
+  </div>
+</div>
    
   
   

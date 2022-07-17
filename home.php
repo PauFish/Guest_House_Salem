@@ -29,7 +29,7 @@
                 <img src="images/gallery_3.jpg" alt="">
                 <div class="gallery_overlay">
                   <div class="text-center d-flex flex-column align-items-center justify-content-center">
-                    <a href="#">
+                    
                       <!-- <span>+</span>
                       <span>See More</span> -->
                     </a>
@@ -42,7 +42,7 @@
                 <img src="images/gallery_1.jpg" alt="">
                 <div class="gallery_overlay">
                   <div class="text-center d-flex flex-column align-items-center justify-content-center">
-                    <a href="#">
+                    
                       <!-- <span>+</span>
                       <span>See More</span> -->
                     </a>
@@ -55,7 +55,7 @@
                 <img src="images/gallery_4.jpg" alt="">
                 <div class="gallery_overlay">
                   <div class="text-center d-flex flex-column align-items-center justify-content-center">
-                    <a href="#">
+                    
                       <!-- <span>+</span>
                       <span>See More</span> -->
                     </a>
@@ -68,7 +68,7 @@
                 <img src="images/gallery_2.jpg" alt="">
                 <div class="gallery_overlay">
                   <div class="text-center d-flex flex-column align-items-center justify-content-center">
-                    <a href="#">
+                    
                       <!-- <span>+</span>
                       <span>See More</span> -->
                     </a>
@@ -84,7 +84,7 @@
     </div>
   </div>
 
-  <!-- Rooms -->
+  <!-- Rooms  Slide -->
 
   <div class="rooms_right container_wrapper">
     <div class="container">
@@ -102,30 +102,37 @@
 
               <!-- Slide -->
               <div class="slide">
-                <div class="background_image" style="background-image:url(images/rooms_1.jpg)"></div>
+                <div class="background_image" style="background-image:url(images/rooms_1a.jpg)"></div>
               </div>
 
               <!-- Slide -->
               <div class="slide">
-                <div class="background_image" style="background-image:url(images/rooms_1.jpg)"></div>
+                <div class="background_image" style="background-image:url(images/rooms_1b.jpg)"></div>
               </div>
-
+              <!-- Slide -->
+              <div class="slide">
+                <div class="background_image" style="background-image:url(images/rooms_1t.jpg)"></div>
+              </div>
             </div>
           </div>
         </div>
 
         <!-- Rooms Content -->
         <div class="col-xl-6 order-xl-2 order-1">
-          <div class="rooms_right_content">
+          <div class="rooms_right_content">>
             <div class="section_title">
               <div>Rooms</div>
-              <h1>Room 4</h1>
+              <h1>Double Rooms</h1>
             </div>
             <div class="rooms_text">
-              <p>Your room has 1 queen sized bed for a relaxing sleep after a day filled with adventures! The room is air-conditioned and is also equipped with ceiling fan. En-suite private bathroom, with toilet, shower and hot water.</p>
+              <p>We have 3 double rooms with one queen sized bed each for a relaxing sleep after a day filled with adventures! The room is air-conditioned and is also equipped with ceiling fan. En-suite private bathroom, with toilet, shower and hot water.</p>
             </div>
             <div class="rooms_list">
               <ul>
+              <li class="d-flex flex-row align-items-center justify-content-start">
+                  <img src="images/check.png" alt="">
+                  <span>1 Queen sized bed</span>
+                </li>
                 <li class="d-flex flex-row align-items-center justify-content-start">
                   <img src="images/check.png" alt="">
                   <span>En-suite private bathroom</span>
@@ -138,13 +145,17 @@
                   <img src="images/check.png" alt="">
                   <span>Shower and hot water</span>
                 </li>
+                <li class="d-flex flex-row align-items-center justify-content-start">
+                  <img src="images/check.png" alt="">
+                  <span>Towels</span>
+                </li>
               </ul>
             </div>
-            <div class="rooms_price">$54/<span>Night</span></div>
+            <div class="rooms_price">50€/<span>Night</span></div>
            
           </div>
         </div>
-
+      
       </div>
     </div>
   </div>
@@ -160,13 +171,19 @@
           <div class="rooms_left_content">
             <div class="section_title">
               <div>Rooms</div>
-              <h1>Room 5 </h1>
+              <h1>Family Rooms</h1>
             </div>
             <div class="rooms_text">
-              <p>Your room has 2 queen sized beds for a relaxing sleep after a day filled with adventures! The room is air-conditioned and is also equipped with ceiling fan. En-suite private bathroom, with toilet, shower and hot water.</p>
+              <p>We have 2 family rooms with two queen sized bed each for a relaxing sleep after a 
+                day filled with adventures! The room is air-conditioned and is also equipped with ceiling fan. 
+                En-suite private bathroom, with toilet, shower and hot water.</p>
             </div>
             <div class="rooms_list">
               <ul>
+              <li class="d-flex flex-row align-items-center justify-content-start">
+                  <img src="images/check.png" alt="">
+                  <span>2 Queen sized beds</span>
+                </li>
                 <li class="d-flex flex-row align-items-center justify-content-start">
                   <img src="images/check.png" alt="">
                   <span>En-suite private bathroom</span>
@@ -179,10 +196,13 @@
                   <img src="images/check.png" alt="">
                   <span>Shower and hot water</span>
                 </li>
+                <li class="d-flex flex-row align-items-center justify-content-start">
+                  <img src="images/check.png" alt="">
+                  <span>Towels</span>
+                </li>
               </ul>
             </div>
-            <div class="rooms_price">$69/<span>Night</span></div>
-           
+            <div class="rooms_price">60€/<span>Night</span></div>
           </div>
         </div>
 
@@ -198,19 +218,17 @@
 
               <!-- Slide -->
               <div class="slide">
-                <div class="background_image" style="background-image:url(images/rooms_2.jpg)"></div>
+                <div class="background_image" style="background-image:url(images/rooms_2a.jpg)"></div>
               </div>
 
               <!-- Slide -->
               <div class="slide">
-                <div class="background_image" style="background-image:url(images/rooms_2.jpg)"></div>
+                <div class="background_image" style="background-image:url(images/rooms_2t.jpg)"></div>
               </div>
-              
             </div>
           </div>
         </div>
-
-      </div>
+      </div>    
     </div>
   </div>
 
@@ -231,7 +249,7 @@
         <div class="slide">
           <div class="background_image" style="background-image:url(images/discover_1.jpg)"></div>
           <div class="discover_overlay d-flex flex-column align-items-center justify-content-center">
-            <h1><a href="/marimar/index.php?p=tours">Small and Big groups</a></h1>
+            <h1><a href="/marimar/index.php?p=tours#toursLink">Small and Big groups</a></h1>
           </div>
         </div>
         
@@ -239,7 +257,7 @@
         <div class="slide">
           <div class="background_image" style="background-image:url(images/discover_2.jpg)"></div>
           <div class="discover_overlay d-flex flex-column align-items-center justify-content-center">
-            <h1><a href="/marimar/index.php?p=tours">Fishing</a></h1>
+            <h1><a href="/marimar/index.php?p=tours#toursLink">Fishing</a></h1>
           </div>
         </div>
 
@@ -247,7 +265,7 @@
         <div class="slide">
           <div class="background_image" style="background-image:url(images/discover_3.jpg)"></div>
           <div class="discover_overlay d-flex flex-column align-items-center justify-content-center">
-            <h1><a href="/marimar/index.php?p=tours">Dolphins</a></h1>
+            <h1><a href="/marimar/index.php?p=tours#toursLink">Dolphins</a></h1>
           </div>
         </div>
 
@@ -255,7 +273,7 @@
         <div class="slide">
           <div class="background_image" style="background-image:url(images/discover_4.jpg)"></div>
           <div class="discover_overlay d-flex flex-column align-items-center justify-content-center">
-            <h1><a href="/marimar/index.php?p=tours">Desert Trips</a></h1>
+            <h1><a href="/marimar/index.php?p=tours#toursLink">Desert Trips</a></h1>
           </div>
         </div>
 

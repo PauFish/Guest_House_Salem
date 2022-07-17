@@ -168,7 +168,7 @@ if (isset($_SESSION['activity'])){
                 <div class="booking_form_inputs d-flex flex-row align-items-center ">
                   <div class="booking_dropdown"><input type="text" class="datepicker booking_input booking_input_a booking_in" placeholder="Check in" name="arrival" required="required" value="<?php echo isset($_POST['arrival']) ? $_POST['arrival'] :date('m/d/Y');?>"></div>
                   <div class="booking_dropdown"><input type="text" class="datepicker booking_input booking_input_a booking_out" placeholder="Check out" name="departure" required="required" value="<?php echo isset($_POST['departure']) ? $_POST['departure'] : date('m/d/Y');?>" ></div>
-                  <button class="booking_form_button align-items-center">book now</button>
+                  <button class="booking_form_button align-items-center" ><a href="#bookNowLink">book now</button>
                 </div>
                 
               </div>

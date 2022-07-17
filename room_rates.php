@@ -59,7 +59,7 @@ $_SESSION['departure'] =date_format(date_create($_POST['departure']),"Y-m-d");
   ?>
   <div class="row">
         <div class="col">
-          <div class="card-columns">
+          <div class="card-columns" >
 
  
                
