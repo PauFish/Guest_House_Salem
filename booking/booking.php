@@ -31,14 +31,14 @@ if(isset($_GET['id'])){
 
              <thead>
               <tr  bgcolor="#999999">
-              <!-- <th width="10">#</th> -->
-              <th align="center" width="120">Room</th>
-              <th align="center" width="120">Check In</th>
-              <th align="center" width="120">Check Out</th> 
-              <th  width="120">Price</th> 
-              <th align="center" width="120">Nights</th> 
+              <!-- <th width="120">#</th> -->
+              <th align="center" >Room</th>
+              <th align="center" >Check In</th>
+              <th align="center" >Check Out</th> 
+              <th>Price</th> 
+              <th align="center" >Nights</th> 
               <th align="center" >Amount</th>
-              <th align="center" width="90">Action</th> 
+              <th align="center" >Action</th> 
             </tr> 
           </thead>
           <tbody >
@@ -107,7 +107,7 @@ if(isset($_GET['id'])){
         </table> 
  
         <form method="post" action="">
-             <div class="row" >
+             <div class="row" id=booking_cart >
              <?php
              if (isset($_SESSION['dragonhouse_cart'])){
               ?> 

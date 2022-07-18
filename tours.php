@@ -1,5 +1,5 @@
 
-<div class="intro" id="toursLink">
+<div class="intro_toursLink" id="toursLink">
     <div class="container ">
       <div class="row row-eq-height justify-content-center">
 
@@ -105,7 +105,7 @@
 <div class="table-title">
 <h3 id="table_h3">Tours Price List</h3>
 </div>
-<table class="table-fill">
+<table class=" table-fill">
 <thead>
 <tr>
 <th class="text-left">Tours</th>

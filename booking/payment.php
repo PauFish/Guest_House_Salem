@@ -141,9 +141,7 @@ $_SESSION['GUESTID'] =   $lastguest;
  
 <div id="bread">
    <ol class="breadcrumb">
-      <li><a href="<?php echo WEB_ROOT ;?>index.php">Home</a> </li> 
-      <li><a href="<?php echo WEB_ROOT ;?>booking/">Booking Cart</a></li>  
-       <li class="active">Booking Details</li>
+       <li class="active billing_details">Booking Details</li>
    </ol> 
 </div> 
 
@@ -245,7 +243,7 @@ for ($i=0; $i < $count_cart  ; $i++) {
       <h3 style="text-align: right;">Total: &euro; <?php echo   $_SESSION['pay'] ;?></h3>
     </div>
     <br>
-    <div class="">
+    <div class="submit_name">
        <button type="submit" class="button"  name="btnsubmitbooking">Submit Booking</button>
     </div>
   </div>   

@@ -17,11 +17,11 @@
 				  		 <input type="checkbox" name="chkall" id="chkall" onclick="return checkall('selector[]');"> 
 				  		Image</th>
 				  		<!-- <th>Room#</th> -->
-				  		<th align="left"  width="200">Room</th>	
+				  		<th align="left"  >Room</th>	
 				  		<!-- <th align="left" width="120">Description</th> -->
-				  		<th align="left" width="120">Accomodation</th> 
-				  		<th align="left" width="90">Person</th>
-				  		<th align="left"  width="200">Price</th>
+				  		<th align="left" >Accomodation</th> 
+				  		<th align="left" >Person</th>
+				  		<th align="left"  >Price</th>
 				  		<!-- <th># of Rooms</th> -->
 				  	</tr>	
 				  </thead>
@@ -34,7 +34,7 @@
 						foreach ($cur as $result) {
 				  		echo '<tr>';
 						echo '<td width="5%" align="center"></td>';
-				  		echo '<td align="left"  width="120"><input type="checkbox" name="selector[]" id="selector[]" value="'.$result->ROOMID. '"/> 
+				  		echo '<td align="left"  ><input type="checkbox" name="selector[]" id="selector[]" value="'.$result->ROOMID. '"/> 
 				  				<img src="'. $result->ROOMIMAGE.'" width="60" height="40" title="'. $result->ROOM .'"/></td>';
 				  		// echo '<td><a href="index.php?view=edit&id='.$result->ROOMID.'">' . ' '.$result->ROOMNUM.'</a></td>';
 						echo '<td><a href="index.php?view=edit&id='.$result->ROOMID.'">'. $result->ROOM.' ('. $result->ROOMDESC.')</a></td>';

@@ -68,13 +68,13 @@ $result=$guest->single_guest($guestid);*/
               <thead>
                 <tr  bgcolor="#999999">
                   <!-- <th width="10">#</th> -->
-                  <th align="center" width="120">Room Type</th>
-                  <th align="center" width="120">Check In</th>
-                  <th align="center" width="120">Check Out</th>
-                  <th align="center" width="120">Nights</th>
-                  <th  width="120">Price</th>
-                  <th align="center" width="120">Room</th>
-                  <th align="center" width="90">Amount</th> 
+                  <th align="center" >Room Type</th>
+                  <th align="center" >Check In</th>
+                  <th align="center" >Check Out</th>
+                  <th align="center" >Nights</th>
+                  <th  >Price</th>
+                  <th align="center" >Room</th>
+                  <th align="center" >Amount</th> 
                 </tr> 
               </thead>
           <tbody>
