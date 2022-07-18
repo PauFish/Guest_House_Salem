@@ -689,6 +689,7 @@ section
 }
 .menu_overlay.scrolled
 {
+	background: transparent;
 	right: 0;
 }
 .menu_overlay_content

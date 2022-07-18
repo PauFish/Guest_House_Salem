@@ -243,6 +243,8 @@ for ($i=0; $i < $count_cart  ; $i++) {
       <h3 style="text-align: right;">Total: &euro; <?php echo   $_SESSION['pay'] ;?></h3>
     </div>
     <br>
+
+    
     <div class="submit_name">
        <button type="submit" class="button"  name="btnsubmitbooking">Submit Booking</button>
     </div>

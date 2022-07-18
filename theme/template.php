@@ -127,6 +127,7 @@ if (isset($_SESSION['activity'])){
           <li><a href="<?php echo WEB_ROOT;?>index.php">Home</a></li>
           <li><a href="<?php echo WEB_ROOT;?>index.php?p=about">About us</a></li>
           <li><a href="<?php echo WEB_ROOT;?>index.php?p=rooms">Rooms</a></li> 
+          <li><a href="<?php echo WEB_ROOT;?>index.php?p=tours">Tours</a></li> 
           <li><a href="<?php echo WEB_ROOT;?>index.php?p=contact">Contact</a></li>
         </ul>
       </nav>
