@@ -200,6 +200,7 @@ $(document).ready(function()
 				closeAllSelect(this);
 				this.nextSibling.classList.toggle("select-hide");
 				this.classList.toggle("select-arrow-active");
+				
 			});
 		}
 

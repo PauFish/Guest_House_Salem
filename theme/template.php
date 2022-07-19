@@ -166,9 +166,9 @@ if (isset($_SESSION['activity'])){
           <div class="booking_container d-flex flex-row align-items-end justify-content-start"> 
             <form action="<?php echo WEB_ROOT;?>index.php?p=booking" method="POST" class="booking_form" autocomplete="off">
               <div class="booking_form_container d-flex flex-lg-row flex-column align-items-start justify-content-center flex-wrap">
-                <div class="booking_form_inputs d-flex flex-row align-items-center ">
-                  <div class="booking_dropdown"><input type="text" class="datepicker booking_input booking_input_a booking_in" placeholder="Check in" name="arrival" required="required" value="<?php echo isset($_POST['arrival']) ? $_POST['arrival'] :date('m/d/Y');?>"></div>
-                  <div class="booking_dropdown"><input type="text" class="datepicker booking_input booking_input_a booking_out" placeholder="Check out" name="departure" required="required" value="<?php echo isset($_POST['departure']) ? $_POST['departure'] : date('m/d/Y');?>" ></div>
+                <div class="booking_form_inputs ">
+                  <div class="booking_dropdown"><input type="text" class="datepicker booking_input booking_input_a booking_in " placeholder="Check in" name="arrival" required="required" value="<?php echo isset($_POST['arrival']) ? $_POST['arrival'] :date('m/d/Y');?>"></div>
+                  <div class="booking_dropdown"><input type="text" class="datepicker booking_input booking_input_a booking_out " placeholder="Check out" name="departure" required="required" value="<?php echo isset($_POST['departure']) ? $_POST['departure'] : date('m/d/Y');?>" ></div>
                   <button class="booking_form_button align-items-center" >book now</button>
                 </div>
                 

@@ -31,6 +31,7 @@
 2. Body and some general stuff
 *********************************/
 
+
 *
 {
 	margin: 0;
@@ -859,19 +860,14 @@ section
 	
 	width: 100%;
 }
-.booking_form_inputs
-{   
-	width: calc(100% - 289px);
-	height: 65px;
-	
+.booking_form_inputs{
+	display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:space-around;
+  align-items:unset;
+  align-content:flex-start;
 }
-
-/*.booking_form_inputs > div
-{
-	margin-right: 10px;
-	margin-left: 10px;
-	width: calc((100% - 27px) / 4);
-}*/
 
 .booking_form_inputs > div > input
 {
@@ -885,7 +881,6 @@ section
 	font-size: 16px;
 	font-weight: 500;
 	color: #4a4f59;
-	
 }
 
 .booking_input::-webkit-input-placeholder
@@ -918,9 +913,10 @@ section
 	font-weight: 400 !important;
 	color: #4a4f59 !important;
 }
+
+/*estilos para las flechitas*/
 .booking_dropdown::after
 {
-	
 	display: block;
 	position: absolute;
 	top: 50%;
@@ -934,6 +930,8 @@ section
 	font-family: 'FontAwesome';
 	content: '\f107';
 }
+
+
 .booking_form_button
 {
 	width: 500px;
@@ -1551,6 +1549,7 @@ section
 	width:100%;
 }
 
+
 .col-lg-6{
 	padding: 0 !important;
 }
@@ -1571,12 +1570,12 @@ section
 .contact
 {
 	background: #ffffff;
-	padding-top: 120px;
+	
 }
-.contact_text
+.contact_text p
 {
-	padding-left: 135px;
-	padding-right: 135px;
+	margin-left: auto;
+	margin-right: auto;
 	margin-top: 40px;
 }
 .contact_form_container
@@ -1588,49 +1587,37 @@ section
 	display: block;
 	width: 100%;
 }
-.contact_input
-{
-	width: 50%;
-	height: 65px;
-	padding-left: 24px;
-	margin-bottom: 25px;
-	border: none;
-	outline: none;
-	background: #f4f5fa;
-	border-radius: 5px;
-	box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-}
+
+
 .contact_form textarea
 {
-	width: 50%;
-	height: 249px;
-	padding-top: 20px;
+	height: 25vh;	
 }
-.contact_input::-webkit-input-placeholder
+.contact_input_name::-webkit-input-placeholder
+{
+	font-size: 14px !important;
+	font-weight: 400 !important;
+	color: #ff9000 !important;
+}
+.contact_input_name:-moz-placeholder
 {
 	font-size: 14px !important;
 	font-weight: 400 !important;
 	color: #4a4f59 !important;
 }
-.contact_input:-moz-placeholder
-{
-	font-size: 14px !important;
-	font-weight: 400 !important;
-	color: #4a4f59 !important;
-}
-.contact_input::-moz-placeholder
+.contact_input_name::-moz-placeholder
 {
 	font-size: 14px !important;
 	font-weight: 400 !important;
 	color: #4a4f59 !important;
 } 
-.contact_input:-ms-input-placeholder
+.contact_input_name:-ms-input-placeholder
 { 
 	font-size: 14px !important;
 	font-weight: 400 !important;
 	color: #4a4f59 !important;
 }
-.contact_input::input-placeholder
+.contact_input_name::input-placeholder
 {
 	font-size: 14px !important;
 	font-weight: 400 !important;
@@ -1668,8 +1655,7 @@ section
 }
 
 .maps{ 
-	width: 100%;
-	height:300px;
+	
 	display:flex;
     flex-direction:row;
     flex-wrap:nowrap;
@@ -1677,9 +1663,14 @@ section
     align-items:unset;
     align-content:flex-start;
 	margin-top:50px;
-	margin-bottom: 250px;
+	margin-bottom: 50px;
 }
-
+iframe{ 
+	margin-left: auto;
+	margin-right: auto;
+	width: 80vw;
+	height:50vh;
+}
 .contact_info_list
 {
 	margin-top: 65px;
@@ -1848,7 +1839,7 @@ div.table-title {
 }
 .footer_content
 {
-	margin-top: 67px;
+	margin-top: 0.2rem;
 	padding-bottom: 80px;
 	
 }
@@ -1866,11 +1857,22 @@ div.table-title {
 .footer_info div
 {
 	font-size: 15px;
-	color: #bfc8d8;
+	color: #ffffff;
 	font-weight: 400;
 	line-height: 1.8;
 	text-shadow: 0.5px 0.5px #000000;
 }
+
+.footer_info a
+{
+	font-size: 15px;
+	color: #ff9000;
+	font-weight: 400;
+	line-height: 1.8;
+	text-shadow: 0.5px 0.5px #000000;
+	text-decoration: underline;
+}
+
 .footer_bar
 {
 	height: 48px;
