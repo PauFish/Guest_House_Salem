@@ -1,7 +1,4 @@
-/*! jQuery UI - v1.12.1 - 2018-08-31
-* http://jqueryui.com
-* Includes: keycode.js, widgets/datepicker.js
-* Copyright jQuery Foundation and other contributors; Licensed MIT */
+
 
 (function( factory ) {
 	if ( typeof define === "function" && define.amd ) {
@@ -20,19 +17,7 @@ $.ui = $.ui || {};
 var version = $.ui.version = "1.12.1";
 
 
-/*!
- * jQuery UI Keycode 1.12.1
- * http://jqueryui.com
- *
- * Copyright jQuery Foundation and other contributors
- * Released under the MIT license.
- * http://jquery.org/license
- */
 
-//>>label: Keycode
-//>>group: Core
-//>>description: Provide keycodes as keynames
-//>>docs: http://api.jqueryui.com/jQuery.ui.keyCode/
 
 
 var keycode = $.ui.keyCode = {
@@ -55,25 +40,6 @@ var keycode = $.ui.keyCode = {
 };
 
 
-// jscs:disable maximumLineLength
-/* jscs:disable requireCamelCaseOrUpperCaseIdentifiers */
-/*!
- * jQuery UI Datepicker 1.12.1
- * http://jqueryui.com
- *
- * Copyright jQuery Foundation and other contributors
- * Released under the MIT license.
- * http://jquery.org/license
- */
-
-//>>label: Datepicker
-//>>group: Widgets
-//>>description: Displays a calendar from an input or inline for selecting dates.
-//>>docs: http://api.jqueryui.com/datepicker/
-//>>demos: http://jqueryui.com/datepicker/
-//>>css.structure: ../../themes/base/core.css
-//>>css.structure: ../../themes/base/datepicker.css
-//>>css.theme: ../../themes/base/theme.css
 
 
 

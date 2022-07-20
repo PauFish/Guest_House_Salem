@@ -13,10 +13,10 @@ $_SESSION['to']  = $_POST['to'];
  <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Marimar</title>
+<title>SalemFish</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="description" content="Marimar Hotel template project">
+<meta name="description" content="SalemFish GuestHouse template project">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="<?php echo WEB_ROOT;?>styles/bootstrap-4.1.2/bootstrap.min.css">
 <link href="<?php echo WEB_ROOT;?>plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -82,7 +82,7 @@ if (isset($_SESSION['activity'])){
       <div class="header_right d-flex flex-row align-items-center justify-content-start">
         
         <!-- Header Link -->
-        <div class="header_link"><a href="/marimar/index.php?p=rooms">Book Your Room Now</a></div>
+        <div class="header_link"><a href="/index.php?p=rooms">Book Your Room Now</a></div>
 
         <!-- Hamburger Button -->
         <div class="hamburger"><i class="fa fa-bars" aria-hidden="true"></i></div>
@@ -131,7 +131,7 @@ if (isset($_SESSION['activity'])){
           <li><a href="<?php echo WEB_ROOT;?>index.php?p=contact">Contact</a></li>
         </ul>
       </nav>
-      <div class="button menu_button"><a href="/marimar/index.php?p=rooms">book now</a></div>
+      <div class="button menu_button"><a href="/index.php?p=rooms">book now</a></div>
 
       <!-- Menu Social -->
       <div class="social menu_social">
@@ -231,7 +231,7 @@ if (isset($_SESSION['activity'])){
               </div>
             </div>
           </div>
-          <div class="footer_bar text-center"><!-- licensed under CC BY 3.0. -->
+          <div class="footer_bar text-center">
         Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Harper & Colorlib></a></div>
         </div>
       </div>

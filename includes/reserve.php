@@ -1,8 +1,8 @@
 <?php
 /**
 * Description:	This is a class for member.
-* Author:		Joken Villanueva
-* Date Created:	Nov. 2, 2013
+* Author:		Harper
+* Date Created:	2022
 * Revised By:		
 */
 require_once(LIB_PATH.DS.'database.php');

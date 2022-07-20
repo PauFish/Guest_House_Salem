@@ -1,9 +1,9 @@
 <?php
 /**
 * Description:	This includes for basic and core configurations.
-* Author:		Joken Villanueva
-* Date Created:	october 27, 2013
-* Revised By:		
+* Author:		Harper
+* Date Created:	7/ 20, 2022
+* Revised By:	Richard	
 */
 
 //define the core paths
@@ -12,7 +12,7 @@
 //DIRECTORY_SEPARATOR is a PHP Pre-defined constants:
 //(\ for windows, / for Unix)
 defined('DS') ? null : define('DS', DIRECTORY_SEPARATOR);
-defined('SITE_ROOT') ? null : define ('SITE_ROOT', $_SERVER['DOCUMENT_ROOT'].DS.'marimar');
+defined('SITE_ROOT') ? null : define ('SITE_ROOT', $_SERVER['DOCUMENT_ROOT'].DS.'');
 defined('LIB_PATH') ? null : define ('LIB_PATH',SITE_ROOT.DS.'includes');
 
 // load config file first 
