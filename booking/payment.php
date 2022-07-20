@@ -241,12 +241,13 @@ for ($i=0; $i < $count_cart  ; $i++) {
 
     <div class="right"> 
       <h3 style="text-align: right;">Total: &euro; <?php echo   $_SESSION['pay'] ;?></h3>
+     <br>
+     <div class="aceptar_clausulas d-flex flex-column align-items-center justify-content-flex-end font-weight-bold ">
+      <label display:flex ><input type="checkbox" value="first_checkbox" required="required" >By pressing "Send Booking Request" you will send us a reservation request. You will receive a message by email to proceed with the payment and only then your reservation completed.</label>
     </div>
     <br>
-
-    
     <div class="submit_name">
-       <button type="submit" class="button"  name="btnsubmitbooking">Submit Booking</button>
+       <button type="submit" class="button"  name="btnsubmitbooking">Send Booking Request</button>
     </div>
   </div>   
 </form>

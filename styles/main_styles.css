@@ -365,7 +365,7 @@ section
 	font-style: italic;
 	font-size: 136px;
 	font-weight: 700;
-	color: #f7f2ec;
+	color: #fde8cf;
 	line-height: 0.75;
 	z-index: 0;
 	
@@ -1335,9 +1335,11 @@ section
 	color: #ff9000;
 }
 
+
+
 /********** Faq's *****/
 
-.faq-section {
+.faq-section { 
 	margin-top: -75px;
     background: #ffffff;
     min-height: 100vh;
