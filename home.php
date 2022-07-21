@@ -6,14 +6,14 @@
         <div class="col">
           <div class="section_title text-center">
             <div>Welcome</div>
-            <h1>Amazing Hotel near the Sea</h1>
+            <h1>Amazing Hotel Near the Sea</h1>
           </div>
         </div>
       </div>
       <div class="row intro_row">
         <div class="col-xl-8 col-lg-10 offset-xl-2 offset-lg-1">
           <div class="intro_text text-center">
-            <p>You will stay at our beautiful guesthouse! We have 5 rooms With queen sized beds for a relaxing sleep after a day filled with adventures! All rooms are air-conditioned, en-suite private bathroom </p> 
+            <p>You will stay at our beautiful guesthouse! We have 5 rooms with queen sized beds for a relaxing sleep after a day filled with adventures! All rooms are air-conditioned, with en-suite private bathroom </p> 
           </div>
         </div>
       </div>
@@ -125,7 +125,7 @@
               <h1>Double Rooms</h1>
             </div>
             <div class="rooms_text">
-              <p>We have 3 double rooms with one queen sized bed each for a relaxing sleep after a day filled with adventures! The room is air-conditioned and is also equipped with ceiling fan. En-suite private bathroom, with toilet, shower and hot water.</p>
+              <p>We have 3 double rooms with one queen sized bed each for a relaxing sleep after a day filled with adventures! The room is air-conditioned and is also equipped with a ceiling fan. En-suite private bathroom with toilet, shower and hot water.</p>
             </div>
             <div class="rooms_list">
               <ul>
@@ -151,7 +151,7 @@
                 </li>
               </ul>
             </div>
-            <div class="rooms_price">50€/<span>Night</span></div>
+            <div class="rooms_price">50€/<span>night</span></div>
            
           </div>
         </div>
@@ -175,7 +175,7 @@
             </div>
             <div class="rooms_text">
               <p>We have 2 family rooms with two queen sized bed each for a relaxing sleep after a 
-                day filled with adventures! The room is air-conditioned and is also equipped with ceiling fan. 
+                day filled with adventures! The room is air-conditioned and is also equipped with a ceiling fan. 
                 En-suite private bathroom, with toilet, shower and hot water.</p>
             </div>
             <div class="rooms_list">
@@ -202,7 +202,7 @@
                 </li>
               </ul>
             </div>
-            <div class="rooms_price">60€/<span>Night</span></div>
+            <div class="rooms_price">60€/<span>night</span></div>
           </div>
         </div>
 
@@ -304,7 +304,7 @@
               <!-- Slide -->
               <div>
                 <div class="testimonial_text text-center">
-                  <p>Really nice house. Everything looks new. Salem is really nice, he brought us to the beach, to see the turtles and even on a boat for fishing, to see dolphins and to swim with sea turtles. We didn't expect anything for our trip to Ras Al Hadd and the experiences we had are some of our highlights of our trip to Oman. Highly recommended if you go to the region for turtles !</p>
+                  <p>Really nice house. Everything looks new. Salem is really nice, he brought us to the beach, to see the turtles and even on a boat for fishing, to see dolphins and to swim with sea turtles. We didn't expect anything from our trip to Ras Al Hadd and the experiences we had are some of the highlights of our trip to Oman. Highly recommended if you go to the region for turtles!</p>
                 </div>
                 <div class="testimonial_author text-center">
                   <div class="testimonial_author_image"><img src="images/author_2.jpg" alt=""></div>
@@ -315,18 +315,18 @@
               <!-- Slide -->
               <div>
                 <div class="testimonial_text text-center">
-                  <p>Our stays at Salem guest house was amazing. The place is really nice and near the sea. Salem offers a lot of activities as fishing tour and fish bbq. He was very welcoming.</p>
+                  <p>Our stay at Salem guest house was amazing. The place is really nice and near the sea. Salem offers a lot of activities as fishing tour and fish bbq. He was very welcoming.</p>
                 </div>
                 <div class="testimonial_author text-center">
                   <div class="testimonial_author_image"><img src="images/author_1.jpg" alt=""></div>
-                  <div class="testimonial_author_name"><a href="#">Louise, </a><span>Antony,France. June 2022</span></div>
+                  <div class="testimonial_author_name"><a href="#">Louise, </a><span>Antony, France. June 2022</span></div>
                 </div>
               </div>
 
               <!-- Slide -->
               <div>
                 <div class="testimonial_text text-center">
-                  <p>Our stay with Salem was the highlight of our time in Oman. We arrived to a 'catch of the day' bbq of Tuna then were lucky enough to see a turtle on the beach afterwards. After a fantastic breakfast in the morning Salem took us out in his boat to see hundreds of dolphins. Can highly recommend staying with Salem!</p>
+                  <p>Our stay with Salem was the highlight of our time in Oman. We arrived to a 'catch of the day' bbq of tuna then were lucky enough to see a turtle on the beach afterwards. After a fantastic breakfast in the morning Salem took us out in his boat to see hundreds of dolphins. Can highly recommend staying with Salem!</p>
                 </div>
                 <div class="testimonial_author text-center">
                   <div class="testimonial_author_image"><img src="images/author_3.jpg" alt=""></div>
@@ -337,7 +337,7 @@
               <!-- Slide -->
               <div>
                 <div class="testimonial_text text-center">
-                  <p>We had a wonderful time staying at Salem's.A great way to experience a real Omani fishing village, it's people & the surroundings. Salem's home was clean , homely & comfortable. We loved the trip out to see the dolphins & see others fishing. Early morning walks aling the almost deserted beaches was magical. Thankyou for the Omani experience</p>
+                  <p>We had a wonderful time staying at Salem's. A great way to experience a real Omani fishing village, it's people & the surroundings. Salem's home was clean, homely & comfortable. We loved the trip out to see the dolphins & see others fishing. Early morning walks along the almost deserted beaches was magical. Thank you for the Omani experience</p>
                 </div>
                 <div class="testimonial_author text-center">
                   <div class="testimonial_author_image"><img src="images/author_4.jpg" alt=""></div>
