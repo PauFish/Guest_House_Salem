@@ -14,6 +14,12 @@
 
 ******************************/
 
+/* ricardo*/
+
+$('.datepicker.booking_input').on('changeDate', function(){
+    $('.datepicker.dropdown-menu ').css('display','none')
+});
+
 $(document).ready(function()
 {
 	"use strict";

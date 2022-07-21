@@ -17,6 +17,13 @@
 
 $(document).ready(function()
 {
+
+/* ricardo*/
+
+$('.datepicker.booking_input').on('changeDate', function(){
+    $('.datepicker.dropdown-menu ').css('display','none')
+});
+
 	"use strict";
 
 	/* 

@@ -129,18 +129,14 @@ if (isset($_SESSION['activity'])){
           <li><a href="<?php echo WEB_ROOT;?>index.php?p=rooms">Rooms</a></li> 
           <li><a href="<?php echo WEB_ROOT;?>index.php?p=tours">Tours</a></li> 
           <li><a href="<?php echo WEB_ROOT;?>index.php?p=contact">Contact</a></li>
+          <br>
+          <li><a href="https://www.instagram.com/salemfish/" target="_blank" rel="noopener noreferrer"><i class="fa fa-instagram" aria-hidden="true" ></i></a></li>
+          <li><a href="https://www.facebook.com/salem.fish" target="_blank" rel="noopener noreferrer"><i class="fa fa-facebook" aria-hidden="true" ></i></a></li>
         </ul>
       </nav>
       <div class="button menu_button"><a href="/index.php?p=rooms">book now</a></div>
 
-      <!-- Menu Social -->
-      <div class="social menu_social">
-        <ul class="d-flex flex-row align-items-center justify-content-start">
-          <li><a href="https://www.instagram.com/salemfish/" target="_blank" rel="noopener noreferrer"><i class="fa fa-instagram" aria-hidden="true" ></i></a></li>
-          <li><a href="https://www.facebook.com/salem.fish" target="_blank" rel="noopener noreferrer"><i class="fa fa-facebook" aria-hidden="true" ></i></a></li>
-          
-        </ul>
-      </div>
+     
 
     </div>
   </div>
