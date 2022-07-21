@@ -13,7 +13,7 @@
               <p>Please if you have any questions do not hesitate to contact me or send me an email info@salemfish.com</p>
             </div> 
             <div class="contact_form_container">
-              <form action="https://formsubmit.co/73fdc8e6dda59d552258ecef2552adf4" method="POST"  class="contact_form d-flex flex-column align-items-center justify-content-center">
+            <form action="https://formsubmit.co/73fdc8e6dda59d552258ecef2552adf4" method="POST"  class="contact_form d-flex flex-column align-items-center justify-content-center">
                 <div class="row d-flex flex-column align-items-center justify-content-center">
                     <div class="col-lg-6 d-flex flex-column align-items-center justify-content-center"> 
                     <input type="text" name="name" class="contact_input_name d-flex flex-column align-items-center justify-content-center" placeholder="Your name" required="required">
@@ -38,8 +38,9 @@
                  <!--  Modelo de email hay 3 https://formsubmit.co/email-templates-->
                   <input type="hidden" name="_template" value="box">
                    <!--Nuestra pagina de Gracias le responderemos pronto-->
-                  <input type="hidden" name="_next" value="https://salemfish.com/thanks.html"> 
-                  
+                  <input type="hidden" name="_next" value="https://salemfish.com/thanks.php"> 
+                  <!-- quita seguridad-->
+                  <input type="hidden" name="_captcha" value="false">
 
               </form>
             </div>

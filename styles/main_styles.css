@@ -1158,11 +1158,11 @@ section
 	padding-left: 130px;
 	padding-bottom: 110px;
 	padding-right: 130px;
-	background: #f4f5fa;
+	background: #171126;
 }
 .rooms_right_content .section_title > div
 {
-	color: #ffffff;
+	color: #fff4eac2;
 }
 .rooms_right_content .section_title h1
 {
@@ -1188,7 +1188,7 @@ section
 {
 	font-size: 15px;
 	font-weight: 400;
-	color: #4a4f59;
+	color: #000000;
 }
 .rooms_price
 {
@@ -1201,7 +1201,7 @@ section
 {
 	font-size: 18px;
 	font-weight: 700;
-	color: #4a4f59;
+	color: #000000;
 	margin-left: 5px;
 }
 
@@ -1220,12 +1220,12 @@ section
 }
 .rooms_left_content .section_title h1
 {
-	color: #ffffff;
+	color: #fff4ea94 ;
 	margin-top: -31px;
 }
 .rooms_left_content .section_title div
 {
-	color: #3a3744;
+	color: #fff4eac2;
 }
 .rooms_left_content .rooms_text p
 {
@@ -1239,6 +1239,24 @@ section
 {
 	color: #bfc8d8;
 }
+
+
+.rooms_right_content .rooms_text p
+{
+	color: #bfc8d8;
+}
+.rooms_right_content .rooms_list ul li span
+{
+	color: #bfc8d8;
+}
+.rooms_right_content .rooms_price span
+{
+	color: #bfc8d8;
+}
+
+
+
+
 .rooms_slider_container
 {
 	height: 100%;
@@ -1892,4 +1910,15 @@ div.table-title {
 	
 }
 
+/******thanks**/
+
+
+.thanks{
+ background-color: #a07bff;
+}
+
+.thanks h1{
+	font-size:20 px;
+	color:#db5246;
+}  
 

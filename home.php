@@ -119,9 +119,11 @@
 
         <!-- Rooms Content -->
         <div class="col-xl-6 order-xl-2 order-1">
-          <div class="rooms_right_content">>
+          <div class="rooms_right_content">
             <div class="section_title">
               <div>Rooms</div>
+              <br>
+              <br>
               <h1>Double Rooms</h1>
             </div>
             <div class="rooms_text">
@@ -151,7 +153,7 @@
                 </li>
               </ul>
             </div>
-            <div class="rooms_price">50€/<span>night</span></div>
+            <div class="rooms_price">54€/<span>night</span></div>
            
           </div>
         </div>
@@ -171,8 +173,11 @@
           <div class="rooms_left_content">
             <div class="section_title">
               <div>Rooms</div>
+              <br>
+              <br>
               <h1>Family Rooms</h1>
             </div>
+            
             <div class="rooms_text">
               <p>We have 2 family rooms with two queen sized bed each for a relaxing sleep after a 
                 day filled with adventures! The room is air-conditioned and is also equipped with a ceiling fan. 
@@ -202,7 +207,7 @@
                 </li>
               </ul>
             </div>
-            <div class="rooms_price">60€/<span>night</span></div>
+            <div class="rooms_price">69€/<span>night</span></div>
           </div>
         </div>
 
