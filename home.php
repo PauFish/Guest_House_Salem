@@ -13,7 +13,7 @@
       <div class="row intro_row">
         <div class="col-xl-8 col-lg-10 offset-xl-2 offset-lg-1">
           <div class="intro_text text-center">
-            <p>You will stay at our beautiful guesthouse! We have 5 rooms with queen sized beds for a relaxing sleep after a day filled with adventures! All rooms are air-conditioned, with en-suite private bathroom </p> 
+            <p>You will stay at our beautiful guesthouse! We have 5 rooms with queen sized beds for a relaxing sleep after a day filled with adventures! All rooms are air-conditioned, with en-suite private bathroom. </p> 
           </div>
         </div>
       </div>

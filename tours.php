@@ -32,7 +32,7 @@
             <div class="offer_content text-center">
               <div class="offer_title"><h3>Turtle</h3></div>
               <div class="offer_text">
-                <p>Ras al Hadd is <b>the best</b> enclave to see green turtles. You can see them just walking along the beach almost all year round!</p>
+                <p>Ras al Hadd is <b>the best</b> enclave to see green turtles. You can see them just walking along the beach almost all year round!!!</p>
               </div>
            
             </div>

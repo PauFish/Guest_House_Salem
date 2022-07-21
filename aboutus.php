@@ -24,7 +24,7 @@
                 </p><p> I also do guided desert tours 
                     4x4, camp, accommodation and food included just message me for more information and availability. 
                      I hope you will make many
-                     memories here and we look forward to welcoming you soon!</p>
+                     memories here and we look forward to welcoming you soon! </p>
             </div>
       </div>
     </div>
