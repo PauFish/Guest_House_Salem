@@ -840,6 +840,13 @@ section
 /*********************************
 6. Booking
 *********************************/
+#new_usuario{
+	color: black !important;
+	font-weight: bold !important;
+	font-size: 25px;
+
+}
+
 
 .booking
 {

@@ -28,17 +28,17 @@
                   <textarea name="Message" class="contact_input_name d-flex flex-column align-items-center justify-content-center" placeholder="Message" required="required"></textarea>
                   </div>
                 </div>
-                <button type="submit" class="contact_button d-flex flex-column align-items-center justify-content-center">Send</button>
+                <button type="submit" class="contact_button d-flex flex-column align-items-center justify-content-center" >Send</button>
              
                 <!-- Personalizar enlace una vez apretar boton send gracias a https://formsubmit.co/ existen mas mods-->
                   
-                  <!-- Modifica el Asunto del email para hacer renviar desde el email mas guapo-->
+                <!--  Modifica el Asunto del email para hacer renviar desde el email mas guapo-->
                   <input type="hidden" name="_subject" value="SalemFish Guest House Oman Contact Message">
-                
-                  <!-- Modelo de email hay 3 https://formsubmit.co/email-templates-->
+                <!--Nuestra pagina de Gracias le responderemos pronto-->
+                 <!--  Modelo de email hay 3 https://formsubmit.co/email-templates-->
                   <input type="hidden" name="_template" value="box">
-                  <!-- Nuestra pagina de Gracias le responderemos pronto
-                  <input type="hidden" name="_next" value="www.salemfish.com/thanks.html"> -->
+                   <!--Nuestra pagina de Gracias le responderemos pronto-->
+                  <input type="hidden" name="_next" value="https://salemfish.com/thanks.html"> 
                   
 
               </form>

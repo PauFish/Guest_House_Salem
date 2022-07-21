@@ -119,7 +119,7 @@ $_SESSION['GUESTID'] =   $lastguest;
 
             ?> 
 
-<script type="text/javascript"> alert("Booking is successfully submitted!");</script>
+<script type="text/javascript"> alert("Thank you for your REQUEST. In less than 24h you will receive an EMAIL with our payment gateway and ONLY then your reservation will be completed. ");</script>
 
             <?php
             
