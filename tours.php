@@ -11,9 +11,9 @@
               <h1>Book your tours directly at the Guest House!</h1>
             </div>
             <div class="intro_text">
-                <p><b>You don't need to book here, places guaranteed if you sleep in our guest house!</b> Tours will be <b>paid in Omani Rial (no credit card)</b>, but you can always email us for additional info if you like. <p>
-                <p>Book a boat trip directly from us <b>without intermediaries</b>, for fishing, dolphin-watching and snorkeling; Catch of the 
-                  day BBQ also available for an unforgettable dinner Bedouin-style, with local fresh fish. 
+                <p><b>You don't need to book here, places guaranteed if you sleep in our guest house!</b> Tours will be <b>paid in OMR (Omani Rial, no credit card)</b>, but you can always email us for additional info if you like. <p>
+                <p>Book a boat trip directly from us, <b>without intermediaries</b>, for fishing, dolphin-watching and snorkeling. Catch of the 
+                  day BBQ also available for an unforgettable Bedouin-style dinner with local fresh fish. 
                 </p><p>We also do guided <b>desert tours</b> 
                     4x4, camp, accommodation and food included just contact me for more information and availability. 
                     </p><p >I hope you will make many
@@ -32,7 +32,7 @@
             <div class="offer_content text-center">
               <div class="offer_title"><h3>Turtle</h3></div>
               <div class="offer_text">
-                <p>Ras al Hadd it is <b>the best</b> enclave to see green turtles. You will see them just walking along the beach almost all year round!</p>
+                <p>Ras al Hadd is <b>the best</b> enclave to see green turtles. You can see them just walking along the beach almost all year round!</p>
               </div>
            
             </div>
@@ -46,7 +46,7 @@
             <div class="offer_content text-center">
               <div class="offer_title"><h3>Dolphin Tour</h3></div>
               <div class="offer_text">
-                <p>Dozens of dolphins will follow the boat jumping. Our clients say that it is <b>the best experience</b> of their trip in Oman and one of the best of their <b>life</b>.</p>
+                <p>Dozens of dolphins will follow the boat jumping. Our clients say that it is <b>the best experience</b> of their trip to Oman and one of the best in their <b>life</b>.</p>
               </div>
            
             </div>
@@ -60,7 +60,7 @@
             <div class="offer_content text-center">
               <div class="offer_title"><h3>Fishing Tour</h3></div>
               <div class="offer_text">
-              <p>It does not matter if you are an expert Angler or want to fish for the first time. You will fish<b> Omani style</b>.</p>
+              <p>It does not matter if you are an expert angler or want to fish for the first time. You will fish<b> Omani style</b>.</p>
                </div>
            
             </div>
@@ -74,8 +74,8 @@
             <div class="offer_content text-center">
               <div class="offer_title"><h3>Omani BBQ for dinner</h3></div>
               <div class="offer_text">
-              <p>We prepare it <b>Omani style!</b> Salem will go to the market to look for Lobsters, Tuna, Lamb... or you will eat fishing tour's <b>Catch of the 
-                  day</b> BBQ All very fresh and delicious. If you have any intolerance or you are Vegan/Vegetarian, let us know <b>in advance.</b></p>
+              <p>We prepare it <b>Omani style!</b> Salem will go to the market to look for lobsters, tuna, lamb... or you will eat fishing tour's <b>catch of the 
+                  day</b> BBQ. All very fresh and delicious. If you have any intolerance or you are vegan/vegetarian, let us know <b>in advance.</b></p>
               </div>
             </div>
           </div>
@@ -88,7 +88,7 @@
             <div class="offer_content text-center">
               <div class="offer_title"><h3>Desert Tour</h3></div>
               <div class="offer_text">
-                <p>You will sleep in the desert enjoying millions of stars. we take care of everything, rooms, campfire, dinner, so you have a real experience in an Omani desert. <b>Please book in advance by mail</b></p>
+                <p>You will sleep in the desert enjoying millions of stars. We take care of everything, rooms, campfire, dinner, so you have a real experience in an Omani desert. <b>Please book in advance by mail</b></p>
               </div>
             </div>
           </div>
@@ -132,8 +132,8 @@
 <tr>
 <tr>
 <td class="text-left">Turtle Tour</td>
-<td class="text-left">My friend Rasaljin will do this tour, he is the only guide in charge in Ras Al Hadd doing all the turtle tours in the town.
-               He will give you price and schedule. Just ask and i I will put you in contact with him.</td>
+<td class="text-left">My friend Rasaljin will do this tour. He is the only guide in charge in Ras Al Hadd doing all the turtle tours in the town.
+               He will give you price and schedule. Just ask and I will put you in contact with him.</td>
 </tr>
 <td class="text-left">Desert Tour</td>
 <td class="text-left">PLEASE book in advance by mail. Price will vary according to how many you are.</td>
