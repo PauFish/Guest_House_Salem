@@ -45,7 +45,12 @@ $code=$_GET['code'];
                 <span class="pull-right"><?php echo $res->G_LNAME; ?></span></a></li>
                 <li class="active"><a><i class="fa fa-file-text-o"></i> ADDRESS : <br/>
                 <?php echo $res->G_ADDRESS; ?> </a></li>
-               
+                <!--pau-->
+                <li class="active"><a><i class="fa fa-file-text-o"></i> EMAIL : <br/>
+                <?php echo $res->G_EMAIL; ?> </a></li>
+
+                
+
               </ul>
             </div>
             <!-- /.box-body -->

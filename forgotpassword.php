@@ -118,7 +118,7 @@ require_once("includes/initialize.php");
                               <table>
                                 <tr>
                                   <td rowspan="3"> 
-                                    <img class="img"  src="<?php echo WEB_ROOT. $row['LOCATION']; ?>" alt="User Avatar">  
+                                    
                                   </td>
                                   <td>
                                     <div class="col-2">
