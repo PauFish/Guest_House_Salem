@@ -146,7 +146,7 @@ if (isset($_SESSION['activity'])){
   <!-- Home -->
 
   <div class="home">
-    <div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="<?php echo WEB_ROOT;?>images/home.jpg" data-speed="0.8"></div>
+    <div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="<?php echo WEB_ROOT;?>images/home.webp)" data-speed="0.8"></div>
     <div class="home_container d-flex flex-column align-items-center ">
       <div class="home_title text-center"><h1>SalemFish Guest House</h1></div>
       <div class="home_text text-center">Looking for your perfect vacation? <br> You will feel at home and enjoy the best tours so that you will enjoy your vacation to the fullest!</div>
