@@ -320,7 +320,7 @@
               <!-- Slide -->
               <div>
                 <div class="testimonial_text text-center">
-                  <p>Our stay at Salem guest house was amazing. The place is really nice and near the sea. Salem offers a lot of activities as fishing tour and fish bbq. He was very welcoming.</p>
+                  <p>Our stay at Salem guest house hotel was amazing. The place is really nice and near the sea. Salem offers a lot of activities as fishing tour and fish bbq. He was very welcoming.</p>
                 </div>
                 <div class="testimonial_author text-center">
                   <div class="testimonial_author_image"><img src="images/author_1.jpg" alt=""></div>
@@ -342,7 +342,7 @@
               <!-- Slide -->
               <div>
                 <div class="testimonial_text text-center">
-                  <p>We had a wonderful time staying at Salem's. A great way to experience a real Omani fishing village, it's people & the surroundings. Salem's home was clean, homely & comfortable. We loved the trip out to see the dolphins & see others fishing. Early morning walks along the almost deserted beaches was magical. Thank you for the Omani experience</p>
+                  <p>We had a wonderful time staying at Salem's hotel. A great way to experience a real Omani fishing village, it's people & the surroundings. Salem's home was clean, homely & comfortable. We loved the trip out to see the dolphins & see others fishing. Early morning walks along the almost deserted beaches was magical. Thank you for the Omani experience</p>
                 </div>
                 <div class="testimonial_author text-center">
                   <div class="testimonial_author_image"><img src="images/author_4.jpg" alt=""></div>
