@@ -64,10 +64,10 @@ if (isset($_SESSION['activity'])){
       <nav class="main_nav">
         <ul class="d-flex flex-row align-items-center justify-content-start">
            <li><a href="<?php echo WEB_ROOT;?>index.php">Home</a></li>
-           <li><a href="<?php echo WEB_ROOT;?>index.php?p=about#target_about">About us</a></li>
-          <li><a href="<?php echo WEB_ROOT;?>index.php?p=rooms#target_rooms">Rooms</a></li> 
-          <li><a href="<?php echo WEB_ROOT;?>index.php?p=tours#target_tours">Tours</a></li> 
-          <li><a href="<?php echo WEB_ROOT;?>index.php?p=contact#target_contact">Contact</a></li>
+          <li><a href="<?php echo WEB_ROOT;?>index.php?p=rooms">Rooms</a></li> 
+          <li><a href="<?php echo WEB_ROOT;?>index.php#target_tours">Tours</a></li> 
+          <li><a href="<?php echo WEB_ROOT;?>index.php#target_about">About us</a></li>
+          <li><a href="<?php echo WEB_ROOT;?>index.php#target_contact">Contact</a></li>
         </ul>
       </nav>
 
@@ -126,11 +126,11 @@ if (isset($_SESSION['activity'])){
       <!-- Menu Navigation -->
       <nav class="menu_nav text-center">
         <ul>
-          <li><a href="<?php echo WEB_ROOT;?>index.php">Home</a></li>
-          <li><a href="<?php echo WEB_ROOT;?>index.php?p=about#target_about">About us</a></li>
-          <li><a href="<?php echo WEB_ROOT;?>index.php?p=rooms#target_rooms">Rooms</a></li> 
-          <li><a href="<?php echo WEB_ROOT;?>index.php?p=tours#target_tours">Tours</a></li> 
-          <li><a href="<?php echo WEB_ROOT;?>index.php?p=contact#target_contact">Contact</a></li>
+        <li><a href="<?php echo WEB_ROOT;?>index.php">Home</a></li>
+        <li><a href="<?php echo WEB_ROOT;?>index.php?p=rooms">Rooms</a></li> 
+          <li><a href="<?php echo WEB_ROOT;?>index.php#target_tours">Tours</a></li> 
+          <li><a href="<?php echo WEB_ROOT;?>index.php#target_about">About us</a></li>
+          <li><a href="<?php echo WEB_ROOT;?>index.php#target_contact">Contact</a></li>
           <br>
           <li><a href="https://www.instagram.com/salemfish/" target="_blank" rel="noopener noreferrer"><i class="fa fa-instagram" aria-hidden="true" ></i></a></li>
           <li><a href="https://www.facebook.com/salem.fish" target="_blank" rel="noopener noreferrer"><i class="fa fa-facebook" aria-hidden="true" ></i></a></li>

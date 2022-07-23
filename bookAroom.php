@@ -1,4 +1,4 @@
- <div id="target_rooms">
+ <div id="target_rooms"></div>
  <?php
 $msg = "";
 
@@ -201,6 +201,6 @@ $_SESSION['departure'] =date_format(date_create($_POST['departure']),"Y-m-d");
           </div>
     
          </div>
-         </div>
+        
 
                   
