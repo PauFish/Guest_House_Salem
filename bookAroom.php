@@ -1,4 +1,5 @@
-  <?php
+ <div id="target_rooms">
+ <?php
 $msg = "";
 
 if(isset($_POST['booknow'])){
@@ -199,6 +200,7 @@ $_SESSION['departure'] =date_format(date_create($_POST['departure']),"Y-m-d");
               </div> 
           </div>
     
+         </div>
          </div>
 
                   

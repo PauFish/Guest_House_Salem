@@ -1,6 +1,6 @@
 
-<div class="intro_toursLink" id="toursLink">
-    <div class="container ">
+<div class="intro_toursLink" id="target_tours">
+    <div class="container " >
       <div class="row row-eq-height justify-content-center">
 
         <!-- Intro Content -->

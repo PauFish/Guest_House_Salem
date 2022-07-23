@@ -1,5 +1,6 @@
 <!-- <h1>About Us</h1> -->
-  <div class="intro">
+ <div id="target_about">
+<div class="intro" >
     <div class="container ">
       <div class="row row-eq-height justify-content-center">
 
@@ -232,6 +233,7 @@
                   </div>
                 </div>
                 </section>
+</div>
   
    
   

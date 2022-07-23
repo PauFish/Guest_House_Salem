@@ -1,6 +1,6 @@
 <!-- Contact -->
-
-  <div class="contact">
+<div id="target_contact">
+  <div class="contact" >
     <div class="contact_container">
       <div class="container">
         <div class="row">
@@ -54,6 +54,7 @@
        <div class="googleMap "><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1014.6343420148968!2d59.789026!3d22.5260912!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e9a017d5b7b9bef%3A0xcb517b7eff5082b0!2sSalem%20Fish%20Guesthouse!5e1!3m2!1sen!2ses!4v1657722423851!5m2!1sen!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
     </div>
+       </div>
 
      
 

@@ -64,12 +64,13 @@ if (isset($_SESSION['activity'])){
       <nav class="main_nav">
         <ul class="d-flex flex-row align-items-center justify-content-start">
            <li><a href="<?php echo WEB_ROOT;?>index.php">Home</a></li>
-          <li><a href="<?php echo WEB_ROOT;?>index.php?p=about">About us</a></li>
-          <li><a href="<?php echo WEB_ROOT;?>index.php?p=rooms">Rooms</a></li> 
-          <li><a href="<?php echo WEB_ROOT;?>index.php?p=tours">Tours</a></li> 
-          <li><a href="<?php echo WEB_ROOT;?>index.php?p=contact">Contact</a></li>
+           <li><a href="<?php echo WEB_ROOT;?>index.php?p=about#target_about">About us</a></li>
+          <li><a href="<?php echo WEB_ROOT;?>index.php?p=rooms#target_rooms">Rooms</a></li> 
+          <li><a href="<?php echo WEB_ROOT;?>index.php?p=tours#target_tours">Tours</a></li> 
+          <li><a href="<?php echo WEB_ROOT;?>index.php?p=contact#target_contact">Contact</a></li>
         </ul>
       </nav>
+
 
       <!-- Social -->
       <div class="social header_social ">
@@ -126,10 +127,10 @@ if (isset($_SESSION['activity'])){
       <nav class="menu_nav text-center">
         <ul>
           <li><a href="<?php echo WEB_ROOT;?>index.php">Home</a></li>
-          <li><a href="<?php echo WEB_ROOT;?>index.php?p=about">About us</a></li>
-          <li><a href="<?php echo WEB_ROOT;?>index.php?p=rooms">Rooms</a></li> 
-          <li><a href="<?php echo WEB_ROOT;?>index.php?p=tours">Tours</a></li> 
-          <li><a href="<?php echo WEB_ROOT;?>index.php?p=contact">Contact</a></li>
+          <li><a href="<?php echo WEB_ROOT;?>index.php?p=about#target_about">About us</a></li>
+          <li><a href="<?php echo WEB_ROOT;?>index.php?p=rooms#target_rooms">Rooms</a></li> 
+          <li><a href="<?php echo WEB_ROOT;?>index.php?p=tours#target_tours">Tours</a></li> 
+          <li><a href="<?php echo WEB_ROOT;?>index.php?p=contact#target_contact">Contact</a></li>
           <br>
           <li><a href="https://www.instagram.com/salemfish/" target="_blank" rel="noopener noreferrer"><i class="fa fa-instagram" aria-hidden="true" ></i></a></li>
           <li><a href="https://www.facebook.com/salem.fish" target="_blank" rel="noopener noreferrer"><i class="fa fa-facebook" aria-hidden="true" ></i></a></li>
@@ -149,7 +150,7 @@ if (isset($_SESSION['activity'])){
     <div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="<?php echo WEB_ROOT;?>images/home.webp" data-speed="0.8"></div>
     <div class="home_container d-flex flex-column align-items-center ">
       <div class="home_title text-center"><h1>SalemFish Guest House</h1></div>
-      <div class="home_text text-center">Looking for your perfect vacation? <br> You will feel at home and enjoy the best tours so that you will enjoy your vacation to the fullest!</div>
+      <div class="home_text text-center">Looking for your perfect vacation in a hotel at Ras Al Hadd, Oman? <br> You will feel at home and enjoy the best tours so that you will enjoy your vacation to the fullest!</div>
       
     </div>
   </div>
