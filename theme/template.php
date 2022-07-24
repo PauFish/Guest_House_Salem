@@ -14,10 +14,10 @@ $_SESSION['to']  = $_POST['to'];
 <html lang="en">
 <head>
 <link rel="icon" type="image/jpg" href="../images/fh.png"/>
-<title>SalemFish Guest House - Ras Al Hadd - Oman</title>
+<title>SalemFish Hotel - Ras Al Hadd - Oman</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="description" content="SalemFish GuestHouse template project">
+<meta name="description" content="salemfish ras al hadd hotel guest house oman green turtle turtles dolphin">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="<?php echo WEB_ROOT;?>styles/bootstrap-4.1.2/bootstrap.min.css">
 <link href="<?php echo WEB_ROOT;?>plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -149,8 +149,8 @@ if (isset($_SESSION['activity'])){
   <div class="home">
     <div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="<?php echo WEB_ROOT;?>images/home.webp" data-speed="0.8"></div>
     <div class="home_container d-flex flex-column align-items-center ">
-      <div class="home_title text-center"><h1>SalemFish Guest House</h1></div>
-      <div class="home_text text-center">Looking for your perfect vacation in a hotel at Ras Al Hadd, Oman? <br> You will feel at home and enjoy the best tours so that you will enjoy your vacation to the fullest!</div>
+      <div class="home_title text-center"><h1>RAS AL HAD HOTEL</h1></div>
+      
       
     </div>
   </div>

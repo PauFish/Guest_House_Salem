@@ -74,7 +74,7 @@ $result = $g->single_guest($_SESSION['GUESTID']);
 
           </li>
           <?php }else { ?>
-            <li><a     data-target="#LoginModal" data-toggle="modal"  title="Login Guest"  href="">Login
+            <li><a data-target="#LoginModal" data-toggle="modal"  title="Login Guest">Login
              </a>
              </li>
         <?php  } ?>

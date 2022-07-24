@@ -811,21 +811,11 @@ section
 	font-weight: 700;
 	color: #ffffff;
 	font-style: italic;
-	font-size: 72px;
+	font-size: 50px;
 	text-shadow: 1px 1px #000000;
-}
-.home_text
-{
-	font-size: 23px;
-	font-weight: 700;
-	color: #000000;
-	padding-left: 25px;
-	padding-right: 25px;
-	max-width: 820px;
-	margin-top: 5px;
-	line-height: 2;
 	
 }
+
 .home_button
 {
 	margin-top: 32px;
