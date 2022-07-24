@@ -26,7 +26,7 @@
               
               <!-- Slide -->
               <div class="gallery_slide">
-                <img src="images/gallery_3.jpg" alt="">
+                <img src="images/gallery_3.webp" alt="">
                 <div class="gallery_overlay">
                   <div class="text-center d-flex flex-column align-items-center justify-content-center">
                     
@@ -39,7 +39,7 @@
 
               <!-- Slide -->
               <div class="gallery_slide">
-                <img src="images/gallery_1.jpg" alt="">
+                <img src="images/gallery_1.webp" alt="">
                 <div class="gallery_overlay">
                   <div class="text-center d-flex flex-column align-items-center justify-content-center">
                     
@@ -52,7 +52,7 @@
 
               <!-- Slide -->
               <div class="gallery_slide">
-                <img src="images/gallery_4.jpg" alt="">
+                <img src="images/gallery_4.webp" alt="">
                 <div class="gallery_overlay">
                   <div class="text-center d-flex flex-column align-items-center justify-content-center">
                     
@@ -65,7 +65,7 @@
 
               <!-- Slide -->
               <div class="gallery_slide">
-                <img src="images/gallery_2.jpg" alt="">
+                <img src="images/gallery_2.webp" alt="">
                 <div class="gallery_overlay">
                   <div class="text-center d-flex flex-column align-items-center justify-content-center">
                     
@@ -97,21 +97,21 @@
               
               <!-- Slide -->
               <div class="slide">
-                <div class="background_image" style="background-image:url(images/rooms_1.jpg)"></div>
+                <div class="background_image" style="background-image:url(images/rooms_1.webp)"></div>
               </div>
 
               <!-- Slide -->
               <div class="slide">
-                <div class="background_image" style="background-image:url(images/rooms_1a.jpg)"></div>
+                <div class="background_image" style="background-image:url(images/rooms_1a.webp)"></div>
               </div>
 
               <!-- Slide -->
               <div class="slide">
-                <div class="background_image" style="background-image:url(images/rooms_1b.jpg)"></div>
+                <div class="background_image" style="background-image:url(images/rooms_1b.webp)"></div>
               </div>
               <!-- Slide -->
               <div class="slide">
-                <div class="background_image" style="background-image:url(images/rooms_1t.jpg)"></div>
+                <div class="background_image" style="background-image:url(images/rooms_1t.webp)"></div>
               </div>
             </div>
           </div>
@@ -132,23 +132,23 @@
             <div class="rooms_list">
               <ul>
               <li class="d-flex flex-row align-items-center justify-content-start">
-                  <img src="images/check.png" alt="">
+                  <img src="images/check.ico" alt="">
                   <span>1 Queen sized bed</span>
                 </li>
                 <li class="d-flex flex-row align-items-center justify-content-start">
-                  <img src="images/check.png" alt="">
+                  <img src="images/check.ico" alt="">
                   <span>En-suite private bathroom</span>
                 </li>
                 <li class="d-flex flex-row align-items-center justify-content-start">
-                  <img src="images/check.png" alt="">
+                  <img src="images/check.ico" alt="">
                   <span>Air-conditioned</span>
                 </li>
                 <li class="d-flex flex-row align-items-center justify-content-start">
-                  <img src="images/check.png" alt="">
+                  <img src="images/check.ico" alt="">
                   <span>Shower and hot water</span>
                 </li>
                 <li class="d-flex flex-row align-items-center justify-content-start">
-                  <img src="images/check.png" alt="">
+                  <img src="images/check.ico" alt="">
                   <span>Towels</span>
                 </li>
               </ul>
@@ -184,23 +184,23 @@
             <div class="rooms_list">
               <ul>
               <li class="d-flex flex-row align-items-center justify-content-start">
-                  <img src="images/check.png" alt="">
+                  <img src="images/check.ico" alt="">
                   <span>2 Queen sized beds</span>
                 </li>
                 <li class="d-flex flex-row align-items-center justify-content-start">
-                  <img src="images/check.png" alt="">
+                  <img src="images/check.ico" alt="">
                   <span>En-suite private bathroom</span>
                 </li>
                 <li class="d-flex flex-row align-items-center justify-content-start">
-                  <img src="images/check.png" alt="">
+                  <img src="images/check.ico" alt="">
                   <span>Air-conditioned</span>
                 </li>
                 <li class="d-flex flex-row align-items-center justify-content-start">
-                  <img src="images/check.png" alt="">
+                  <img src="images/check.ico" alt="">
                   <span>Shower and hot water</span>
                 </li>
                 <li class="d-flex flex-row align-items-center justify-content-start">
-                  <img src="images/check.png" alt="">
+                  <img src="images/check.ico" alt="">
                   <span>Towels</span>
                 </li>
               </ul>
@@ -216,17 +216,17 @@
               
               <!-- Slide -->
               <div class="slide">
-                <div class="background_image" style="background-image:url(images/rooms_2.jpg)"></div>
+                <div class="background_image" style="background-image:url(images/rooms_2.webp)"></div>
               </div>
 
               <!-- Slide -->
               <div class="slide">
-                <div class="background_image" style="background-image:url(images/rooms_2a.jpg)"></div>
+                <div class="background_image" style="background-image:url(images/rooms_2a.webp)"></div>
               </div>
 
               <!-- Slide -->
               <div class="slide">
-                <div class="background_image" style="background-image:url(images/rooms_2t.jpg)"></div>
+                <div class="background_image" style="background-image:url(images/rooms_2t.webp)"></div>
               </div>
             </div>
           </div>
@@ -250,7 +250,7 @@
         
         <!-- Slide -->
         <div class="slide">
-          <div class="background_image" style="background-image:url(images/discover_1.jpg)"></div>
+          <div class="background_image" style="background-image:url(images/discover_1.webp)"></div>
           <div class="discover_overlay d-flex flex-column align-items-center justify-content-center">
             <h1><a href="/index.php?p=tours#toursLink">Small and Big groups</a></h1>
           </div>
@@ -258,7 +258,7 @@
         
         <!-- Slide -->
         <div class="slide">
-          <div class="background_image" style="background-image:url(images/discover_2.jpg)"></div>
+          <div class="background_image" style="background-image:url(images/discover_2.webp)"></div>
           <div class="discover_overlay d-flex flex-column align-items-center justify-content-center">
             <h1><a href="/index.php?p=tours#toursLink">Fishing</a></h1>
           </div>
@@ -266,7 +266,7 @@
 
         <!-- Slide -->
         <div class="slide">
-          <div class="background_image" style="background-image:url(images/discover_3.jpg)"></div>
+          <div class="background_image" style="background-image:url(images/discover_3.webp)"></div>
           <div class="discover_overlay d-flex flex-column align-items-center justify-content-center">
             <h1><a href="/index.php?p=tours#toursLink">Dolphins</a></h1>
           </div>
@@ -274,7 +274,7 @@
 
         <!-- Slide -->
         <div class="slide">
-          <div class="background_image" style="background-image:url(images/discover_4.jpg)"></div>
+          <div class="background_image" style="background-image:url(images/discover_4.webp)"></div>
           <div class="discover_overlay d-flex flex-column align-items-center justify-content-center">
             <h1><a href="/index.php?p=tours#toursLink">Desert Trips</a></h1>
           </div>
@@ -313,7 +313,7 @@
         <!-- Offer Item -->
         <div class="col-xl-4 col-md-6">
           <div class="offer">
-            <div class="offer_image"><img src="images/offer_2.jpg" alt="Turtle"></div>
+            <div class="offer_image"><img src="images/offer_2.webp" alt="Turtle"></div>
             <div class="offer_content text-center">
               <div class="offer_title"><h3>Turtle</h3></div>
               <div class="offer_text">
@@ -327,7 +327,7 @@
         <!-- Offer Item -->
         <div class="col-xl-4 col-md-6">
           <div class="offer">
-            <div class="offer_image"><img src="images/offer_3.jpg" alt="Dolphin Tour"></div>
+            <div class="offer_image"><img src="images/offer_3.webp" alt="Dolphin Tour"></div>
             <div class="offer_content text-center">
               <div class="offer_title"><h3>Dolphin Tour</h3></div>
               <div class="offer_text">
@@ -341,7 +341,7 @@
         <!-- Offer Item -->
         <div class="col-xl-4 col-md-6">
           <div class="offer">
-            <div class="offer_image"><img src="images/offer_4.jpg" alt="Fishing Tour"></div>
+            <div class="offer_image"><img src="images/offer_4.webp" alt="Fishing Tour"></div>
             <div class="offer_content text-center">
               <div class="offer_title"><h3>Fishing Tour</h3></div>
               <div class="offer_text">
@@ -355,7 +355,7 @@
         <!-- Offer Item -->
         <div class="col-xl-4 col-md-6">
           <div class="offer">
-            <div class="offer_image"><img src="images/offer_5.jpg" alt="Omani BBQ for dinner"></div>
+            <div class="offer_image"><img src="images/offer_5.webp" alt="Omani BBQ for dinner"></div>
             <div class="offer_content text-center">
               <div class="offer_title"><h3>Omani BBQ for dinner</h3></div>
               <div class="offer_text">
@@ -368,7 +368,7 @@
         <!-- Offer Item -->
         <div class="col-xl-4 col-md-6">
           <div class="offer">
-            <div class="offer_image"><img src="images/offer_6.jpg" alt="Desert Tour"></div>
+            <div class="offer_image"><img src="images/offer_6.webp" alt="Desert Tour"></div>
             <div class="offer_content text-center">
               <div class="offer_title"><h3>Desert Tour</h3></div>
               <div class="offer_text">
@@ -462,46 +462,46 @@ He will give you the cost and the timetable. Just let me know, and I'll put you 
         
         <!-- Slide -->
         <div class="slide">
-          <div class="background_image" style="background-image:url(images/1guests.jpeg)"></div>
+          <div class="background_image" style="background-image:url(images/1guests.webp)"></div>
           <div class="discover_overlay d-flex flex-column align-items-center justify-content-center">
           </div>
         </div>
 
         <!-- Slide -->
         <div class="slide">
-          <div class="background_image" style="background-image:url(images/4guests.jpeg)"></div>
+          <div class="background_image" style="background-image:url(images/4guests.webp)"></div>
           <div class="discover_overlay d-flex flex-column align-items-center justify-content-center">
           </div>
         </div>
         <!-- Slide -->
         <div class="slide">
-          <div class="background_image" style="background-image:url(images/12guests.jpeg)"></div>
+          <div class="background_image" style="background-image:url(images/12guests.webp)"></div>
           <div class="discover_overlay d-flex flex-column align-items-center justify-content-center">
           </div>
         </div>
         
         <!-- Slide -->
         <div class="slide">
-          <div class="background_image" style="background-image:url(images/6guests.jpeg)"></div>
+          <div class="background_image" style="background-image:url(images/6guests.webp)"></div>
           <div class="discover_overlay d-flex flex-column align-items-center justify-content-center">
           </div>
         </div>
 <!-- Slide -->
 <div class="slide">
-          <div class="background_image" style="background-image:url(images/10guests.jpeg)"></div>
+          <div class="background_image" style="background-image:url(images/10guests.webp)"></div>
           <div class="discover_overlay d-flex flex-column align-items-center justify-content-center">
           </div>
         </div>
         <!-- Slide -->
         <div class="slide">
-          <div class="background_image" style="background-image:url(images/11guests.jpeg)"></div>
+          <div class="background_image" style="background-image:url(images/11guests.webp)"></div>
           <div class="discover_overlay d-flex flex-column align-items-center justify-content-center">
           </div>
         </div>
 
         <!-- Slide -->
         <div class="slide">
-          <div class="background_image" style="background-image:url(images/5guests.jpeg)"></div>
+          <div class="background_image" style="background-image:url(images/5guests.webp)"></div>
           <div class="discover_overlay d-flex flex-column align-items-center justify-content-center">
           </div>
         </div>
@@ -509,14 +509,14 @@ He will give you the cost and the timetable. Just let me know, and I'll put you 
        
         <!-- Slide -->
         <div class="slide">
-          <div class="background_image" style="background-image:url(images/10guests.jpeg)"></div>
+          <div class="background_image" style="background-image:url(images/10guests.webp)"></div>
           <div class="discover_overlay d-flex flex-column align-items-center justify-content-center">
           </div>
         </div>
 
         <!-- Slide -->
         <div class="slide">
-          <div class="background_image" style="background-image:url(images/8guests.jpeg)"></div>
+          <div class="background_image" style="background-image:url(images/8guests.webp)"></div>
           <div class="discover_overlay d-flex flex-column align-items-center justify-content-center">
           </div>
         </div>
@@ -524,7 +524,7 @@ He will give you the cost and the timetable. Just let me know, and I'll put you 
         
         <!-- Slide -->
         <div class="slide">
-          <div class="background_image" style="background-image:url(images/13guests.jpeg)"></div>
+          <div class="background_image" style="background-image:url(images/13guests.webp)"></div>
           <div class="discover_overlay d-flex flex-column align-items-center justify-content-center">
           </div>
         </div>
