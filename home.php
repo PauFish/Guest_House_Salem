@@ -6,14 +6,14 @@
         <div class="col">
           <div class="section_title text-center">
             <div>SalemFish</div>
-            <h1>Amazing Hotel In Ras Al Hadd, Oman</h1>
+            <h1>Excallent Hotel In Ras Al Hadd, Oman</h1>
           </div>
         </div>
       </div>
       <div class="row intro_row">
         <div class="col-xl-8 col-lg-10 offset-xl-2 offset-lg-1">
           <div class="intro_text text-center">
-            <p>You will stay at our beautiful guesthouse! We have 5 rooms with queen sized beds for a relaxing sleep after a day filled with adventures! We do the best green turtle, dolphin and fishing tours!  </p> 
+            <p>You'll be staying at our lovely hotel! After a day of exploration, unwind in one of our five rooms with queen beds! We offer the best fishing, dolphin, and green turtle tours! </p> 
           </div>
         </div>
       </div>
@@ -124,10 +124,10 @@
               <div>Rooms</div>
               <br>
               <br>
-              <h1>Double Rooms</h1>
+              <h1>Rooms for Two</h1>
             </div>
             <div class="rooms_text">
-              <p>We have 3 double rooms with one queen sized bed each for a relaxing sleep after a day filled with adventures! The room is air-conditioned and is also equipped with a ceiling fan. En-suite private bathroom with toilet, shower and hot water.</p>
+              <p>We have three double rooms, each with one queen-sized bed, for a restful night's sleep after a day of adventure! The room has air conditioning as well as a ceiling fan. Private en-suite bathroom with toilet, shower, and hot water.</p>
             </div>
             <div class="rooms_list">
               <ul>
@@ -179,9 +179,7 @@
             </div>
             
             <div class="rooms_text">
-              <p>We have 2 family rooms with two queen sized bed each for a relaxing sleep after a 
-                day filled with adventures! The room is air-conditioned and is also equipped with a ceiling fan. 
-                En-suite private bathroom, with toilet, shower and hot water.</p>
+              <p>We have two family rooms, each with two queen-sized beds, for a relaxing night's sleep after a day of adventures! The room has air conditioning as well as a ceiling fan. Private en-suite bathroom with toilet, shower, and hot water.</p>
             </div>
             <div class="rooms_list">
               <ul>
@@ -301,13 +299,10 @@
         <div class="col-lg-6">
           <div class="intro_content">
              <div class="intro_text">
-                <p><b>You don't need to book here, places guaranteed if you sleep in our guest house!</b> Tours will be <b>paid in OMR (Omani Rial, no credit card)</b>, but you can always email us for additional info if you like. <p>
-                <p>Book a boat trip directly from us, <b>without intermediaries</b>, for fishing, dolphin-watching and snorkeling. Catch of the 
-                  day BBQ also available for an unforgettable Bedouin-style dinner with local fresh fish. 
-                </p><p>We also do guided <b>desert tours</b> 
-                    4x4, camp, accommodation and food included just contact me for more information and availability. 
-                    </p><p >I hope you will make many
-                     memories here and we look forward to <b>welcoming you soon!</b></p>
+                <p>Places are guaranteed if you stay in our guest house, therefore there is no need to make reservations. OMR (Omani Rial, no credit card) will be used to pay for the tours, however if you'd like, you can email us for further information. <p>
+                  <p>Without middlemen, reserve a boat trip from us directly for fishing, dolphin viewing, or snorkeling. A memorable Bedouin-style dinner with fresh local seafood is also possible with the catch of the day BBQ.</p><p>
+                      We also provide guided 4x4 desert tours with camping, lodging, and meals included. Please get in touch with me for availability and additional details.</p><p >
+                      I sincerely hope you'll create a lot of lasting experiences here, and we can't wait to welcome you soon!</p>
             </div>
       </div>
     </div>
@@ -322,7 +317,7 @@
             <div class="offer_content text-center">
               <div class="offer_title"><h3>Turtle</h3></div>
               <div class="offer_text">
-                <p>Ras al Hadd is <b>the best</b> enclave to see green turtles. You can see them just walking along the beach almost all year round!!!</p>
+                <p>The finest enclave to watch green turtles is Ras al Hadd. They are frequently seen simply strolling along the beach throughout the year!</p>
               </div>
            
             </div>
@@ -336,8 +331,8 @@
             <div class="offer_content text-center">
               <div class="offer_title"><h3>Dolphin Tour</h3></div>
               <div class="offer_text">
-                <p>Dozens of dolphins will follow the boat jumping. Our clients say that it is <b>the best experience</b> of their trip to Oman and one of the best in their <b>life</b>.</p>
-              </div>
+              <p> Hundreds of dolphins will follow the boat as it jumps. Our clients say it was the best experience of their trip to Oman and one of the best of their lives. </p>    
+            </div>
            
             </div>
           </div>
@@ -350,8 +345,8 @@
             <div class="offer_content text-center">
               <div class="offer_title"><h3>Fishing Tour</h3></div>
               <div class="offer_text">
-              <p>It does not matter if you are an expert angler or want to fish for the first time. You will fish<b> Omani style</b>.</p>
-               </div>
+              <p> It makes no difference if you are an experienced angler or if this is your first time fishing. You will fish in the Omani style/b>. </p>
+            </div>
            
             </div>
           </div>
@@ -364,9 +359,8 @@
             <div class="offer_content text-center">
               <div class="offer_title"><h3>Omani BBQ for dinner</h3></div>
               <div class="offer_text">
-              <p>We prepare it <b>Omani style!</b> Salem will go to the market to look for lobsters, tuna, lamb... or you will eat fishing tour's <b>catch of the 
-                  day</b> BBQ. All very fresh and delicious. If you have any intolerance or you are vegan/vegetarian, let us know <b>in advance.</b></p>
-              </div>
+              <p>We make it <b>Omani style! </b> Salem will go to the market to look for lobsters, tuna, lamb... or you will eat the b>catch of the day/b> from a fishing tour. BBQ. Everything is very fresh and delicious. Please notify us in advance if you have any food allergies or are vegan/vegetarian.</p>
+            </div>
             </div>
           </div>
         </div>
@@ -378,8 +372,8 @@
             <div class="offer_content text-center">
               <div class="offer_title"><h3>Desert Tour</h3></div>
               <div class="offer_text">
-                <p>You will sleep in the desert enjoying millions of stars. We take care of everything, rooms, campfire, dinner, so you have a real experience in an Omani desert. <b>Please book in advance by mail</b></p>
-              </div>
+              <p> You will sleep under the stars in the desert. We take care of everything, including rooms, campfires, and dinner, so you can have a true Omani desert experience. <b> Please book in advance by mail</b> </p>
+                </div>
             </div>
           </div>
         </div>
@@ -409,24 +403,24 @@
 </tr>
 <tr>
 <td class="text-left">Dolphin Tour</td>
-<td class="text-left">35 OMR for 3 persons and young families <br>+10 OMR each for 4 or more persons.</td>
+<td class="text-left">335 OMR for three people and young families; +10 OMR for four or more people.</td>
 </tr>
 <tr>
 <td class="text-left">Fishing Tour</td>
-<td class="text-left">35 OMR for 3 persons and young families <br>+10 OMR each for 4 or more persons.</td>
+<td class="text-left">35 OMR for three people and young families; +10 OMR for four or more people.</td>
 </tr>
 <tr>
 <td class="text-left">Snorkelling Tour</td>
-<td class="text-left">35 OMR for 3 persons and young families <br>+10 OMR each for 4 or more persons.</td>
+<td class="text-left">35 OMR for three people and young families; +10 OMR for four or more people.</td>
 </tr>
 <tr>
 <tr>
 <td class="text-left">Turtle Tour</td>
-<td class="text-left">My friend Rasaljin will do this tour. He is the only guide in charge in Ras Al Hadd doing all the turtle tours in the town.
-               He will give you price and schedule. Just ask and I will put you in contact with him.</td>
+<td class="text-left">This tour will be done by my friend Rasaljin. He is the sole tour leader in charge of leading all of the turtle trips in Ras Al Hadd.
+He will give you the cost and the timetable. Just let me know, and I'll put you in touch with him.</td>
 </tr>
 <td class="text-left">Desert Tour</td>
-<td class="text-left">PLEASE book in advance by mail. Price will vary according to how many you are.</td>
+<td class="text-left">PLEASE send a reservation in advance. The cost will change based on how many people there are.</td>
 </tr>
 </tbody>
 </table>
@@ -448,20 +442,14 @@
               <h1>Hi I am Salem,</h1>
             </div>
             <div class="intro_text">
-              <p>I'm a local fisherman born and raised in Ras al Hadd. My family and I have been welcoming visitors to the area for over 15 years now.
-                 It will be my pleasure to welcome you here and show you true Omani hospitality, lifestyle and the wonders of Ras al Hadd 
-                 truly charming and unique in beauty and nature.</p>
+              <p>I was reared in Ras al Hadd as a local fisherman. I've been hosting guests here with my family for more than 15 years.
+              It will be my pleasure to welcome you and to introduce you to the genuine Omani hospitality, way of life, and wonders of Ras al Hadd, which are truly beautiful and distinctive in terms of their natural beauty.</p>
               <p></p>
-              <p>The guesthouse is a humble venture put together by locals and supported by friends of Ras al Hadd. We have 5 rooms available and 
-                are just minutes away from the beach! We will also advise you on which beaches to visit for sunset walks, day trips or a morning
-                 swim. 
+              <p>The guesthouse is a humble venture put together by locals and supported by friends of Ras al Hadd. We have 5 rooms available and are only a few minutes from the beach! We will also recommend beaches for sunset walks, day trips, or a morning swim. 
                 </p>
-                <p> Book a boat trip for fishing, dolphin-watching and snorkeling directly from us, places guaranteed! Catch of the 
-                  day BBQ also available for an unforgettable Bedouin-style dinner with local fresh fish. 
-                </p><p> I also do guided desert tours 
-                    4x4, camp, accommodation and food included just message me for more information and availability. 
-                     I hope you will make many
-                     memories here and we look forward to welcoming you soon! </p>
+                <p> Book a boat trip for fishing, dolphin watching, or snorkeling directly from us; we guarantee availability! A catch-of-the-day BBQ is also available for an unforgettable Bedouin-style dinner with fresh local fish.
+                </p><p> I also offer 4x4 desert tours with camp, lodging, and food included. Please contact me for more information and availability.
+              I hope you will make many memories here, and we hope to see you soon! </p>
             </div>
       </div>
     </div>
@@ -555,9 +543,8 @@
              <h1>Ras Al Hadd</h1>
             </div>
             <div class="intro_text">
-              <p>Ras al Hadd is a small fishing village, with basic amenities: petrol station, pharmacy, supermarket, small shops and restaurants serving simple indian-style food. There is NO ATM machine in Ras al Hadd, the nearest ATM in Sur. Locals are friendly and approachable.</p>
-              <p>Getting around? Car is the best option, it's also possible to walk to some places. Parking is available on the property. There is no public transport in Ras al Hadd. Taxi's and buses run from Sur to Muscat, the bus service is called MWAsalat.</p>
-            </div>
+            <p> Ras al Hadd is a small fishing village with basic amenities such as a petrol station, pharmacy, supermarket, small shops, and restaurants that serve simple Indian cuisine. Ras al Hadd has no ATMs; the nearest ATM is in Sur. Locals are approachable and friendly. </p><p>
+            Are you getting around? The car is the best option, but you can also walk to some places. There is parking on the property. Ras al Hadd has no public transportation. Taxis and buses operate between Sur and Muscat; the bus service is known as MWAsalat. </p>      </div>
             <br>
       </div>
     </div>
@@ -587,28 +574,28 @@
                                 <div class="card-header" id="faqHeading-2">
                                     <div class="mb-0">
                                         <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-2" data-aria-expanded="false" data-aria-controls="faqCollapse-2">
-                                            <span class="badge">1</span>What if I get lost?
+                                            <span class="badge">1</span>Suppose I get lost?
                                         </h5>
                                     </div>
                                 </div>
                                 <div id="faqCollapse-2" class="collapse" aria-labelledby="faqHeading-2" data-parent="#accordion">
                                     <div class="card-body">
-                                        <p>Do not worry! Go to Ras al Hadd gas station, we only have one at the entrance of the town. They will be happy to help you with contacting me.</p>
-                                    </div>
+                                        <p>Do not worry!Go to the Ras al Hadd gas station; we only have one at the town's entrance. They will gladly assist you in contacting me. </p>
+                                      </div>
                                 </div>
                             </div>
                             <div class="card">
                                 <div class="card-header" id="faqHeading-3">
                                     <div class="mb-0">
                                         <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-3" data-aria-expanded="false" data-aria-controls="faqCollapse-3">
-                                            <span class="badge">2</span>Are there any ATM's around?
+                                            <span class="badge">2</span>Are there any ATMs nearby?
                                         </h5>
                                     </div>
                                 </div>
                                 <div id="faqCollapse-3" class="collapse" aria-labelledby="faqHeading-3" data-parent="#accordion">
                                     <div class="card-body">
-                                        <p>There is only one ATM and on many occasions it does not work during days unfortunately. We recommend you bring enough money in cash (OMR).
-                                          In the town of Sur there are many ATMs but it is rather far away</p>
+                                    <p> There is only one ATM, and it frequently fails to function for several days. We recommend that you bring enough cash (OMR).
+                                        There are many ATMs in Sur, but they are quite far away/p>
                                     </div>
                                 </div>
                             </div>
@@ -616,7 +603,7 @@
                                 <div class="card-header" id="faqHeading-4">
                                     <div class="mb-0">
                                         <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-4" data-aria-expanded="false" data-aria-controls="faqCollapse-4">
-                                            <span class="badge">3</span>Do you have wi-fi in the guest house?
+                                            <span class="badge">3</span>Is there internet access in the guest house?
                                         </h5>
                                     </div>
                                 </div>
@@ -630,13 +617,13 @@
                                 <div class="card-header" id="faqHeading-5">
                                     <div class="mb-0">
                                         <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-5" data-aria-expanded="false" data-aria-controls="faqCollapse-5">
-                                            <span class="badge">4</span>Do you have: soap and bath towels, washing machine, kitchen?
+                                            <span class="badge">4</span>Do you have a washing machine, a kitchen, soap, and towels?
                                         </h5>
                                     </div>
                                 </div>
                                 <div id="faqCollapse-5" class="collapse" aria-labelledby="faqHeading-5" data-parent="#accordion">
                                     <div class="card-body">
-                                          <p>All our rooms come with soap and towels included for your comfort. Washing machine is available for our guests for free and you can use the kitchen whenever you want.</p>
+                                          <p>For your comfort, soap and towels are provided in each of our rooms. You can use the kitchen whenever you like, and we offer free use of the washing machine to our visitors.</p>
                                     </div>
                                 </div>
                             </div>
@@ -644,13 +631,13 @@
                                 <div class="card-header" id="faqHeading-6">
                                     <div class="mb-0">
                                         <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-6" data-aria-expanded="false" data-aria-controls="faqCollapse-6">
-                                            <span class="badge">5</span> Can I pay the tours in $ or €?
+                                            <span class="badge">5</span> Can I pay for the tours in USD or EUR?
                                         </h5>
                                     </div>
                                 </div>
                                 <div id="faqCollapse-6" class="collapse" aria-labelledby="faqHeading-6" data-parent="#accordion">
                                     <div class="card-body">
-                                        <p>We strongly request that you pay us in OMR. In the event that you do not have OMR, we can exchange money but we will have to charge you a plus for the inconvenience.</p>
+                                        <p>We strongly advise you to pay us in OMR. If you do not have OMR, we can exchange money for you, but we will have to charge you a fee for the inconvenience.</p>
                                     </div>
                                 </div>
                             </div>
@@ -658,13 +645,13 @@
                                 <div class="card-header" id="faqHeading-7">
                                     <div class="mb-0">
                                         <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-7" data-aria-expanded="false" data-aria-controls="faqCollapse-7">
-                                            <span class="badge">6</span> What is the time of entry (check-in) and departure (check-out) of the hotel?
+                                            <span class="badge">6</span> What time can guests enter the hotel (check-in) and leave (check-out)?
                                         </h5>
                                     </div>
                                 </div>
                                 <div id="faqCollapse-7" class="collapse" aria-labelledby="faqHeading-7" data-parent="#accordion">
                                     <div class="card-body">
-                                        <p>Check-in from 13:00 If you arrive earlier and your room is available you can enjoy it, if it is not available yet you can use the lounge and the barbecue area and relax! Check-out untill 12:00. </p>
+                                        <p>heck-in begins at 1pm. If you arrive early and your room is available, you can enjoy it; if it is not yet available, you can relax in the lounge and barbecue area! Check-out time is 12:00 p.m. </p>
                                     </div>
                                     
                                 </div>
@@ -677,7 +664,7 @@
 
 </div>
   <div id="target_contact">
-  
+  <div>
 <!-- Contact -->
 
   <div class="contact" >
@@ -690,7 +677,7 @@
               <h1>Contact Us</h1>
             </div>
             <div class="contact_text text-center">
-              <p>Please if you have any questions do not hesitate to contact me or send me an email info@salemfish.com</p>
+              <p>Please contact me or send an email to info@salemfish.com if you have any questions.</p>
             </div> 
             <div class="contact_form_container">
             <form action="https://formsubmit.co/73fdc8e6dda59d552258ecef2552adf4" method="POST"  class="contact_form d-flex flex-column align-items-center justify-content-center">

@@ -25,7 +25,9 @@
 1. Fonts
 ***********/
 
-@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Playfair+Display:400,400i,700,700i');
+
+
+
 
 /*********************************
 2. Body and some general stuff
@@ -42,7 +44,7 @@
 }
 body
 {
-	font-family: 'Lato', sans-serif;
+	font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
 	font-size: 15px;
 	font-weight: 400;
 	background: #FFFFFF;
@@ -63,7 +65,7 @@ ul
 }
 p
 {
-	font-family: 'Lato', sans-serif;
+	font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
 	font-size: 15px;
 	line-height: 1.86666666;
 	font-weight: 400;
@@ -133,7 +135,7 @@ h4{font-size: 18px;}
 h5{font-size: 14px;}
 h1, h2, h3, h4, h5, h6
 {
-	font-family: 'Lato', sans-serif;
+	font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
 	text-shadow: rgba(0,0,0,.01) 0 0 1px;
@@ -361,7 +363,7 @@ section
 }
 .section_title > div
 {
-	font-family: 'Playfair Display', serif;
+	font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
 	font-style: italic;
 	font-size: 136px;
 	font-weight: 700;
@@ -762,7 +764,7 @@ section
 }
 .menu_nav ul li a
 {
-	font-family: 'Playfair Display', serif;
+	font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
 	font-size: 36px;
 	color: #ffffff;
 	font-weight: 400;
@@ -806,7 +808,7 @@ section
 }
 .home_title h1
 {
-	font-family: 'Playfair Display', serif;
+	font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
 	font-weight: 700;
 	color: #ffffff;
 	font-style: italic;
@@ -934,7 +936,7 @@ section
 	transform: translateY(-50%);
 	cursor: pointer;
 	right: 20px;
-	font-family: 'FontAwesome';
+	font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
 	content: '\f107';
 }
 
@@ -994,7 +996,7 @@ section
 	transform: translateY(-50%);
 	cursor: pointer;
 	right: 20px;
-	font-family: 'FontAwesome';
+	font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
 	content: '\f107';
 }
 .select-selected.select-arrow-active:after
@@ -1345,7 +1347,7 @@ section
 }
 .discover_overlay > h1 a
 {
-	font-family: 'Playfair Display', serif;
+	font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
 	font-size: 36px;
 	font-style: italic;
 	font-weight: 700;
@@ -1735,7 +1737,7 @@ div.table-title {
    font-size: 30px;
    font-weight: 400;
    font-style:normal;
-   font-family: "Roboto", helvetica, arial, sans-serif;
+   font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
    text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
    text-transform:uppercase;
 }
