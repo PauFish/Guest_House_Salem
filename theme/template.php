@@ -209,7 +209,7 @@ if (isset($_SESSION['activity'])){
 
  
   <footer class="footer">
-    <div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="<?php echo WEB_ROOT;?>..\images/footer.webp" data-speed="0.8"></div>
+    <div class="footer-photo" data-parallax="scroll" data-image-src="<?php echo WEB_ROOT;?>images/footer.webp" data-speed="0.8"></div>
     <div class="container">
       <div class="row">
         <div class="col">

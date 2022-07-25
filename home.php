@@ -297,7 +297,7 @@
         <div class="col-lg-6">
           <div class="intro_content">
              <div class="intro_text">
-                <p>Places are guaranteed if you stay in our guest house, therefore there is no need to make reservations. OMR (Omani Rial, no credit card) will be used to pay for the tours, however if you'd like, you can email us for further information. <p>
+                <p>Places are guaranteed if you stay in our hotel, therefore there is no need to make reservations. OMR (Omani Rial, no credit card) will be used to pay for the tours, however if you'd like, you can email us for further information. <p>
                   <p>Without middlemen, reserve a boat trip from us directly for fishing, dolphin viewing, or snorkeling. A memorable Bedouin-style dinner with fresh local seafood is also possible with the catch of the day BBQ.</p><p>
                       We also provide guided 4x4 desert tours with camping, lodging, and meals included. Please get in touch with me for availability and additional details.</p><p >
                       I sincerely hope you'll create a lot of lasting experiences here, and we can't wait to welcome you soon!</p>
@@ -512,16 +512,18 @@ He will give you the cost and the timetable. Just let me know, and I'll put you 
             <div class="section_title text-center">
               <div>SalemFish</div>
               <h1>ABOUT US</h1>
-            </div>
-            <div class="intro_text">
-              <p>I was reared in Ras al Hadd as a local fisherman. I've been hosting guests here with my family for more than 15 years.
-              It will be my pleasure to welcome you and to introduce you to the genuine Omani hospitality, way of life, and wonders of Ras al Hadd, which are truly beautiful and distinctive in terms of their natural beauty.</p>
-              <p></p>
-              <p>The guesthouse is a humble venture put together by locals and supported by friends of Ras al Hadd. We have 5 rooms available and are only a few minutes from the beach! We will also recommend beaches for sunset walks, day trips, or a morning swim. 
+                </div>
+              <div class="intro_text">
+                <p>I was reared in Ras al Hadd as a local fisherman. I've been hosting guests here with my family for more than 15 years.
+                It will be my pleasure to welcome you and to introduce you to the genuine Omani hospitality, way of life, and wonders of Ras al Hadd, which are truly beautiful and distinctive in terms of their natural beauty.</p>
+                <p></p>
+                <br>
+                <p>The hotel is a humble venture put together by locals and supported by friends of Ras al Hadd. We have 5 rooms available and are only a few minutes from the beach! We will also recommend beaches for sunset walks, day trips, or a morning swim. 
                 </p>
+                <br>
                 <p> Book a boat trip for fishing, dolphin watching, or snorkeling directly from us; we guarantee availability! A catch-of-the-day BBQ is also available for an unforgettable Bedouin-style dinner with fresh local fish.
                 </p><p> I also offer 4x4 desert tours with camp, lodging, and food included. Please contact me for more information and availability.
-              I hope you will make many memories here, and we hope to see you soon! </p>
+                I hope you will make many memories here, and we hope to see you soon! </p>
             </div>
       </div>
     </div>
@@ -595,7 +597,7 @@ He will give you the cost and the timetable. Just let me know, and I'll put you 
                                 <div class="card-header" id="faqHeading-4">
                                     <div class="mb-0">
                                         <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-4" data-aria-expanded="false" data-aria-controls="faqCollapse-4">
-                                            <span class="badge">3</span>Is there internet access in the guest house?
+                                            <span class="badge">3</span>Is there internet access in the hotel?
                                         </h5>
                                     </div>
                                 </div>
@@ -692,7 +694,7 @@ He will give you the cost and the timetable. Just let me know, and I'll put you 
                 <!-- Personalizar enlace una vez apretar boton send gracias a https://formsubmit.co/ existen mas mods-->
                   
                 <!--  Modifica el Asunto del email para hacer renviar desde el email mas guapo-->
-                  <input type="hidden" name="_subject" value="SalemFish Guest House Oman Contact Message">
+                  <input type="hidden" name="_subject" value="SalemFish hotel Ras Al Hadd Oman Contact Message">
                 <!--Nuestra pagina de Gracias le responderemos pronto-->
                  <!--  Modelo de email hay 3 https://formsubmit.co/email-templates-->
                   <input type="hidden" name="_template" value="box">

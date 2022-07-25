@@ -1,3 +1,5 @@
+<div id="target_rooms"></div>
+
 <?php
 $msg = "";
 

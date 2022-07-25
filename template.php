@@ -73,9 +73,7 @@ if (isset($_SESSION['activity'])){
   <header class="header">
     <div class="header_content d-flex flex-column align-items-center justify-content-lg-end justify-content-center">
       
-      <!-- Logo -->
-      <div class="logo"><a href="#"><img class="logo_1" src="<?php echo WEB_ROOT;?>..\images/logo.png" alt=""><img class="logo_2" src="<?php echo WEB_ROOT;?>..\images/logo_2.png" alt=""><img class="logo_3" src="<?php echo WEB_ROOT;?>..\images/logo_3.png" alt=""></a></div>
-
+     
       <!-- Main Nav -->
       <nav class="main_nav">
         <ul class="d-flex flex-row align-items-center justify-content-start">
