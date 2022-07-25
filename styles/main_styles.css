@@ -162,6 +162,7 @@ img
 	max-width: 100%;
 }
 
+
 button, .button{
 	border-radius: 5px;
 	box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
@@ -926,7 +927,7 @@ section
 	cursor: pointer;
 	right: 20px;
 	font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
-	content: '\f107';
+	
 }
 
 

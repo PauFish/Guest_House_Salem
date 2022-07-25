@@ -1,14 +1,3 @@
-<!-- Lazy load-->
-<script>
-  if ("loading" in HTMLImageElement.prototype) {
-    console.log("El navegador soporta `lazy-loading`...");
-  } else {
-    console.log("`lazy-loading` no soportado...");
-  }
-</script>
-
-<!-- Welcome -->
-
 <div class="intro">
     <div class="container">
       <div class="row">
@@ -435,37 +424,6 @@ He will give you the cost and the timetable. Just let me know, and I'll put you 
 </table>
 <div id="target_about">
 <br>
-
-  
-  <!-- <h1>About Us</h1> -->
- 
-<div class="intro" >
-    <div class="container ">
-      <div class="row row-eq-height justify-content-center">
-
-        <!-- Intro Content -->
-        <div class="col-lg-6 ">
-          <div class="intro_content">
-            <div class="section_title text-center">
-              <div>Salem Fish</div>
-              <h1>Hi I am Salem,</h1>
-            </div>
-            <div class="intro_text">
-              <p>I was reared in Ras al Hadd as a local fisherman. I've been hosting guests here with my family for more than 15 years.
-              It will be my pleasure to welcome you and to introduce you to the genuine Omani hospitality, way of life, and wonders of Ras al Hadd, which are truly beautiful and distinctive in terms of their natural beauty.</p>
-              <p></p>
-              <p>The guesthouse is a humble venture put together by locals and supported by friends of Ras al Hadd. We have 5 rooms available and are only a few minutes from the beach! We will also recommend beaches for sunset walks, day trips, or a morning swim. 
-                </p>
-                <p> Book a boat trip for fishing, dolphin watching, or snorkeling directly from us; we guarantee availability! A catch-of-the-day BBQ is also available for an unforgettable Bedouin-style dinner with fresh local fish.
-                </p><p> I also offer 4x4 desert tours with camp, lodging, and food included. Please contact me for more information and availability.
-              I hope you will make many memories here, and we hope to see you soon! </p>
-            </div>
-      </div>
-    </div>
-  </div>
-
-<!-- Guest Slider -->
-    
 <div class="discover_slider_container">
       <div class="owl-carousel owl-theme discover_slider">
         
@@ -541,6 +499,35 @@ He will give you the cost and the timetable. Just let me know, and I'll put you 
     </div>
   </div>
 
+  
+  <!-- <h1>About Us</h1> -->
+ 
+<div class="intro" >
+    <div class="container ">
+      <div class="row row-eq-height justify-content-center">
+
+        <!-- Intro Content -->
+        <div class="col-lg-6 ">
+          <div class="intro_content">
+            <div class="section_title text-center">
+              <div>SalemFish</div>
+              <h1>ABOUT US</h1>
+            </div>
+            <div class="intro_text">
+              <p>I was reared in Ras al Hadd as a local fisherman. I've been hosting guests here with my family for more than 15 years.
+              It will be my pleasure to welcome you and to introduce you to the genuine Omani hospitality, way of life, and wonders of Ras al Hadd, which are truly beautiful and distinctive in terms of their natural beauty.</p>
+              <p></p>
+              <p>The guesthouse is a humble venture put together by locals and supported by friends of Ras al Hadd. We have 5 rooms available and are only a few minutes from the beach! We will also recommend beaches for sunset walks, day trips, or a morning swim. 
+                </p>
+                <p> Book a boat trip for fishing, dolphin watching, or snorkeling directly from us; we guarantee availability! A catch-of-the-day BBQ is also available for an unforgettable Bedouin-style dinner with fresh local fish.
+                </p><p> I also offer 4x4 desert tours with camp, lodging, and food included. Please contact me for more information and availability.
+              I hope you will make many memories here, and we hope to see you soon! </p>
+            </div>
+      </div>
+    </div>
+  </div>
+<!-- Guest Slider -->
+    
      <!-- Intro Content -->    
   <div class="intro">
     <div class="container ">
@@ -560,10 +547,6 @@ He will give you the cost and the timetable. Just let me know, and I'll put you 
   </div>
 </div>
 </div>
-
-
-
-
 
   <!-- Faq's ------------------------------------------------------>
 

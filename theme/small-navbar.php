@@ -3,8 +3,8 @@
       <div class="sm-ul navbar-custom-menu ">
           <ul class=" navbar-nav  tooltip-demo d-flex flex-row align-items-center justify-content-start pull-right">
             <li>
-              <a  data-toggle="tooltip" data-placement="bottom"   title="Booking Cart"  href="<?php echo WEB_ROOT.'booking/index.php';  ?>" class="mx-1"> 
-               <i class="fa fa-shopping-cart fa-fw"></i> <span class="px-1"><?php echo  isset($cart) ? $cart : '' ; ?></span>
+              <a  data-toggle="tooltip" data-placement="bottom"  alt="shopping card" title="Booking Cart"  href="<?php echo WEB_ROOT.'booking/index.php';  ?>" class="mx-1"> 
+              <img id="shop_icon" src="images\cart-shopping-solid.webp" /> <span class="px-1"><?php echo  isset($cart) ? $cart : '' ; ?></span>
              </a>
             </li>
 

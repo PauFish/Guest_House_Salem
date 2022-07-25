@@ -91,8 +91,8 @@ if (isset($_SESSION['activity'])){
       <!-- Social -->
       <div class="social header_social ">
         <ul class="d-flex flex-row align-items-center">
-          <li><a href="https://www.instagram.com/salemfish/" target="_blank" alt="instagram" rel="noopener noreferrer"><img id="shop_iconinst" src="..\images\instagram-square-brands.webp" alt="instagram link"/></a></li>
-          <li><a href="https://www.facebook.com/salem.fish" target="_blank" alt="facebook" rel="noopener noreferrer"><img id="shop_iconfb" src="..\images\facebook-square-brands.webp" alt="facebook link"/></a></li>
+          <li><a href="https://www.instagram.com/salemfish/" target="_blank" alt="instagram" rel="noopener noreferrer"><img id="shop_iconinst" src="..\images\instagram-square-brands.webp" /></a></li>
+          <li><a href="https://www.facebook.com/salem.fish" target="_blank" alt="facebook" rel="noopener noreferrer"><img id="shop_iconfb" src="..\images\facebook-square-brands.webp" /></a></li>
         </ul>
       </div>
 
@@ -103,7 +103,7 @@ if (isset($_SESSION['activity'])){
         <div class="header_link"><a href="/index.php?p=rooms">Book Your Room Now</a></div>
 
         <!-- Hamburger Button -->
-        <div class="hamburger"><img id="shop_iconfb" src="images\3bars-solid.webp" alt="nav bar" /></div>  
+        <div class="hamburger"><img id="shop_iconfb" src="images\3bars-solid.webp" /></div>  
 
       </div>
 
@@ -130,7 +130,7 @@ if (isset($_SESSION['activity'])){
       
       <!-- Hamburger Button -->
       
-      <div class="hamburger"><img id="shop_iconfb" src="images\3bars-solid.webp" alt="nav bar"/></div>  
+      <div class="hamburger"><img id="shop_iconfb" src="images\3bars-solid.webp" /></div>  
 
     </div>
   </div>
@@ -148,8 +148,8 @@ if (isset($_SESSION['activity'])){
           <li><a href="<?php echo WEB_ROOT;?>index.php#target_tours">Tours</a></li> 
           <li><a href="<?php echo WEB_ROOT;?>index.php#target_about">About us</a></li>
           <li><a href="<?php echo WEB_ROOT;?>index.php#target_contact">Contact</a></li>
-          <li><a href="https://www.instagram.com/salemfish/" target="_blank" rel="noopener noreferrer"> <div class="hamburger"><img id="shop_iconinst" src="..\images\instagram-square-brands.webp" alt="intagram link"/> </div>  </a></li>
-          <li><a href="https://www.facebook.com/salem.fish" target="_blank" rel="noopener noreferrer"> <div class="hamburger"><img id="shop_iconfb" src="..\images\facebook-square-brands.webp" alt="facebook link"/> </div>  </a></li>
+          <li><a href="https://www.instagram.com/salemfish/" target="_blank" rel="noopener noreferrer"> <div class="hamburger"><img id="shop_iconinst" src="..\images\instagram-square-brands.webp"/> </div>  </a></li>
+          <li><a href="https://www.facebook.com/salem.fish" target="_blank" rel="noopener noreferrer"> <div class="hamburger"><img id="shop_iconfb" src="..\images\facebook-square-brands.webp"/> </div>  </a></li>
           
         </ul>
       </nav>
@@ -209,7 +209,7 @@ if (isset($_SESSION['activity'])){
 
  
   <footer class="footer">
-    <div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="<?php echo WEB_ROOT;?>..\images/footer.webp" data-speed="0.8"></div>
+    <div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="..\images/footer.webp"<?php echo WEB_ROOT;?> data-speed="0.8" alt="footer turtle picture"></div>
     <div class="container">
       <div class="row">
         <div class="col">
