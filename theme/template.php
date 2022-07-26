@@ -20,7 +20,6 @@ $_SESSION['to']  = $_POST['to'];
 <meta name="description" content="SalemFish hotel ras al hadd cheap tours turtles rooms dolphin fishing">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="<?php echo WEB_ROOT;?>styles/bootstrap-4.1.2/bootstrap.min.css">
-
 <link rel="stylesheet" type="text/css" href="<?php echo WEB_ROOT;?>plugins/OwlCarousel2-2.3.4/owl.carousel.css">
 <link rel="stylesheet" type="text/css" href="<?php echo WEB_ROOT;?>plugins/OwlCarousel2-2.3.4/owl.theme.default.css">
 <link rel="stylesheet" type="text/css" href="<?php echo WEB_ROOT;?>plugins/OwlCarousel2-2.3.4/animate.css">
@@ -29,9 +28,7 @@ $_SESSION['to']  = $_POST['to'];
 <link rel="stylesheet" type="text/css" href="<?php echo WEB_ROOT;?>styles/responsive.css">
 <link rel="stylesheet" type="text/css" href="<?php echo WEB_ROOT;?>styles/custom-navbar.css">
 <link rel="stylesheet" type="text/css" href="<?php echo WEB_ROOT;?>styles/bootstrap.css">
-
  <link href="<?php echo WEB_ROOT; ?>styles/ekko-lightbox.css" rel="stylesheet">
-
  <link href="<?php echo WEB_ROOT; ?>styles/bootstrap-datetimepicker.min.css" rel="stylesheet" media="screen">
  <link href="<?php echo WEB_ROOT; ?>styles/datepicker.css" rel="stylesheet" media="screen">
 <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -73,9 +70,7 @@ if (isset($_SESSION['activity'])){
   <header class="header">
     <div class="header_content d-flex flex-column align-items-center justify-content-lg-end justify-content-center">
       
-      <!-- Logo -->
-      <div class="logo"><a href="#"><img class="logo_1" src="<?php echo WEB_ROOT;?>..\images/logo.png" alt=""><img class="logo_2" src="<?php echo WEB_ROOT;?>..\images/logo_2.png" alt=""><img class="logo_3" src="<?php echo WEB_ROOT;?>..\images/logo_3.png" alt=""></a></div>
-
+      
       <!-- Main Nav -->
       <nav class="main_nav">
         <ul class="d-flex flex-row align-items-center justify-content-start">
@@ -159,14 +154,14 @@ if (isset($_SESSION['activity'])){
 
     </div>
   </div>
-
+ 
 
   <!-- Home -->
 
   <div class="home">
     <div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="<?php echo WEB_ROOT;?>images/home.webp" data-speed="0.8"></div>
     <div class="home_container d-flex flex-column align-items-center ">
-      <div class="home_title text-center"><h1>Ras Al Hadd Hotel</h1></div>
+      <div class="home_title text-center"><img src="images\logosalemweb.webp" alt="Salemfish hotel logo"></></div>
       
     </div>
   </div>
@@ -213,8 +208,6 @@ if (isset($_SESSION['activity'])){
     <div class="container">
       <div class="row">
         <div class="col">
-          <div class="footer_logo text-center">
-          </div>
           <div class="footer_content">
             <div class="row">
               <div class="col-lg-4 footer_col">
