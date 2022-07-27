@@ -97,10 +97,13 @@ if (isset($_SESSION['activity'])){
         <!-- Header Link -->
         <div class="header_link"><a href="/index.php?p=rooms">Book Your Room Now</a></div>
 
+
+
+
+
+
         <!-- Hamburger Button -->
         <div class="hamburger"><img id="shop_iconfb" src="images\3bars-solid.webp" alt="nav bar" /></div>  
-
-      </div>
 
       <!-- Search Panel -->
       <div class="search_panel">
@@ -117,19 +120,18 @@ if (isset($_SESSION['activity'])){
   </header>
 
 
-
   <!-- Menu Overlay -->
 
   <div class="menu_overlay">
     <div class="menu_overlay_content d-flex flex-row align-items-center justify-content-center">
-      
+  
       <!-- Hamburger Button -->
       
       <div class="hamburger"><img id="shop_iconfb" src="images\3bars-solid.webp" alt="nav bar"/></div>  
 
     </div>
   </div>
-
+ 
   <!-- Menu -->
 
   <div class="menu">
@@ -149,13 +151,10 @@ if (isset($_SESSION['activity'])){
         </ul>
       </nav>
       <div class="button menu_button"><a href="/index.php?p=rooms">book now</a></div>
-
-     
-
     </div>
   </div>
  
-
+ 
   <!-- Home -->
 
   <div class="home">
@@ -198,11 +197,14 @@ if (isset($_SESSION['activity'])){
   </div>
 </div>
 
- 
 
- 
+<!--
+<div class="ocean">
+  <div class="wave"></div>
+  <div class="wave"></div>
+</div> -->
 
- 
+
   <footer class="footer">
     <div class="footer-photo" data-parallax="scroll" data-image-src="<?php echo WEB_ROOT;?>images/footer.webp" data-speed="0.8"></div>
     <div class="container">
@@ -237,9 +239,7 @@ if (isset($_SESSION['activity'])){
               </div>
             </div>
           </div>
-          <div class="footer_bar text-center">
-        Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Harper></a></div>
-        </div>
+          
       </div>
     </div>
   </footer>
@@ -391,12 +391,12 @@ if (isset($_SESSION['activity'])){
 
 </script>
 <!--/.container-->
-<script language="javascript" type="text/javascript">
+<!--<script language="javascript" type="text/javascript">
         function OpenPopupCenter(pageURL, title, w, h) {
             var left = (screen.width - w) / 2;
             var top = (screen.height - h) / 4;  // for 25% - devide by 4  |  for 33% - devide by 3
             var targetWin = window.open(pageURL, title, 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width=' + w + ', height=' + h + ', top=' + top + ', left=' + left);
         } 
-    </script>
+    </script> -->
 </body>
 </html>

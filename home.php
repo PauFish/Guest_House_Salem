@@ -1,18 +1,3 @@
-<div class="container_all" id="container__all">
-        <div class="cover">
-
-            <!--INICIO WAVE-->
-
-                <div class="bg_color"></div>
-                <div class="wave w1"></div>
-                <div class="wave w2"></div>
-
-            <!--FINAL WAVE-->
-
-        </div>
-
-
-
 <div class="intro">
     <div class="container">
       <div class="row">
@@ -358,7 +343,7 @@
             <div class="offer_content text-center">
               <div class="offer_title"><h3>Fishing Tour</h3></div>
               <div class="offer_text">
-              <p> It makes no difference if you are an experienced angler or if this is your first time fishing. You will fish in the Omani style/b>. </p>
+              <p> It makes no difference if you are an experienced angler or if this is your first time fishing. You will fish in the Omani style. </p>
             </div>
            
             </div>
@@ -372,7 +357,7 @@
             <div class="offer_content text-center">
               <div class="offer_title"><h3>Omani BBQ for dinner</h3></div>
               <div class="offer_text">
-              <p>We make it <b>Omani style! </b> Salem will go to the market to look for lobsters, tuna, lamb... or you will eat the b>catch of the day/b> from a fishing tour. BBQ. Everything is very fresh and delicious. Please notify us in advance if you have any food allergies or are vegan/vegetarian.</p>
+              <p>We make it Omani style! Salem will go to the market to look for lobsters, tuna, lamb... or you will eat the b>catch of the day/b> from a fishing tour. BBQ. Everything is very fresh and delicious. Please notify us in advance if you have any food allergies or are vegan/vegetarian.</p>
             </div>
             </div>
           </div>
