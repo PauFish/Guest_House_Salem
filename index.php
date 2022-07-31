@@ -44,11 +44,6 @@ switch ($view) {
       $content='accomodation.php';
     break;  
 
-    case 'thanks' :
-      $title="Thanks";  
-      $content='thanks.php';
-    break;  
-
   case 'largeview' :
       // $title="View";  
     $content ='largeimg.php';
