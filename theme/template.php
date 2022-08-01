@@ -97,11 +97,6 @@ if (isset($_SESSION['activity'])){
         <!-- Header Link -->
         <div class="header_link"><a href="/index.php?p=rooms">Book Your Room Now</a></div>
 
-
-
-
-
-
         <!-- Hamburger Button -->
         <div class="hamburger"><img id="shop_iconfb" src="images\3bars-solid.webp" alt="nav bar" /></div>  
 

@@ -401,7 +401,7 @@
 </tr>
 <tr>
 <td class="text-left">Dolphin Tour</td>
-<td class="text-left">35 OMR for three people and young families; +10 OMR for four or more people.</td>
+<td class="text-left">335 OMR for three people and young families; +10 OMR for four or more people.</td>
 </tr>
 <tr>
 <td class="text-left">Fishing Tour</td>
