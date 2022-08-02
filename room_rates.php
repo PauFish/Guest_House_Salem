@@ -1,3 +1,5 @@
+<div id="target_rooms"></div>
+
 <?php
 $msg = "";
 
@@ -205,7 +207,7 @@ $_SESSION['departure'] =date_format(date_create($_POST['departure']),"Y-m-d");
                               </li>
                             </ul>
                           </div>
-                          <div class="rooms_price"><?php echo   $result->PRICE ;?>/<span>Night</span></div>
+                          <div class="rooms_price"><?php echo   $result->PRICE ;?>€<span>/ Night</span></div>
                            <?php echo $btn ; ?> 
                         </div>
                       </div>

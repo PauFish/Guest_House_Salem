@@ -852,7 +852,7 @@ section
 #new_usuario{
 	color: black !important;
 	font-weight: bold !important;
-	font-size: 25px;
+	font-size: 45px;
 
 }
 
@@ -1932,7 +1932,16 @@ iframe{
 	color:#db5246;
 }  
 
-
+.blink_me {
+	animation: blinker 1s linear infinite;
+	
+  }
+  
+  @keyframes blinker {
+	50% {
+	  opacity: 0;
+	}
+  }
 
 /*************wave*
 
@@ -1985,6 +1994,8 @@ iframe{
 }
 
 */
+
+
 
 
 

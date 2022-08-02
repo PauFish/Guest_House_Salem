@@ -8,9 +8,10 @@ if (!isset($_SESSION['dragonhouse_cart'])) {
 
 
  ?> 
- 
+            <a style="display: inline-block;" href="personalinfo.php"  class="blink_me" id="new_usuario" data-title="Register New Guest" data-toggle="lightbox">Register</a> 
+            <br>
            <h1 style="display: inline-block;">Login</h1>
-              <a style="display: inline-block;" href="personalinfo.php"  id="new_usuario" data-title="Register New Guest" data-toggle="lightbox">-->  Register</a> 
+              
        
                       <form action="<?php echo  WEB_ROOT."login.php" ?>" method="post">
                         <div class="form-group">

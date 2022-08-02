@@ -79,24 +79,20 @@ if (isset($_SESSION['activity'])){
           <li><a href="<?php echo WEB_ROOT;?>index.php#target_tours">Tours</a></li> 
           <li><a href="<?php echo WEB_ROOT;?>index.php#target_about">About us</a></li>
           <li><a href="<?php echo WEB_ROOT;?>index.php#target_contact">Contact</a></li>
+          <li><a href="https://www.instagram.com/salemfish/" target="_blank" alt="instagram" rel="noopener noreferrer"><img id="shop_iconinst" src="..\images\instagram-square-brands.webp" alt="instagram link"/></a></li>
+          <li><a href="https://www.facebook.com/salem.fish" target="_blank" alt="facebook" rel="noopener noreferrer"><img id="shop_iconfb" src="..\images\facebook-square-brands.webp" alt="facebook link"/></a></li>
+        
         </ul>
       </nav>
 
 
       <!-- Social -->
-      <div class="social header_social ">
-        <ul class="d-flex flex-row align-items-center">
-          <li><a href="https://www.instagram.com/salemfish/" target="_blank" alt="instagram" rel="noopener noreferrer"><img id="shop_iconinst" src="..\images\instagram-square-brands.webp" alt="instagram link"/></a></li>
-          <li><a href="https://www.facebook.com/salem.fish" target="_blank" alt="facebook" rel="noopener noreferrer"><img id="shop_iconfb" src="..\images\facebook-square-brands.webp" alt="facebook link"/></a></li>
-        </ul>
-      </div>
+     
 
       <!-- Header Right -->
       <div class="header_right d-flex flex-row align-items-center justify-content-start">
         
-        <!-- Header Link -->
-        <div class="header_link"><a href="/index.php?p=rooms">Book Your Room Now</a></div>
-
+        
         <!-- Hamburger Button -->
         <div class="hamburger"><img id="shop_iconfb" src="images\3bars-solid.webp" alt="nav bar" /></div>  
 
