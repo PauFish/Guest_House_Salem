@@ -303,6 +303,8 @@
   }
   .col-md-6 {
     width: 50%;
+    margin-bottom: 20px;
+    margin-top: 20px;
   }
   .col-md-7 {
     width: 58.333333333333336%;

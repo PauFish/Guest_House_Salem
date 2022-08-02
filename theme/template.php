@@ -193,16 +193,19 @@ if (isset($_SESSION['activity'])){
 </div>
 
 
-<!--
-<div class="ocean">
-  <div class="wave"></div>
-  <div class="wave"></div>
-</div> -->
 
+
+
+</div>
+</div>
+</div>
 
   <footer class="footer">
+  
+
     <div class="footer-photo" data-parallax="scroll" data-image-src="<?php echo WEB_ROOT;?>images/footer.webp" data-speed="0.8"></div>
     <div class="container">
+      
       <div class="row">
         <div class="col">
           <div class="footer_content">
@@ -232,9 +235,12 @@ if (isset($_SESSION['activity'])){
                   </div>
                 </div>
               </div>
+              <div class="ocean">
+  <div class="wave"></div>
+  <div class="wave"></div>
             </div>
           </div>
-          
+         
       </div>
     </div>
   </footer>

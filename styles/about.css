@@ -974,6 +974,8 @@ section
 }
 .offer_text p
 {
+	margin-top: 50px;
+	margin-bottom: 50px;
 	color: #bfc8d8;
 }
 .offer_button

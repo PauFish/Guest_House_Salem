@@ -102,9 +102,7 @@
 
 <!-- Tours Price list -->
   
-<div class="table-title">
-<h3 id="table_h3">Tours Price List</h3>
-</div>
+
 <table class=" table-fill">
 <thead>
 <tr>

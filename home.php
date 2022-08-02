@@ -250,7 +250,7 @@
         <div class="slide">
           <div loading="lazy" class="background_image" style="background-image:url(images/discover_1.webp)"></div>
           <div class="discover_overlay d-flex flex-column align-items-center justify-content-center">
-            <h1><a href="/index.php?p=tours#toursLink">Small and Big groups</a></h1>
+            <h1><a href="/index.php?p=tours#toursLink">Salemfish</a></h1>
           </div>
         </div>
         
@@ -384,9 +384,7 @@
 
 <!-- Tours Price list -->
   
-<div class="table-title">
-<h3 id="table_h3">Tours Price List</h3>
-</div>
+
 <table class=" table-fill">
 <thead>
 <tr>
