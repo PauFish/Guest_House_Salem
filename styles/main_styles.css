@@ -381,7 +381,7 @@ section
 
 .intro_text {
 	margin-top:  10px;
-	margin-bottom: 10px;
+	margin-bottom: 50px;
 	margin-left: 10px;
 	margin-right: 10px;
 }
@@ -1873,7 +1873,8 @@ iframe{
 	display: block;
 	position: relative;
 	padding-top: 59px;
-	border-top: solid 2px #ff9000;
+	border-top: solid 3px #ff9000;
+	
 	
 }
 .footer_content
