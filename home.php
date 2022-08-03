@@ -3,15 +3,15 @@
       <div class="row">
         <div class="col">
           <div class="section_title text-center">
-            <div>SalemFish</div>
-            <h1>Excallent Hotel In Ras Al Hadd, Oman</h1>
+            <div>Oman</div>
+            <h1>Ras Al Hadd Hotel</h1>
           </div>
         </div>
       </div>
       <div class="row intro_row">
         <div class="col-xl-8 col-lg-10 offset-xl-2 offset-lg-1">
           <div class="intro_text text-center">
-            <p>You'll be staying at our lovely hotel! After a day of exploration, unwind in one of our five rooms with queen beds! We offer the best fishing, dolphin, and green turtle tours! </p> 
+            <p>You'll be staying at our lovely hotel in Ras al hadd Oman! After a day of exploration with Salemfish, unwind in one of our five rooms with queen beds! We offer the best fishing, dolphin, and green turtle tours! </p> 
           </div>
         </div>
       </div>
@@ -24,7 +24,7 @@
               
               <!-- Slide -->
               <div class="gallery_slide">
-                <img loading="lazy" src="images/gallery_3.webp" alt="">
+                <img loading="lazy" src="images/gallery_3.webp" alt="salem fish hotel">
                 <div class="gallery_overlay">
                   <div class="text-center d-flex flex-column align-items-center justify-content-center">
                     
@@ -37,7 +37,7 @@
 
               <!-- Slide -->
               <div class="gallery_slide">
-                <img loading="lazy" src="images/gallery_1.webp" alt="">
+                <img loading="lazy" src="images/gallery_1.webp" alt="ras al hadd hotel">
                 <div class="gallery_overlay">
                   <div class="text-center d-flex flex-column align-items-center justify-content-center">
                     
@@ -50,7 +50,7 @@
 
               <!-- Slide -->
               <div class="gallery_slide">
-                <img loading="lazy" src="images/gallery_4.webp" alt="">
+                <img loading="lazy" src="images/gallery_4.webp" alt="booking room">
                 <div class="gallery_overlay">
                   <div class="text-center d-flex flex-column align-items-center justify-content-center">
                     
@@ -63,7 +63,7 @@
 
               <!-- Slide -->
               <div class="gallery_slide">
-                <img loading="lazy" src="images/gallery_2.webp" alt="">
+                <img loading="lazy" src="images/gallery_2.webp" alt="turtles oman">
                 <div class="gallery_overlay">
                   <div class="text-center d-flex flex-column align-items-center justify-content-center">
                     

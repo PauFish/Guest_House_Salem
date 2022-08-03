@@ -17,9 +17,10 @@ $_SESSION['to']  = $_POST['to'];
 <title>SalemFish Hotel - Ras Al Hadd - Oman</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="description" content="SalemFish hotel ras al hadd cheap tours turtles rooms dolphin fishing">
+<meta name="description" content="SalemFish hotel in ras al hadd. cheap tours: turtles rooms dolphin fishing in Oman guesthouse booking airbnb">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="<?php echo WEB_ROOT;?>styles/bootstrap-4.1.2/bootstrap.min.css">
+
 <link rel="stylesheet" type="text/css" href="<?php echo WEB_ROOT;?>plugins/OwlCarousel2-2.3.4/owl.carousel.css">
 <link rel="stylesheet" type="text/css" href="<?php echo WEB_ROOT;?>plugins/OwlCarousel2-2.3.4/owl.theme.default.css">
 <link rel="stylesheet" type="text/css" href="<?php echo WEB_ROOT;?>plugins/OwlCarousel2-2.3.4/animate.css">
@@ -28,7 +29,9 @@ $_SESSION['to']  = $_POST['to'];
 <link rel="stylesheet" type="text/css" href="<?php echo WEB_ROOT;?>styles/responsive.css">
 <link rel="stylesheet" type="text/css" href="<?php echo WEB_ROOT;?>styles/custom-navbar.css">
 <link rel="stylesheet" type="text/css" href="<?php echo WEB_ROOT;?>styles/bootstrap.css">
+
  <link href="<?php echo WEB_ROOT; ?>styles/ekko-lightbox.css" rel="stylesheet">
+
  <link href="<?php echo WEB_ROOT; ?>styles/bootstrap-datetimepicker.min.css" rel="stylesheet" media="screen">
  <link href="<?php echo WEB_ROOT; ?>styles/datepicker.css" rel="stylesheet" media="screen">
 <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -70,7 +73,7 @@ if (isset($_SESSION['activity'])){
   <header class="header">
     <div class="header_content d-flex flex-column align-items-center justify-content-lg-end justify-content-center">
       
-      
+     
       <!-- Main Nav -->
       <nav class="main_nav">
         <ul class="d-flex flex-row align-items-center justify-content-start">
@@ -79,22 +82,24 @@ if (isset($_SESSION['activity'])){
           <li><a href="<?php echo WEB_ROOT;?>index.php#target_tours">Tours</a></li> 
           <li><a href="<?php echo WEB_ROOT;?>index.php#target_about">About us</a></li>
           <li><a href="<?php echo WEB_ROOT;?>index.php#target_contact">Contact</a></li>
-          <li><a href="https://www.instagram.com/salemfish/" target="_blank" alt="instagram" rel="noopener noreferrer"><img id="shop_iconinst" src="..\images\instagram-square-brands.webp" alt="instagram link"/></a></li>
-          <li><a href="https://www.facebook.com/salem.fish" target="_blank" alt="facebook" rel="noopener noreferrer"><img id="shop_iconfb" src="..\images\facebook-square-brands.webp" alt="facebook link"/></a></li>
-        
+          <li><a href="https://www.instagram.com/salemfish/" target="_blank" alt="instagram" rel="noopener noreferrer"><img id="shop_iconinst" src="..\images\instagram-square-brands.webp" /></a></li>
+          <li><a href="https://www.facebook.com/salem.fish" target="_blank" alt="facebook" rel="noopener noreferrer"><img id="shop_iconfb" src="..\images\facebook-square-brands.webp" /></a></li>
         </ul>
       </nav>
 
 
-      <!-- Social -->
-     
+    
 
       <!-- Header Right -->
       <div class="header_right d-flex flex-row align-items-center justify-content-start">
         
-        
+        <!-- Header Link 
+        <div class="header_link"><a href="/index.php?p=rooms">Book Your Room Now</a></div>-->
+
         <!-- Hamburger Button -->
-        <div class="hamburger"><img id="shop_iconfb" src="images\3bars-solid.webp" alt="nav bar" /></div>  
+        <div class="hamburger"><img id="shop_iconfb" src="images\3bars-solid.webp" alt="serch"/></div>  
+
+      </div>
 
       <!-- Search Panel -->
       <div class="search_panel">
@@ -111,18 +116,19 @@ if (isset($_SESSION['activity'])){
   </header>
 
 
+
   <!-- Menu Overlay -->
 
   <div class="menu_overlay">
     <div class="menu_overlay_content d-flex flex-row align-items-center justify-content-center">
-  
+      
       <!-- Hamburger Button -->
       
-      <div class="hamburger"><img id="shop_iconfb" src="images\3bars-solid.webp" alt="nav bar"/></div>  
+      <div class="hamburger"><img id="shop_iconfb" src="images\3bars-solid.webp" alt="serch"/></div>  
 
     </div>
   </div>
- 
+
   <!-- Menu -->
 
   <div class="menu">
@@ -136,23 +142,25 @@ if (isset($_SESSION['activity'])){
           <li><a href="<?php echo WEB_ROOT;?>index.php#target_tours">Tours</a></li> 
           <li><a href="<?php echo WEB_ROOT;?>index.php#target_about">About us</a></li>
           <li><a href="<?php echo WEB_ROOT;?>index.php#target_contact">Contact</a></li>
-          <li><a href="https://www.instagram.com/salemfish/" target="_blank" rel="noopener noreferrer"> <div class="hamburger"><img id="shop_iconinst" src="..\images\instagram-square-brands.webp" alt="intagram link"/> </div>  </a></li>
-          <li><a href="https://www.facebook.com/salem.fish" target="_blank" rel="noopener noreferrer"> <div class="hamburger"><img id="shop_iconfb" src="..\images\facebook-square-brands.webp" alt="facebook link"/> </div>  </a></li>
+          <li><a href="https://www.instagram.com/salemfish/" target="_blank" rel="noopener noreferrer"> <div class="hamburger"><img id="shop_iconinst" src="..\images\instagram-square-brands.webp"/> </div>  </a></li>
+          <li><a href="https://www.facebook.com/salem.fish" target="_blank" rel="noopener noreferrer"> <div class="hamburger"><img id="shop_iconfb" src="..\images\facebook-square-brands.webp"/> </div>  </a></li>
           
         </ul>
       </nav>
       <div class="button menu_button"><a href="/index.php?p=rooms">book now</a></div>
+
+     
+
     </div>
   </div>
- 
- 
+
+
   <!-- Home -->
 
   <div class="home">
     <div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="<?php echo WEB_ROOT;?>images/home.webp" data-speed="0.8"></div>
     <div class="home_container d-flex flex-column align-items-center ">
-      <div class="home_title text-center"><img src="images\logosalemweb.webp" alt="Salemfish hotel logo"></></div>
-      
+      <div class="home_title text-center"><img src="images\logosalemweb.webp" alt="salemfish ras al hadd oman hotel logo"></div>
     </div>
   </div>
 
@@ -188,22 +196,18 @@ if (isset($_SESSION['activity'])){
   </div>
 </div>
 
+ 
 
+ 
 
-
-
-</div>
-</div>
-</div>
-
+ 
   <footer class="footer">
-  
-
-    <div class="footer-photo" data-parallax="scroll" data-image-src="<?php echo WEB_ROOT;?>images/footer.webp" data-speed="0.8"></div>
+    <div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="..\images/footer.webp"<?php echo WEB_ROOT;?> data-speed="0.8" alt="footer turtle picture"></div>
     <div class="container">
-      
       <div class="row">
         <div class="col">
+          <div class="footer_logo text-center">
+          </div>
           <div class="footer_content">
             <div class="row">
               <div class="col-lg-4 footer_col">
@@ -231,12 +235,11 @@ if (isset($_SESSION['activity'])){
                   </div>
                 </div>
               </div>
-              <div class="ocean">
-  <div class="wave"></div>
-  <div class="wave"></div>
             </div>
           </div>
-         
+          <div class="footer_bar text-center">
+        Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Harper></a></div>
+        </div>
       </div>
     </div>
   </footer>
@@ -388,12 +391,12 @@ if (isset($_SESSION['activity'])){
 
 </script>
 <!--/.container-->
-<!--<script language="javascript" type="text/javascript">
+<script language="javascript" type="text/javascript">
         function OpenPopupCenter(pageURL, title, w, h) {
             var left = (screen.width - w) / 2;
             var top = (screen.height - h) / 4;  // for 25% - devide by 4  |  for 33% - devide by 3
             var targetWin = window.open(pageURL, title, 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width=' + w + ', height=' + h + ', top=' + top + ', left=' + left);
         } 
-    </script> -->
+    </script>
 </body>
 </html>

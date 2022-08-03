@@ -823,15 +823,9 @@ section
 	padding-top: 192px;
 	
 }
-.home_title h1
+.home_title 
 {
-	font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
-	font-weight: 700;
-	color: #ffffff;
-	font-style: italic;
-	font-size: 50px;
-	text-shadow: 1px 1px #000000;
-	
+	opacity: 0.8;
 }
 
 .home_button
@@ -852,7 +846,7 @@ section
 #new_usuario{
 	color: black !important;
 	font-weight: bold !important;
-	font-size: 45px;
+	font-size: 25px;
 
 }
 
@@ -1277,12 +1271,14 @@ section
 	position: absolute;
 	right: 40px;
 	bottom: 31px;
+	size-adjust: 48px;
 }
 .rooms_left .owl-dots
 {
 	position: absolute;
 	left: 40px;
 	bottom: 31px;
+	size-adjust: 48px;
 }
 .rooms_slider .owl-dots .owl-dot
 {
@@ -1290,8 +1286,8 @@ section
 }
 .rooms_slider .owl-dots .owl-dot span
 {
-	width: 10px;
-	height: 10px;
+	width: 48px;
+	height: 48px;
 	background: #f4f5fa;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
@@ -1932,16 +1928,18 @@ iframe{
 	color:#db5246;
 }  
 
-.blink_me {
-	animation: blinker 1s linear infinite;
+
+/*********fb & instagram****/
+
+#shop_iconinst:hover, #shop_iconfb:hover{
+	background-color: #ff9000;
+	border-radius: 5px;
 	
-  }
-  
-  @keyframes blinker {
-	50% {
-	  opacity: 0;
-	}
-  }
+}
+
+
+
+
 
 /*************wave*
 
@@ -1994,8 +1992,6 @@ iframe{
 }
 
 */
-
-
 
 
 
