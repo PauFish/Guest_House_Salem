@@ -1,5 +1,3 @@
-<div id="target_rooms"></div>
-
 <?php
 $msg = "";
 
@@ -198,16 +196,16 @@ $_SESSION['departure'] =date_format(date_create($_POST['departure']),"Y-m-d");
                           <div class="rooms_list">
                             <ul>
                               <li class="d-flex flex-row align-items-center justify-content-start">
-                                <img src="images/check.png" alt="">
+                                <img src="..\images\check.png" alt="">
                                 <span>Number of Person: <?php echo $result->NUMPERSON ;?></span>
                               </li> 
                               <li class="d-flex flex-row align-items-center justify-content-start">
-                                <img src="images/check.png" alt="">
+                                <img src="..\images\check.png" alt="">
                                 <span>Remaining Rooms: <?php echo  $resNum ;?></span>
                               </li>
                             </ul>
                           </div>
-                          <div class="rooms_price"><?php echo   $result->PRICE ;?>€<span>/ Night</span></div>
+                          <div class="rooms_price"><?php echo   $result->PRICE ;?>/<span>Night</span></div>
                            <?php echo $btn ; ?> 
                         </div>
                       </div>

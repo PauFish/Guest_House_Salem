@@ -28,7 +28,7 @@
         <!-- Offer Item -->
         <div class="col-xl-4 col-md-6">
           <div class="offer">
-            <div class="offer_image"><img src="images/offer_2.jpg" alt="Turtle"></div>
+            <div class="offer_image"><img src="..\images\offer_2.jpg" alt="Turtle"></div>
             <div class="offer_content text-center">
               <div class="offer_title"><h3>Turtle</h3></div>
               <div class="offer_text">
@@ -42,7 +42,7 @@
         <!-- Offer Item -->
         <div class="col-xl-4 col-md-6">
           <div class="offer">
-            <div class="offer_image"><img src="images/offer_3.jpg" alt="Dolphin Tour"></div>
+            <div class="offer_image"><img src="..\images\offer_3.jpg" alt="Dolphin Tour"></div>
             <div class="offer_content text-center">
               <div class="offer_title"><h3>Dolphin Tour</h3></div>
               <div class="offer_text">
@@ -56,7 +56,7 @@
         <!-- Offer Item -->
         <div class="col-xl-4 col-md-6">
           <div class="offer">
-            <div class="offer_image"><img src="images/offer_4.jpg" alt="Fishing Tour"></div>
+            <div class="offer_image"><img src="..\images\offer_4.jpg" alt="Fishing Tour"></div>
             <div class="offer_content text-center">
               <div class="offer_title"><h3>Fishing Tour</h3></div>
               <div class="offer_text">
@@ -70,7 +70,7 @@
         <!-- Offer Item -->
         <div class="col-xl-4 col-md-6">
           <div class="offer">
-            <div class="offer_image"><img src="images/offer_5.jpg" alt="Omani BBQ for dinner"></div>
+            <div class="offer_image"><img src="..\images\offer_5.jpg" alt="Omani BBQ for dinner"></div>
             <div class="offer_content text-center">
               <div class="offer_title"><h3>Omani BBQ for dinner</h3></div>
               <div class="offer_text">
@@ -84,7 +84,7 @@
         <!-- Offer Item -->
         <div class="col-xl-4 col-md-6">
           <div class="offer">
-            <div class="offer_image"><img src="images/offer_6.jpg" alt="Desert Tour"></div>
+            <div class="offer_image"><img src="..\images\offer_6.jpg" alt="Desert Tour"></div>
             <div class="offer_content text-center">
               <div class="offer_title"><h3>Desert Tour</h3></div>
               <div class="offer_text">

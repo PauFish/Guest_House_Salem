@@ -3,15 +3,15 @@
       <div class="row">
         <div class="col">
           <div class="section_title text-center">
-            <div>Oman</div>
-            <h1>Ras Al Hadd Hotel</h1>
+            <div>SalemFish</div>
+            <h1>Excallent Hotel In Ras Al Hadd, Oman</h1>
           </div>
         </div>
       </div>
       <div class="row intro_row">
         <div class="col-xl-8 col-lg-10 offset-xl-2 offset-lg-1">
           <div class="intro_text text-center">
-            <p>You'll be staying at our lovely hotel in Ras al hadd Oman! After a day of exploration with Salemfish, unwind in one of our five rooms with queen beds! We offer the best fishing, dolphin, and green turtle tours! </p> 
+            <p>You'll be staying at our lovely hotel! After a day of exploration, unwind in one of our five rooms with queen beds! We offer the best fishing, dolphin, and green turtle tours! </p> 
           </div>
         </div>
       </div>
@@ -24,7 +24,7 @@
               
               <!-- Slide -->
               <div class="gallery_slide">
-                <img loading="lazy" src="images/gallery_3.webp" alt="salem fish hotel">
+                <img loading="lazy" src="..\images\gallery_3.webp" alt="salem fish hotel">
                 <div class="gallery_overlay">
                   <div class="text-center d-flex flex-column align-items-center justify-content-center">
                     
@@ -37,7 +37,7 @@
 
               <!-- Slide -->
               <div class="gallery_slide">
-                <img loading="lazy" src="images/gallery_1.webp" alt="ras al hadd hotel">
+                <img loading="lazy" src="..\images\gallery_1.webp" alt="ras al hadd hotel">
                 <div class="gallery_overlay">
                   <div class="text-center d-flex flex-column align-items-center justify-content-center">
                     
@@ -50,7 +50,7 @@
 
               <!-- Slide -->
               <div class="gallery_slide">
-                <img loading="lazy" src="images/gallery_4.webp" alt="booking room">
+                <img loading="lazy" src="..\images\gallery_4.webp" alt="booking room">
                 <div class="gallery_overlay">
                   <div class="text-center d-flex flex-column align-items-center justify-content-center">
                     
@@ -63,7 +63,7 @@
 
               <!-- Slide -->
               <div class="gallery_slide">
-                <img loading="lazy" src="images/gallery_2.webp" alt="turtles oman">
+                <img loading="lazy" src="..\images\gallery_2.webp" alt="turtles oman">
                 <div class="gallery_overlay">
                   <div class="text-center d-flex flex-column align-items-center justify-content-center">
                     
@@ -95,21 +95,21 @@
               
               <!-- Slide -->
               <div class="slide">
-                <div loading="lazy" class="background_image" style="background-image:url(images/rooms_1.webp)"></div>
+                <div loading="lazy" class="background_image" style="background-image:url(..\images\rooms_1.webp)"></div>
               </div>
 
               <!-- Slide -->
               <div class="slide">
-                <div loading="lazy" class="background_image" style="background-image:url(images/rooms_1a.webp)"></div>
+                <div loading="lazy" class="background_image" style="background-image:url(..\images\rooms_1a.webp)"></div>
               </div>
 
               <!-- Slide -->
               <div class="slide">
-                <div loading="lazy" class="background_image" style="background-image:url(images/rooms_1b.webp)"></div>
+                <div loading="lazy" class="background_image" style="background-image:url(..\images\rooms_1b.webp)"></div>
               </div>
               <!-- Slide -->
               <div class="slide">
-                <div loading="lazy" class="background_image" style="background-image:url(images/rooms_1t.webp)"></div>
+                <div loading="lazy" class="background_image" style="background-image:url(..\images\rooms_1t.webp)"></div>
               </div>
             </div>
           </div>
@@ -130,23 +130,23 @@
             <div class="rooms_list">
               <ul>
               <li class="d-flex flex-row align-items-center justify-content-start">
-                  <img src="images/check.ico" alt="">
+                  <img src="..\images\check.ico" alt="">
                   <span>1 Queen sized bed</span>
                 </li>
                 <li class="d-flex flex-row align-items-center justify-content-start">
-                  <img src="images/check.ico" alt="">
+                  <img src="..\images\check.ico" alt="">
                   <span>En-suite private bathroom</span>
                 </li>
                 <li class="d-flex flex-row align-items-center justify-content-start">
-                  <img src="images/check.ico" alt="">
+                  <img src="..\images\check.ico" alt="">
                   <span>Air-conditioned</span>
                 </li>
                 <li class="d-flex flex-row align-items-center justify-content-start">
-                  <img src="images/check.ico" alt="">
+                  <img src="..\images\check.ico" alt="">
                   <span>Shower and hot water</span>
                 </li>
                 <li class="d-flex flex-row align-items-center justify-content-start">
-                  <img src="images/check.ico" alt="">
+                  <img src="..\images\check.ico" alt="">
                   <span>Towels</span>
                 </li>
               </ul>
@@ -182,23 +182,23 @@
             <div class="rooms_list">
               <ul>
               <li class="d-flex flex-row align-items-center justify-content-start">
-                  <img src="images/check.ico" alt="">
+                  <img src="..\images\check.ico" alt="">
                   <span>2 Queen sized beds</span>
                 </li>
                 <li class="d-flex flex-row align-items-center justify-content-start">
-                  <img src="images/check.ico" alt="">
+                  <img src="..\images\check.ico" alt="">
                   <span>En-suite private bathroom</span>
                 </li>
                 <li class="d-flex flex-row align-items-center justify-content-start">
-                  <img src="images/check.ico" alt="">
+                  <img src="..\images\check.ico" alt="">
                   <span>Air-conditioned</span>
                 </li>
                 <li class="d-flex flex-row align-items-center justify-content-start">
-                  <img src="images/check.ico" alt="">
+                  <img src="..\images\check.ico" alt="">
                   <span>Shower and hot water</span>
                 </li>
                 <li class="d-flex flex-row align-items-center justify-content-start">
-                  <img src="images/check.ico" alt="">
+                  <img src="..\images\check.ico" alt="">
                   <span>Towels</span>
                 </li>
               </ul>
@@ -214,17 +214,17 @@
               
               <!-- Slide -->
               <div class="slide">
-                <div loading="lazy" class="background_image" style="background-image:url(images/rooms_2.webp)"></div>
+                <div loading="lazy" class="background_image" style="background-image:url(..\images\rooms_2.webp)"></div>
               </div>
 
               <!-- Slide -->
               <div class="slide">
-                <div loading="lazy" class="background_image" style="background-image:url(images/rooms_2a.webp)"></div>
+                <div loading="lazy" class="background_image" style="background-image:url(..\images\rooms_2a.webp)"></div>
               </div>
 
               <!-- Slide -->
               <div class="slide">
-                <div loading="lazy" class="background_image" style="background-image:url(images/rooms_2t.webp)"></div>
+                <div loading="lazy" class="background_image" style="background-image:url(..\images\rooms_2t.webp)"></div>
               </div>
             </div>
           </div>
@@ -248,7 +248,7 @@
         
         <!-- Slide -->
         <div class="slide">
-          <div loading="lazy" class="background_image" style="background-image:url(images/discover_1.webp)"></div>
+          <div loading="lazy" class="background_image" style="background-image:url(..\images\discover_1.webp)"></div>
           <div class="discover_overlay d-flex flex-column align-items-center justify-content-center">
             <h1><a href="/index.php?p=tours#toursLink">Salemfish</a></h1>
           </div>
@@ -256,7 +256,7 @@
         
         <!-- Slide -->
         <div class="slide">
-          <div loading="lazy" class="background_image" style="background-image:url(images/discover_2.webp)"></div>
+          <div loading="lazy" class="background_image" style="background-image:url(..\images\discover_2.webp)"></div>
           <div class="discover_overlay d-flex flex-column align-items-center justify-content-center">
             <h1><a href="/index.php?p=tours#toursLink">Fishing</a></h1>
           </div>
@@ -264,7 +264,7 @@
 
         <!-- Slide -->
         <div class="slide">
-          <div loading="lazy" class="background_image" style="background-image:url(images/discover_3.webp)"></div>
+          <div loading="lazy" class="background_image" style="background-image:url(..\images\discover_3.webp)"></div>
           <div class="discover_overlay d-flex flex-column align-items-center justify-content-center">
             <h1><a href="/index.php?p=tours#toursLink">Dolphins</a></h1>
           </div>
@@ -272,7 +272,7 @@
 
         <!-- Slide -->
         <div class="slide">
-          <div loading="lazy" class="background_image" style="background-image:url(images/discover_4.webp)"></div>
+          <div loading="lazy" class="background_image" style="background-image:url(..\images\discover_4.webp)"></div>
           <div class="discover_overlay d-flex flex-column align-items-center justify-content-center">
             <h1><a href="/index.php?p=tours#toursLink">Desert Trips</a></h1>
           </div>
@@ -311,7 +311,7 @@
         <!-- Offer Item -->
         <div class="col-xl-4 col-md-6">
           <div class="offer">
-            <div loading="lazy" class="offer_image"><img src="images/offer_2.webp" alt="Turtle"></div>
+            <div loading="lazy" class="offer_image"><img src="..\images\offer_2.webp" alt="Turtle"></div>
             <div class="offer_content text-center">
               <div class="offer_title"><h3>Turtle</h3></div>
               <div class="offer_text">
@@ -325,7 +325,7 @@
         <!-- Offer Item -->
         <div class="col-xl-4 col-md-6">
           <div class="offer">
-            <div loading="lazy" class="offer_image"><img src="images/offer_3.webp" alt="Dolphin Tour"></div>
+            <div loading="lazy" class="offer_image"><img src="..\images\offer_3.webp" alt="Dolphin Tour"></div>
             <div class="offer_content text-center">
               <div class="offer_title"><h3>Dolphin Tour</h3></div>
               <div class="offer_text">
@@ -339,7 +339,7 @@
         <!-- Offer Item -->
         <div class="col-xl-4 col-md-6">
           <div class="offer">
-            <div loading="lazy" class="offer_image"><img src="images/offer_4.webp" alt="Fishing Tour"></div>
+            <div loading="lazy" class="offer_image"><img src="..\images\offer_4.webp" alt="Fishing Tour"></div>
             <div class="offer_content text-center">
               <div class="offer_title"><h3>Fishing Tour</h3></div>
               <div class="offer_text">
@@ -353,7 +353,7 @@
         <!-- Offer Item -->
         <div class="col-xl-4 col-md-6">
           <div class="offer">
-            <div loading="lazy" class="offer_image"><img src="images/offer_5.webp" alt="Omani BBQ for dinner"></div>
+            <div loading="lazy" class="offer_image"><img src="..\images\offer_5.webp" alt="Omani BBQ for dinner"></div>
             <div class="offer_content text-center">
               <div class="offer_title"><h3>Omani BBQ for dinner</h3></div>
               <div class="offer_text">
@@ -366,7 +366,7 @@
         <!-- Offer Item -->
         <div class="col-xl-4 col-md-6">
           <div class="offer">
-            <div loading="lazy" class="offer_image"><img src="images/offer_6.webp" alt="Desert Tour"></div>
+            <div loading="lazy" class="offer_image"><img src="..\images\offer_6.webp" alt="Desert Tour"></div>
             <div class="offer_content text-center">
               <div class="offer_title"><h3>Desert Tour</h3></div>
               <div class="offer_text">
@@ -427,46 +427,46 @@ He will give you the cost and the timetable. Just let me know, and I'll put you 
         
         <!-- Slide -->
         <div class="slide">
-          <div loading="lazy" class="background_image" style="background-image:url(images/1guests.webp)"></div>
+          <div loading="lazy" class="background_image" style="background-image:url(..\images\1guests.webp)"></div>
           <div class="discover_overlay d-flex flex-column align-items-center justify-content-center">
           </div>
         </div>
 
         <!-- Slide -->
         <div class="slide">
-          <div loading="lazy" class="background_image" style="background-image:url(images/4guests.webp)"></div>
+          <div loading="lazy" class="background_image" style="background-image:url(..\images\4guests.webp)"></div>
           <div class="discover_overlay d-flex flex-column align-items-center justify-content-center">
           </div>
         </div>
         <!-- Slide -->
         <div class="slide">
-          <div loading="lazy" class="background_image" style="background-image:url(images/12guests.webp)"></div>
+          <div loading="lazy" class="background_image" style="background-image:url(..\images\12guests.webp)"></div>
           <div class="discover_overlay d-flex flex-column align-items-center justify-content-center">
           </div>
         </div>
         
         <!-- Slide -->
         <div class="slide">
-          <div loading="lazy" class="background_image" style="background-image:url(images/6guests.webp)"></div>
+          <div loading="lazy" class="background_image" style="background-image:url(..\images\6guests.webp)"></div>
           <div class="discover_overlay d-flex flex-column align-items-center justify-content-center">
           </div>
         </div>
 <!-- Slide -->
 <div class="slide">
-          <div loading="lazy" class="background_image" style="background-image:url(images/10guests.webp)"></div>
+          <div loading="lazy" class="background_image" style="background-image:url(..\images\10guests.webp)"></div>
           <div class="discover_overlay d-flex flex-column align-items-center justify-content-center">
           </div>
         </div>
         <!-- Slide -->
         <div class="slide">
-          <div loading="lazy" class="background_image" style="background-image:url(images/11guests.webp)"></div>
+          <div loading="lazy" class="background_image" style="background-image:url(..\images\11guests.webp)"></div>
           <div class="discover_overlay d-flex flex-column align-items-center justify-content-center">
           </div>
         </div>
 
         <!-- Slide -->
         <div class="slide">
-          <div loading="lazy" class="background_image" style="background-image:url(images/5guests.webp)"></div>
+          <div loading="lazy" class="background_image" style="background-image:url(..\images\5guests.webp)"></div>
           <div class="discover_overlay d-flex flex-column align-items-center justify-content-center">
           </div>
         </div>
@@ -474,14 +474,14 @@ He will give you the cost and the timetable. Just let me know, and I'll put you 
        
         <!-- Slide -->
         <div class="slide">
-          <div loading="lazy" class="background_image" style="background-image:url(images/10guests.webp)"></div>
+          <div loading="lazy" class="background_image" style="background-image:url(..\images\10guests.webp)"></div>
           <div class="discover_overlay d-flex flex-column align-items-center justify-content-center">
           </div>
         </div>
 
         <!-- Slide -->
         <div class="slide">
-          <div loading="lazy" class="background_image" style="background-image:url(images/8guests.webp)"></div>
+          <div loading="lazy" class="background_image" style="background-image:url(..\images\8guests.webp)"></div>
           <div class="discover_overlay d-flex flex-column align-items-center justify-content-center">
           </div>
         </div>
@@ -489,7 +489,7 @@ He will give you the cost and the timetable. Just let me know, and I'll put you 
         
         <!-- Slide -->
         <div class="slide">
-          <div loading="lazy" class="background_image" style="background-image:url(images/13guests.webp)"></div>
+          <div loading="lazy" class="background_image" style="background-image:url(..\images\13guests.webp)"></div>
           <div class="discover_overlay d-flex flex-column align-items-center justify-content-center">
           </div>
         </div>

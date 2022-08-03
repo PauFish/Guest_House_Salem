@@ -8,11 +8,9 @@ if (!isset($_SESSION['dragonhouse_cart'])) {
 
 
  ?> 
-            <a style="display: inline-block;" href="personalinfo.php"  class="blink_me" id="new_usuario" data-title="Register New Guest" data-toggle="lightbox">Register</a> 
-            <br>
-           <h1 style="display: inline-block;">Login</h1>
-              
-       
+          <a style="display: inline-block;" href="personalinfo.php"  class="blink_me" id="new_usuario" data-title="Register New Guest" data-toggle="lightbox">Register</a> 
+          <br> 
+          <h1 style="display: inline-block;">Login</h1>
                       <form action="<?php echo  WEB_ROOT."login.php" ?>" method="post">
                         <div class="form-group">
                             <div class=""> 
@@ -29,14 +27,9 @@ if (!isset($_SESSION['dragonhouse_cart'])) {
                         </div>  
                       
                         <button type="submit" name="gsubmit" class="button">Sign In</button> 
-                        </form>   
-                   
- 
-
-<br>
- 
-
- <?php
+                        </form>
+                        <br>
+                         <?php
  
 
 function listofbooking(){

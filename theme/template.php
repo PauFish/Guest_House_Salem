@@ -97,7 +97,7 @@ if (isset($_SESSION['activity'])){
         <div class="header_link"><a href="/index.php?p=rooms">Book Your Room Now</a></div>-->
 
         <!-- Hamburger Button -->
-        <div class="hamburger"><img id="shop_iconfb" src="images\3bars-solid.webp" /></div>  
+        <div class="hamburger"><img id="shop_iconfb" src="..\images\3bars-solid.webp" /></div>  
 
       </div>
 
@@ -124,7 +124,7 @@ if (isset($_SESSION['activity'])){
       
       <!-- Hamburger Button -->
       
-      <div class="hamburger"><img id="shop_iconfb" src="images\3bars-solid.webp" /></div>  
+      <div class="hamburger"><img id="shop_iconfb" src="..\images\3bars-solid.webp" /></div>  
 
     </div>
   </div>
@@ -160,7 +160,7 @@ if (isset($_SESSION['activity'])){
   <div class="home">
     <div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="<?php echo WEB_ROOT;?>images/home.webp" data-speed="0.8"></div>
     <div class="home_container d-flex flex-column align-items-center ">
-      <div class="home_title text-center"><img src="images\logosalemweb.webp" alt="salemfish ras al hadd oman hotel logo"></div>
+      <div class="home_title text-center"><img src="..\images\logosalemweb.webp" alt="salemfish ras al hadd oman hotel logo"></div>
     </div>
   </div>
 
@@ -242,8 +242,7 @@ if (isset($_SESSION['activity'])){
         </div>
       </div>
     </div>
- 
-  </footer>
+     </footer>
 </div>
 
 <script src="<?php echo WEB_ROOT;?>js/jquery-3.3.1.min.js"></script>

@@ -38,46 +38,46 @@
         
         <!-- Slide -->
         <div class="slide">
-          <div class="background_image" style="background-image:url(images/1guests.jpeg)"></div>
+          <div class="background_image" style="background-image:url(..\image\1guests.jpeg)"></div>
           <div class="discover_overlay d-flex flex-column align-items-center justify-content-center">
           </div>
         </div>
 
         <!-- Slide -->
         <div class="slide">
-          <div class="background_image" style="background-image:url(images/4guests.jpeg)"></div>
+          <div class="background_image" style="background-image:url(..\images\4guests.jpeg)"></div>
           <div class="discover_overlay d-flex flex-column align-items-center justify-content-center">
           </div>
         </div>
         <!-- Slide -->
         <div class="slide">
-          <div class="background_image" style="background-image:url(images/12guests.jpeg)"></div>
+          <div class="background_image" style="background-image:url(..\images\12guests.jpeg)"></div>
           <div class="discover_overlay d-flex flex-column align-items-center justify-content-center">
           </div>
         </div>
         
         <!-- Slide -->
         <div class="slide">
-          <div class="background_image" style="background-image:url(images/6guests.jpeg)"></div>
+          <div class="background_image" style="background-image:url(..\images\6guests.jpeg)"></div>
           <div class="discover_overlay d-flex flex-column align-items-center justify-content-center">
           </div>
         </div>
 <!-- Slide -->
 <div class="slide">
-          <div class="background_image" style="background-image:url(images/10guests.jpeg)"></div>
+          <div class="background_image" style="background-image:url(..\images\10guests.jpeg)"></div>
           <div class="discover_overlay d-flex flex-column align-items-center justify-content-center">
           </div>
         </div>
         <!-- Slide -->
         <div class="slide">
-          <div class="background_image" style="background-image:url(images/11guests.jpeg)"></div>
+          <div class="background_image" style="background-image:url(..\images\11guests.jpeg)"></div>
           <div class="discover_overlay d-flex flex-column align-items-center justify-content-center">
           </div>
         </div>
 
         <!-- Slide -->
         <div class="slide">
-          <div class="background_image" style="background-image:url(images/5guests.jpeg)"></div>
+          <div class="background_image" style="background-image:url(..\images\5guests.jpeg)"></div>
           <div class="discover_overlay d-flex flex-column align-items-center justify-content-center">
           </div>
         </div>
@@ -85,14 +85,14 @@
        
         <!-- Slide -->
         <div class="slide">
-          <div class="background_image" style="background-image:url(images/10guests.jpeg)"></div>
+          <div class="background_image" style="background-image:url(..\images\10guests.jpeg)"></div>
           <div class="discover_overlay d-flex flex-column align-items-center justify-content-center">
           </div>
         </div>
 
         <!-- Slide -->
         <div class="slide">
-          <div class="background_image" style="background-image:url(images/8guests.jpeg)"></div>
+          <div class="background_image" style="background-image:url(..\images\8guests.jpeg)"></div>
           <div class="discover_overlay d-flex flex-column align-items-center justify-content-center">
           </div>
         </div>
@@ -100,7 +100,7 @@
         
         <!-- Slide -->
         <div class="slide">
-          <div class="background_image" style="background-image:url(images/13guests.jpeg)"></div>
+          <div class="background_image" style="background-image:url(..\images\13guests.jpeg)"></div>
           <div class="discover_overlay d-flex flex-column align-items-center justify-content-center">
           </div>
         </div>

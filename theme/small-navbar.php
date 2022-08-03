@@ -4,7 +4,7 @@
           <ul class=" navbar-nav  tooltip-demo d-flex flex-row align-items-center justify-content-start pull-right">
             <li>
               <a  data-toggle="tooltip" data-placement="bottom"  alt="shopping card" title="Booking Cart"  href="<?php echo WEB_ROOT.'booking/index.php';  ?>" class="mx-1"> 
-              <img id="shop_icon" src="images\cart-shopping-solid.webp" alt="navbar /> <span class="px-1"><?php echo  isset($cart) ? $cart : '' ; ?></span>
+              <img id="shop_icon" src="..\images\cart-shopping-solid.webp" alt="navbar /> <span class="px-1"><?php echo  isset($cart) ? $cart : '' ; ?></span>
              </a>
             </li>
 

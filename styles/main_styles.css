@@ -843,11 +843,17 @@ section
 /*********************************
 6. Booking
 *********************************/
+@keyframes blinker {
+	50% {
+	  opacity: 0;
+	}
+  }
+
 #new_usuario{
 	color: black !important;
 	font-weight: bold !important;
-	font-size: 25px;
-
+	font-size: 45px;
+	animation: blinker 1.5s linear infinite;
 }
 
 
