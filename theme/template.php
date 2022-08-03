@@ -97,7 +97,7 @@ if (isset($_SESSION['activity'])){
         <div class="header_link"><a href="/index.php?p=rooms">Book Your Room Now</a></div>-->
 
         <!-- Hamburger Button -->
-        <div class="hamburger"><img id="shop_iconfb" src="images\3bars-solid.webp" alt="serch"/></div>  
+        <div class="hamburger"><img id="shop_iconfb" src="images\3bars-solid.webp" /></div>  
 
       </div>
 
@@ -124,7 +124,7 @@ if (isset($_SESSION['activity'])){
       
       <!-- Hamburger Button -->
       
-      <div class="hamburger"><img id="shop_iconfb" src="images\3bars-solid.webp" alt="serch"/></div>  
+      <div class="hamburger"><img id="shop_iconfb" src="images\3bars-solid.webp" /></div>  
 
     </div>
   </div>
@@ -242,6 +242,7 @@ if (isset($_SESSION['activity'])){
         </div>
       </div>
     </div>
+ 
   </footer>
 </div>
 
