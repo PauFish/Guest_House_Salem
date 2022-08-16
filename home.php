@@ -151,7 +151,7 @@
                 </li>
               </ul>
             </div>
-            <div class="rooms_price">54€/<span>night</span></div>
+            <div class="rooms_price">50€/<span>night</span></div>
            
           </div>
         </div>
@@ -203,7 +203,7 @@
                 </li>
               </ul>
             </div>
-            <div class="rooms_price">69€/<span>night</span></div>
+            <div class="rooms_price">65€/<span>night</span></div>
           </div>
         </div>
 
@@ -657,7 +657,7 @@ He will give you the cost and the timetable. Just let me know, and I'll put you 
               <h1>Contact Us</h1>
             </div>
             <div class="contact_text text-center">
-              <p>Please contact me or send an email to info@salemfish.com if you have any questions.</p>
+              <p>Please contact me or send an email to info@salemfish.com or click on our whatsapp icon if you have any questions.</p>
             </div> 
             <div class="contact_form_container">
             <form action="https://formsubmit.co/73fdc8e6dda59d552258ecef2552adf4" method="POST"  class="contact_form d-flex flex-column align-items-center justify-content-center">
@@ -675,6 +675,18 @@ He will give you the cost and the timetable. Just let me know, and I'll put you 
                   <textarea name="Message" class="contact_input_name d-flex flex-column align-items-center justify-content-center" placeholder="Message" required="required"></textarea>
                   </div>
                 </div>
+
+                <!--ReCaptcha la key la sacas de google rechaptcha
+                <script src="https://www.google.com/recaptcha/enterprise.js?render=6LfrNH4hAAAAAPvR044xhVL-lAgXo7ce0vocXIEz"></script>
+                <script>
+                    grecaptcha.enterprise.ready(function() {
+                    grecaptcha.enterprise.execute('6LfrNH4hAAAAAPvR044xhVL-lAgXo7ce0vocXIEz', {action: 'login'}).then(function(token) {...
+                    
+                      });
+                          });
+                        </script>
+                send-->
+
                 <button type="submit" class="contact_button d-flex flex-column align-items-center justify-content-center" >Send</button>
                 <!-- Personalizar enlace una vez apretar boton send gracias a https://formsubmit.co/ existen mas mods-->
                 <!--  Modifica el Asunto del email para hacer renviar desde el email mas guapo-->
