@@ -686,9 +686,10 @@ He will give you the cost and the timetable. Just let me know, and I'll put you 
                           });
                         </script>
                 send-->
+                
 
                 <button type="submit" class="contact_button d-flex flex-column align-items-center justify-content-center" >Send</button>
-                <!-- Personalizar enlace una vez apretar boton send gracias a https://formsubmit.co/ existen mas mods-->
+                 <!--Personalizar enlace una vez apretar boton send gracias a https://formsubmit.co/ existen mas mods-->
                 <!--  Modifica el Asunto del email para hacer renviar desde el email mas guapo-->
                   <input type="hidden" name="_subject" value="SalemFish hotel Ras Al Hadd Oman Contact Message">
                 <!--Nuestra pagina de Gracias le responderemos pronto-->
@@ -696,8 +697,8 @@ He will give you the cost and the timetable. Just let me know, and I'll put you 
                   <input type="hidden" name="_template" value="box">
                    <!--Nuestra pagina de Gracias le responderemos pronto-->
                   <input type="hidden" name="_next" value="https://salemfish.com/thanks.php"> 
-                  <!-- quita seguridad-->
-                  <input type="hidden" name="_captcha" value="false">
+                  <!-- quita seguridad
+                  <input type="hidden" name="_captcha" value="false">-->
               </form>
             </div>
           </div>
@@ -710,6 +711,8 @@ He will give you the cost and the timetable. Just let me know, and I'll put you 
        <div class="googleMap "><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1014.6343420148968!2d59.789026!3d22.5260912!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e9a017d5b7b9bef%3A0xcb517b7eff5082b0!2sSalem%20Fish%20Guesthouse!5e1!3m2!1sen!2ses!4v1657722423851!5m2!1sen!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
     <br>
+
+   
     
        
 
