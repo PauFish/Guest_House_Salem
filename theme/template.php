@@ -399,9 +399,12 @@ if (isset($_SESSION['activity'])){
             var top = (screen.height - h) / 4;  // for 25% - devide by 4  |  for 33% - devide by 3
             var targetWin = window.open(pageURL, title, 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width=' + w + ', height=' + h + ', top=' + top + ', left=' + left);
         } 
-    </script>
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-
+    </script> 
+    
+    
+    <a href="https://wa.me/34648499970?text=Reach%20us%20instantly" class="whatsapp" target="_blank">
+  <img src="images\Whatsapp_37229.png" alt="Whatsapp chat" />
+</a>
 
 
 
