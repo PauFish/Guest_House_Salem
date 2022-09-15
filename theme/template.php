@@ -82,6 +82,7 @@ if (isset($_SESSION['activity'])){
           <li><a href="<?php echo WEB_ROOT;?>index.php#target_tours">Tours</a></li> 
           <li><a href="<?php echo WEB_ROOT;?>index.php#target_about">About us</a></li>
           <li><a href="<?php echo WEB_ROOT;?>index.php#target_contact">Contact</a></li>
+          <li><a href="https://www.youtube.com/channel/UCKliXy7uttJTizU8jwXuayw" target="_blank" alt="youtube" rel="noopener noreferrer"><img id="shop_iconyt" src="..\images\iconyou.webp" /></a></li>
           <li><a href="https://www.instagram.com/salemfish/" target="_blank" alt="instagram" rel="noopener noreferrer"><img id="shop_iconinst" src="..\images\instagram-square-brands.webp" /></a></li>
           <li><a href="https://www.facebook.com/salem.fish" target="_blank" alt="facebook" rel="noopener noreferrer"><img id="shop_iconfb" src="..\images\facebook-square-brands.webp" /></a></li>
         </ul>
@@ -142,9 +143,9 @@ if (isset($_SESSION['activity'])){
           <li><a href="<?php echo WEB_ROOT;?>index.php#target_tours">Tours</a></li> 
           <li><a href="<?php echo WEB_ROOT;?>index.php#target_about">About us</a></li>
           <li><a href="<?php echo WEB_ROOT;?>index.php#target_contact">Contact</a></li>
+          <li><a href="https://www.youtube.com/channel/UCKliXy7uttJTizU8jwXuayw" target="_blank" alt="youtube" rel="noopener noreferrer"><img id="shop_iconyt" src="..\images\iconyou.webp" /></a></li>
           <li><a href="https://www.instagram.com/salemfish/" target="_blank" rel="noopener noreferrer"> <div class="hamburger"><img id="shop_iconinst" src="..\images\instagram-square-brands.webp"/> </div>  </a></li>
           <li><a href="https://www.facebook.com/salem.fish" target="_blank" rel="noopener noreferrer"> <div class="hamburger"><img id="shop_iconfb" src="..\images\facebook-square-brands.webp"/> </div>  </a></li>
-          
         </ul>
       </nav>
       <div class="button menu_button"><a href="/index.php?p=rooms">book now</a></div>

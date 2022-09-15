@@ -1938,7 +1938,7 @@ iframe{
 
 /*********fb & instagram y whatsapp****/
 
-#shop_iconinst:hover, #shop_iconfb:hover{
+#shop_iconinst:hover, #shop_iconfb:hover #shop_iconyt:hover{
 	background-color: #ff9000;
 	border-radius: 5px;
 	
@@ -1953,4 +1953,8 @@ iframe{
 	right:40px;
 	z-index:100;
   }
+
+  /**********Youtube******/
+
+  
   
