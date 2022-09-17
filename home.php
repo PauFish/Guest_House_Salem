@@ -311,8 +311,11 @@
         <!-- Offer Item -->
         <div class="col-xl-4 col-md-6">
           <div class="offer">
-            <div loading="lazy" class="offer_image"><a href="https://www.youtube.com/shorts/7U1ZoGrI4lY" target="_blank"><img src="..\images\offer_2.webp" alt="Turtle"></a></div>
-            <div class="offer_content text-center">
+            <div loading="lazy" class="offer_image">  
+              <video width="320" height="240" controls muted>
+             <source src="images/tortugas.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+              </video>
               <div class="offer_title"><h3>Turtle</h3></div>
               <div class="offer_text">
                 <p>The finest enclave to watch green turtles is Ras al Hadd. They are frequently seen simply strolling along the beach throughout the year!</p>
@@ -325,8 +328,10 @@
         <!-- Offer Item -->
         <div class="col-xl-4 col-md-6">
           <div class="offer">
-            <div loading="lazy" class="offer_image"><a href="https://www.youtube.com/watch?v=noG86zwWOLA" target="_blank"><img src="..\images\offer_3.webp" alt="Dolphin Tour"></a></div>
-            <div class="offer_content text-center">
+            <div loading="lazy" class="offer_image"> <video width="320" height="240" controls muted>
+             <source src="images/delfines.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+              </video>
               <div class="offer_title"><h3>Dolphin Tour</h3></div>
               <div class="offer_text">
               <p> Hundreds of dolphins will follow the boat as it jumps. Our clients say it was the best experience of their trip to Oman and one of the best of their lives. </p>    
@@ -338,8 +343,10 @@
         <!-- Offer Item -->
         <div class="col-xl-4 col-md-6">
           <div class="offer">
-            <div loading="lazy" class="offer_image"><a href="https://www.youtube.com/shorts/Wh_8at5EM6w" target="_blank"><img src="..\images\offer_4.webp" alt="Fishing Tour"></a></div>
-            <div class="offer_content text-center">
+            <div loading="lazy" class="offer_image"> <video width="320" height="240" controls muted>
+             <source src="images/pesca.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+              </video>
               <div class="offer_title"><h3>Fishing Tour</h3></div>
               <div class="offer_text">
               <p> It makes no difference if you are an experienced angler or if this is your first time fishing. You will fish in the Omani style. </p>
@@ -352,8 +359,10 @@
         <div class="clip">
         <div class="col-xl-4 col-md-6">
           <div class="offer">
-            <div loading="lazy" class="offer_image"><a href="https://www.youtube.com/shorts/fVHxP0201qc" target="_blank"><img src="..\images\offer_5.webp" alt="Omani BBQ for dinner"></a></div>
-              <div class="offer_content text-center">
+            <div loading="lazy" class="offer_image"> <video width="320" height="240" controls muted>
+             <source src="images/cena.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+              </video>
               <div class="offer_title"><h3>Omani BBQ for dinner</h3></div>
               <div class="offer_text">
               <p>We make it Omani style! Salem will go to the market to look for lobsters, tuna, lamb... or you will eat the b>catch of the day/b> from a fishing tour. BBQ. Everything is very fresh and delicious. Please notify us in advance if you have any food allergies or are vegan/vegetarian.</p>
@@ -366,8 +375,12 @@
         <!-- Offer Item -->
         <div class="col-xl-4 col-md-6">
           <div class="offer">
-            <div loading="lazy" class="offer_image"><a href="https://www.youtube.com/watch?v=IfhCKfFKnOU" target="_blank"><img src="..\images\offer_6.webp" alt="Desert Tour"></a></div>
-            <div class="offer_content text-center">
+            <div loading="lazy" class="offer_image"><!--<a href="https://www.youtube.com/watch?v=IfhCKfFKnOU" target="_blank"><img src="..\images\offer_6.webp" alt="Desert Tour"></a></div>
+            <div class="offer_content text-center">-->
+            <video width="320" height="240" controls>
+             <source src="images/desierto.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+              </video>
               <div class="offer_title"><h3>Desert Tour</h3></div>
               <div class="offer_text">
               <p> You will sleep under the stars in the desert. We take care of everything, including rooms, campfires, and dinner, so you can have a true Omani desert experience. <b> Please book in advance by mail</b> </p>
