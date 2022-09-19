@@ -365,7 +365,7 @@
               </video>
               <div class="offer_title"><h3>Omani BBQ for dinner</h3></div>
               <div class="offer_text">
-              <p>We make it Omani style! Salem will go to the market to look for lobsters, tuna, lamb... or you will eat the b>catch of the day/b> from a fishing tour. BBQ. Everything is very fresh and delicious. Please notify us in advance if you have any food allergies or are vegan/vegetarian.</p>
+              <p>We make it Omani style! Salem will go to the market to look for Lobsters, Tuna, Lamb... or you will eat the <b>Tour catch of the day</b>.Please notify us in advance if you have any food allergies or are vegan/vegetarian.</p>
             </div>
             </div>
           </div>
