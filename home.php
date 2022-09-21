@@ -318,7 +318,7 @@
               </video>
               <div class="offer_title"><h3>Turtle</h3></div>
               <div class="offer_text">
-                <p>The finest enclave to watch green turtles is Ras al Hadd. They are frequently seen simply strolling along the beach throughout the year!</p>
+                <p>The finest enclave to watch green turtles is Ras al Hadd. They are frequently seen simply strolling along the beach throughout the year! Only for clients staying at our Hotel!</p>
               </div>
            
             </div>
@@ -424,8 +424,7 @@
 <tr>
 <tr>
 <td class="text-left">Turtle Tour</td>
-<td class="text-left">This tour will be done by my friend Rasaljin. He is the sole tour leader in charge of leading all of the turtle trips in Ras Al Hadd.
-He will give you the cost and the timetable. Just let me know, and I'll put you in touch with him.</td>
+<td class="text-left">This tour will be done by my friend Rasaljin. He is the sole tour leader in charge of leading all of the turtle trips in Ras Al Hadd. Only for clients staying at our Hotel!.</td>
 </tr>
 <td class="text-left">Desert Tour</td>
 <td class="text-left">PLEASE send a reservation in advance. The cost will change based on how many people there are.</td>
