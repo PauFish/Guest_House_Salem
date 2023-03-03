@@ -318,7 +318,7 @@
               </video>
               <div class="offer_title"><h3>Turtle</h3></div>
               <div class="offer_text">
-                <p>The finest enclave to watch green turtles is Ras al Hadd. They are frequently seen simply strolling along the beach throughout the year! Only for clients staying at our Hotel!</p>
+                <p>The finest enclave to watch green turtles is Ras al Hadd. They are frequently seen simply strolling along the beach throughout the year! You can go alone and find turtles in Ras al Had or go to Ras Al Jinz Turtle Reserve and pay</p>
               </div>
            
             </div>
@@ -365,7 +365,7 @@
               </video>
               <div class="offer_title"><h3>Omani BBQ for dinner</h3></div>
               <div class="offer_text">
-              <p>We make it Omani style! Salem will go to the market to look for Lobsters, Tuna, Lamb... or you will eat the <b>Tour catch of the day</b>.Please notify us in advance if you have any food allergies or are vegan/vegetarian.</p>
+              <p>We make it Omani style! Salem will go to the market to look for Lobsters, Tuna, Dentex, Mahi Mahi... or you will eat the <b>Tour catch of the day</b>.Please notify us in advance if you have any food allergies or are vegan/vegetarian.</p>
             </div>
             </div>
           </div>
@@ -411,15 +411,15 @@
 </tr>
 <tr>
 <td class="text-left">Dolphin Tour</td>
-<td class="text-left">35 OMR for three people and young families; +10 OMR for four or more people.</td>
+<td class="text-left">35 OMR for three people or less; 45 OMR 4 people, 55 OMR 5 people, 65 OMR 6 people... Price per family, it can NOT be shared with other hotel guests</td>
 </tr>
 <tr>
 <td class="text-left">Fishing Tour</td>
-<td class="text-left">35 OMR for three people and young families; +10 OMR for four or more people.</td>
+<td class="text-left">35 OMR for three people or less; 45 OMR 4 people, 55 OMR 5 people, 65 OMR 6 people... Price per family, it can NOT be shared with other hotel guests</td>
 </tr>
 <tr>
 <td class="text-left">Snorkelling Tour</td>
-<td class="text-left">35 OMR for three people and young families; +10 OMR for four or more people.</td>
+<td class="text-left">35 OMR for three people or less; 45 OMR 4 people, 55 OMR 5 people, 65 OMR 6 people... Price per family, it can NOT be shared with other hotel guests</td>
 </tr>
 <tr>
 <tr>
