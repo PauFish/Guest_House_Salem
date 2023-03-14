@@ -423,8 +423,8 @@
 </tr>
 <tr>
 <tr>
-<td class="text-left">Turtle Tour</td>
-<td class="text-left">This tour will be done by my friend Rasaljin. He is the sole tour leader in charge of leading all of the turtle trips in Ras Al Hadd. Only for clients staying at our Hotel!.</td>
+<td class="text-left">Turtles</td>
+<td class="text-left">Discover the wonder of sea turtles in their natural habitat! Unfortunately, turtle tours are currently not permiied. But don't worry, we have the perfect solution! Let us help you connect with an expert guide from the turtle reserve, or venture out on your own at night to explore the beach and catch a glimpse of these amazing creatures. And who knows? You may even spot some from the boat during one of our fishing, dolphin watching, or snorkeling tours.</td>
 </tr>
 <td class="text-left">Desert Tour</td>
 <td class="text-left">PLEASE send a reservation in advance. The cost will change based on how many people there are.</td>
