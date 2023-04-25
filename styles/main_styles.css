@@ -843,17 +843,13 @@ section
 /*********************************
 6. Booking
 *********************************/
-@keyframes blinker {
-	50% {
-	  opacity: 0;
-	}
-  }
+
 
 #new_usuario{
 	color: black !important;
 	font-weight: bold !important;
 	font-size: 45px;
-	animation: blinker 1.5s linear infinite;
+	
 }
 
 
@@ -893,7 +889,7 @@ section
 	cursor: pointer;
 	border: none;
 	outline: none;
-	background: #f4f5fa;
+	background: #fef0b5;
 	font-size: 16px;
 	font-weight: 500;
 	color: #4a4f59;
@@ -985,7 +981,7 @@ section
 {
 	width: 100%;
 	height: 100%;
-	background-color: #f4f5fa;
+	background-color: #94a6ff;
 	line-height: 65px;
 	font-size: 14px;
 	font-weight: 400;
@@ -1080,7 +1076,11 @@ section
 	text-align: left;
 }
 
+.aceptar_clausulas{ 
+	font-size: 20px;
+	color: #000000;
 
+}
 /*********************************
 7. Intro
 *********************************/
